@@ -1,0 +1,81 @@
+@import 'tailwindcss';
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme {
+  /* 시그니처 */
+  --color-primary: #4ca585;
+  --color-ink: #003e53;
+  --color-sub: #b6dbd3;
+  --color-surface: #e6f2f0;
+  --color-product-bg: #d4eeeb;
+
+  /* DUR 4단 */
+  --color-dur-safe-bg: #e6f2f0;
+  --color-dur-safe-border: #b6dbd3;
+  --color-dur-safe-icon: #4ca585;
+  --color-dur-safe-text: #003e53;
+
+  --color-dur-info-bg: #edf2ff;
+  --color-dur-info-border: #bac8ff;
+  --color-dur-info-icon: #4263eb;
+  --color-dur-info-text: #364fc7;
+
+  --color-dur-warning-bg: #fff9db;
+  --color-dur-warning-border: #ffe066;
+  --color-dur-warning-icon: #e8830c;
+  --color-dur-warning-text: #8f5000;
+
+  --color-dur-danger-bg: #fff5f5;
+  --color-dur-danger-border: #ffc9c9;
+  --color-dur-danger-icon: #e03131;
+  --color-dur-danger-text: #c92a2a;
+
+  /* 폰트 */
+  --font-sans: var(--font-pretendard), sans-serif;
+
+  /* 타이포 스케일 */
+  --text-display: 40px;
+  --text-display--line-height: 1.25;
+  --text-display--letter-spacing: -0.02em;
+
+  --text-h1: 32px;
+  --text-h1--line-height: 1.3;
+  --text-h1--letter-spacing: -0.02em;
+
+  --text-h2: 24px;
+  --text-h2--line-height: 1.4;
+  --text-h2--letter-spacing: -0.015em;
+
+  --text-h3: 20px;
+  --text-h3--line-height: 1.45;
+  --text-h3--letter-spacing: -0.01em;
+
+  --text-body-lg: 18px;
+  --text-body-lg--line-height: 1.65;
+  --text-body-lg--letter-spacing: -0.01em;
+
+  --text-body: 16px;
+  --text-body--line-height: 1.65;
+  --text-body--letter-spacing: -0.01em;
+
+  --text-body-sm: 14px;
+  --text-body-sm--line-height: 1.6;
+
+  --text-caption: 13px;
+  --text-caption--line-height: 1.5;
+
+  --text-label: 12px;
+  --text-label--line-height: 1.4;
+  --text-label--letter-spacing: 0.01em;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
