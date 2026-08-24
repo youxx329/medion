@@ -27,17 +27,20 @@ create table ingredients (
   created_at  timestamptz not null default now()
 );
 
--- 의약품 (e약은요). 전체 4,772건
+-- 의약품 (e약은요). 전체 4,765건 (2026.08 확인)
 -- efficacy~storage 는 식약처 문항 1~7 원문을 그대로 노출
+-- etc_otc_code 는 e약은요에 없어 DUR품목정보에서 item_seq 로 찾아 update 함
+--   값은 "전문의약품"/"일반의약품" 한글 문자열 (코드 아님)
+--   null = 구분 미확인 = 성분 정보도 없음 = 판매 후보에서 제외할 것
 create table medications (
   id              uuid primary key default gen_random_uuid(),
   item_seq        text not null unique,   -- 품목기준코드. upsert 키
   name            text not null,
   company         text,
-  etc_otc_code    text,                   -- 전문의약품 / 일반의약품
+  etc_otc_code    text,                   -- 전문의약품 / 일반의약품 (DUR품목정보)
   efficacy        text,                   -- 문항1 효능
   usage_info      text,                   -- 문항2 사용법. usage 는 예약어라 개명
-  warning         text,                   -- 문항3 주의사항경고
+  warning         text,                   -- 문항3 주의사항경고. null 비율 높음
   precaution      text,                   -- 문항4 주의사항
   interaction     text,                   -- 문항5 상호작용
   side_effect     text,                   -- 문항6 부작용
@@ -48,6 +51,12 @@ create table medications (
 );
 
 -- 의약품 ↔ 성분 (N:M)
+-- 공식 매핑 API 가 없어 수동 구축한다.
+--   e약은요        품목코드만 있고 성분 없음
+--   DUR품목정보    품목코드 + 성분명(MATERIAL_NAME) ← 유일한 다리
+--   DUR성분정보    성분코드(D) + 성분명 변형(ORI)
+-- 품목코드는 코드로 붙지만 성분은 이름 텍스트로 대조해야 하므로 전 건 검수 필요
+-- amount/unit 은 MATERIAL_NAME 을 쉼표 분리해 확보 ("에페드린염산염,,40,밀리그램,KP,")
 -- 함량은 약·성분 어느 쪽만으로도 정해지지 않으므로 연결 테이블에 위치
 -- numeric 사용: 소수 함량이 흔하고 float 은 부동소수점 오차 발생
 create table medication_ingredients (
@@ -55,7 +64,7 @@ create table medication_ingredients (
   medication_id  uuid not null references medications(id) on delete cascade,
   ingredient_id  uuid not null references ingredients(id) on delete cascade,
   amount         numeric,
-  unit           text,
+  unit           text,      -- 원문이 한글 ("밀리그램", "그램")
   created_at     timestamptz not null default now(),
   unique (medication_id, ingredient_id)
 );
@@ -64,13 +73,21 @@ create table medication_ingredients (
 -- API 응답에 A→B, B→A 가 모두 존재하므로 수집 시 작은 id 를 A 로 정규화할 것
 -- level 컬럼 없음: API 에 등급 필드가 없어 데이터 출처로 코드에서 판정
 -- mix_type '복합' 은 저장만 하고 검사에서는 무시 (과잉 경고는 허용, 누락은 없음)
+-- del_yn ★ '삭제' 는 폐지된 고시. 검사에서 반드시 제외할 것
+--   수집 시 거르지 않고 저장한 뒤 쿼리에서 제외한다 (재수집 시 상태 갱신 가능)
+-- remark 는 용량 조건 부연 ("methotrexate 1週에 15mg 이상 투여시").
+--   복용량을 수집하지 않아 판정에는 쓰지 않고 안내 문구로만 노출
 create table dur_interactions (
   id                 uuid primary key default gen_random_uuid(),
   ingredient_a_id    uuid not null references ingredients(id) on delete cascade,
   ingredient_b_id    uuid not null references ingredients(id) on delete cascade,
-  mix_type_a         text,
+  mix_type_a         text,   -- 단일 / 복합
   mix_type_b         text,
+  mix_a              text,   -- 복합 시 상대 성분 원문 (MIX)
+  mix_b              text,
   prohibit_content   text,   -- 금기 사유. AI 실패 시 폴백으로 그대로 노출
+  remark             text,   -- 조건부 금기 부연. 판정 미사용, 안내에만 노출
+  del_yn             text,   -- 정상 / 삭제. '삭제'는 검사 제외
   notification_date  text,
   created_at         timestamptz not null default now(),
   unique (ingredient_a_id, ingredient_b_id)
@@ -81,6 +98,8 @@ create table dur_interactions (
 -- form_name: 제형 조건. 아세트아미노펜은 서방정 계열만 12세 미만 금기이므로
 --            제형을 무시하면 어린이 시럽에도 경고가 뜬다
 -- 용량주의/투여기간주의 API 미사용: 복용량·이력을 수집하지 않아 판정 불가
+-- TODO: 병용금기에 del_yn/remark 가 있었으므로 이쪽 응답도 확인할 것.
+--       있으면 컬럼 추가 (없는 채로 시딩하면 폐지 고시로 경고가 나갈 수 있음)
 create table dur_conditions (
   id                 uuid primary key default gen_random_uuid(),
   dur_seq            text not null,
@@ -128,14 +147,14 @@ create table health_foods (
 
 -- 프로필. auth.users 의 uuid 를 그대로 받아쓰므로 default 없음
 -- 회원가입 시 자동 생성되지 않아 handle_new_user 트리거가 필요
--- is_pregnant/is_breastfeeding 은 DUR 조건 검사가 읽는 값이라 null 을 허용하지 않음
+-- is_pregnant 는 DUR 임부금기 검사가 읽는 값이라 null 을 허용하지 않음
+-- 수유 여부는 대응하는 DUR 규칙 타입이 없어 수집하지 않는다
 create table users (
   id                uuid primary key references auth.users(id) on delete cascade,
   email             text not null,
   name              text,
   is_pregnant       boolean not null default false,
-  is_breastfeeding  boolean not null default false,
-  age_group         text,                            -- child / adult / senior
+  birth_date        date,                  -- 연령금기는 만 나이 계산으로 판정
   marketing_agreed  boolean not null default false,
   created_at        timestamptz not null default now(),
   updated_at        timestamptz not null default now()
@@ -158,6 +177,7 @@ create table addresses (
 
 -- 복용 중인 약. 병용금기 검사의 입력값
 -- 처방받은 전문의약품과 구매 예정 일반의약품의 충돌을 잡는 것이 핵심 시나리오
+--   예) 메토트렉세이트 등록 → 이부프로펜 구매 시 혈액학적 독성 경고
 -- medication_id / custom_name 중 하나만 채워지며, 직접 입력은 "확인 불가"로 분리
 -- unique 가 둘인 이유: null 은 서로 다른 값으로 취급되어
 --   medication_id null 인 직접 입력 행의 중복이 첫 unique 로 막히지 않음
@@ -211,6 +231,9 @@ create table symptoms (
 --   라벨 위치·크기·색상 정의는 Tailwind, 어떤 목업/어떤 색인지는 데이터
 -- dosage_form: 정제/서방정/캡슐/시럽/산제/외용
 --   서방정을 분리한 이유는 dur_conditions.form_name 매칭에 필요하기 때문
+-- child_allowed ★ default 없음. 등록 시 명시 입력을 강제한다
+--   기본값을 두면 미확인 상품이 자동으로 false 가 되어 판단을 건너뛰게 됨
+--   표시·필터 용도이며 안전 판정은 DUR 성분 검사가 담당
 -- sales_count 는 비정규화. 목록 조회마다 order_items 를 집계하면 느림
 -- is_active 는 소프트 삭제. 하드 삭제 시 order_items 참조가 깨짐
 create table products (
@@ -223,7 +246,7 @@ create table products (
   medication_id   uuid references medications(id) on delete restrict,
   health_food_id  uuid references health_foods(id) on delete restrict,
   dosage_form     text not null,
-  age_group       text not null,          -- adult / child_ok
+  child_allowed   boolean not null,       -- default 없음: 명시 입력 강제
   stock           int not null default 0,
   sales_count     int not null default 0,
   is_active       boolean not null default true,
