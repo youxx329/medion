@@ -103,7 +103,10 @@ async function main() {
     try {
       // 1페이지는 위에서 이미 받았으므로 재사용
       const data = page === 1 ? first : await fetchPage(page);
-      const items = data.body.items ?? [];
+      const items = data.body.items;
+      if (!items || items.length === 0) {
+        throw new Error(`${page}페이지에 데이터가 없습니다`);
+      }
 
       await writeFile(join(OUT_DIR, filename), JSON.stringify(items, null, 2), 'utf-8');
 
