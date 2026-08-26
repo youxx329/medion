@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "eslint",
     "fetch:meds": "tsx supabase/scripts/fetch-medications.ts",
-    "load:meds": "tsx supabase/scripts/load-medications.ts"
+    "load:meds": "tsx supabase/scripts/load-medications.ts",
+    "fetch:dur": "tsx supabase/scripts/fetch-dur.ts",
+    "load:dur": "tsx supabase/scripts/load-dur.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.4",

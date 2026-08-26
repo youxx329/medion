@@ -1,0 +1,1902 @@
+[
+  {
+    "item": {
+      "DUR_SEQ": "1998",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000273",
+      "INGR_ENG_NAME": "Candesartan cilexetil",
+      "INGR_NAME": "칸데사르탄실렉세틸",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M089055]칸데사르탄실렉세틸",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "임신 2~3기중 투여시 태아 및 신생아 손상(저혈압, 신기능부전, 핍뇨 그리고/또는 무뇨, 양수과소증, 두개골발육부전, 자궁내 성장지체), 폐부전, 안면비정상, 사지연축 및 사망 가능성.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "1999",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000768",
+      "INGR_ENG_NAME": "Capecitabine",
+      "INGR_NAME": "카페시타빈",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M089886]카페시타빈",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립. \n동물실험에서 태자치사 및 최기형성 보고.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2000",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000176",
+      "INGR_ENG_NAME": "Captopril",
+      "INGR_NAME": "캅토프릴",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M081550]캅토프릴",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "\"임신 2기 및 3기에 ACE 저해제 복용시 태아 및 신생아에 저혈압, 신생아 두개형성부전, 무뇨, 고칼륨혈증, 신부전 및 사망 가능성.\n태아의 신기능감소에 의한 양수과소증으로 태아사지경축, 두개안면변형, 폐발육형성부전 가능성.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2001",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000476",
+      "INGR_ENG_NAME": "Carbamazepine",
+      "INGR_NAME": "카르바마제핀",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M040569]카르바마제핀/[M201734]카바마제핀",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제/액상시럽제/건조시럽용 과립제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "\"동물실험에서 과량 투여시 태아 사망률 증가, 결함발생 등 보고. \n간질여성의 자식에 이분척추 및 기타 선천성기형(예, 두개안면결함, 심혈관기형, 요도하열, 각종 신체기관의 이상) 및 성장장애와의 관련 보고.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2002",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000052",
+      "INGR_ENG_NAME": "Carteolol",
+      "INGR_NAME": "카르테올롤",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M080501]염산카르테올롤/[M223181]카르테올롤염산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2003",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000370",
+      "INGR_ENG_NAME": "Carvedilol",
+      "INGR_NAME": "카르베딜롤",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M085731]카르베딜롤/[M116008]카르베딜롤 과립/[M259204]카르베딜롤과립",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제/캡슐",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2004",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000138",
+      "INGR_ENG_NAME": "Celecoxib",
+      "INGR_NAME": "세레콕시브",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M089149]세레콕시브",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제/캡슐/산제/용액용산제/현탁액용산제/세립/용액용세립제/현탁액용세립제/과립제/서방성과립제/장용성과립제 /용액용과립제/현탁액용과립제/서방성현탁액용과립제/발포과립제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립.\n동물실험에서 생식독성(기형발생 포함) 보고.\n임신말기에 투여시 자궁무력증, 태아 동맥관조기폐쇄 가능성.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2005",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000021",
+      "INGR_ENG_NAME": "Celiprolol",
+      "INGR_NAME": "셀리프롤롤",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M257553]셀리프롤롤염산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립.\n신생아에서 심부전, 급성폐부종 가능성 및 서맥, 호흡곤란, 저혈당 보고.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2006",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000376",
+      "INGR_ENG_NAME": "Chlorambucil",
+      "INGR_NAME": "클로람부실",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M040609]클로람부실",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "기형유발 가능성.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2007",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000056",
+      "INGR_ENG_NAME": "Chlordiazepoxide",
+      "INGR_NAME": "클로르디아제폭시드",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M088403]클로르디아제폭시드/[M223206]클로르디아제폭시드염산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20121213",
+      "PROHBT_CONTENT": "벤조디아제핀계 약물의 최기형성 사례(대조군에 비해 높음), 신생아 포유곤란, 근긴장저하, 졸음, 황달 증가 및 분만전 연용시 신생아 금단증상(신경과민, 진전, 과다긴장 등) 보고.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2008",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000765",
+      "INGR_ENG_NAME": "Chloroquine",
+      "INGR_NAME": "클로로퀸",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M051518]인산클로로퀸",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "고용량 투여시 태아 이상(안구 혹은 귀의 와우손상 등) 유발 가능성 보고.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2009",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000584",
+      "INGR_ENG_NAME": "Chlorpromazine",
+      "INGR_NAME": "클로르프로마진",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M040618]염산클로르프로마진/[M223216]클로르프로마진염산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20120925",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립.\n동물실험에서 태자독성(태자사망 등) 보고.\n임신 중 투여시 신생아에서 진전, 추체외로증상 등 보고. \n임신말기나 분만중 투여시 기면, 진전, 과흥분성 가능성.\n임신 3기에 투여시 추체외로장애, 금단증상(초조, 근육긴장항진 또는 저하, 진전 등) 보고.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2010",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000276",
+      "INGR_ENG_NAME": "Chlorprothixene",
+      "INGR_NAME": "클로르프로틱센",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M051534]클로르프로칙센",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20120925",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립.\n동물실험에서 태자독성(태자사망 등) 보고.\n임신말기나 분만중 향정신병약 투여시 신생아에서 기면, 진전, 과흥분성 보고.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2011",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000652",
+      "INGR_ENG_NAME": "Cilazapril",
+      "INGR_NAME": "실라자프릴",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M064516]실라자프릴/[M222868]실라자프릴수화물",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "\"임신 2기 및 3기에 ACE 저해제 복용시 태아 및 신생아에 저혈압, 신생아 두개형성부전, 무뇨, 고칼륨혈증, 신부전 및 사망 가능성.\n태아의 신기능감소에 의한 양수과소증으로 태아사지경축, 두개안면변형 및 폐발육형성부전 가능성.\"\n",
+      "REMARK": "경구",
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2012",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000245",
+      "INGR_ENG_NAME": "Cilnidipine",
+      "INGR_NAME": "실니디핀",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M102565]실니디핀",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "\"실험동물에서 태아독성, 고용량에서 골화지연 보고. \n임신중기 투여시 임신기간 연장 보고.\n임신말기 투여시 분만시간 연장 보고.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2013",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000247",
+      "INGR_ENG_NAME": "Cilostazol",
+      "INGR_NAME": "실로스타졸",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M070044]실로스타졸/[M252025]실로스타졸(미분화)",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제/캡슐/산제/용액용산제/현탁액용산제/세립/용액용세립제/현탁액용세립제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "동물실험에서 이상태자의 증가 및 출생시의 저체중, 사망 증가 보고.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2014",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000142",
+      "INGR_ENG_NAME": "Ciprofloxacin",
+      "INGR_NAME": "시프로플록사신",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M082454]염산시프로프록사신/[M091139]시프로플록사신/[M095543]염산시프로플록사신/[M223091]시프로플록사신염산염수화물/[M242850]시프로플록사신염산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제/용액주사제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립.\n동물실험에서 미성숙 개체에서 관절연골손상 유발 가능성.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2015",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000057",
+      "INGR_ENG_NAME": "Clofarabine",
+      "INGR_NAME": "클로파라빈",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M252056]클로파라빈",
+      "CLASS_NAME": "",
+      "FORM_NAME": "용액주사제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20130523",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립.\n동물시험에서 최기형성을 포함한 생식독성 보고.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2016",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000677",
+      "INGR_ENG_NAME": "Clofibrate",
+      "INGR_NAME": "클로피브레이트",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M092027]클로피브레이트",
+      "CLASS_NAME": "",
+      "FORM_NAME": "캡슐",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20130712",
+      "PROHBT_CONTENT": "태아에 이행이 보고됨.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2017",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000478",
+      "INGR_ENG_NAME": "Clomifene",
+      "INGR_NAME": "클로미펜",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M040621]구연산클로미펜/[M223221]클로미펜시트르산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "1등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "동물실험에서 태자독성, 기형발생 보고.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2018",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000277",
+      "INGR_ENG_NAME": "Clomipramine",
+      "INGR_NAME": "클로미프라민",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M223223]클로미프라민염산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제/캡슐/산제/용액용산제/현탁액용산제/세립/용액용세립제/현탁액용세립제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20121213",
+      "PROHBT_CONTENT": "동물실험에서 최대 임상노출보다는 낮은 정도의 전신노출수준(AUC)에서 생식독성 나타냄. 임신말기에 복용시 신생아 중단증후군 발생 가능성.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2019",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000375",
+      "INGR_ENG_NAME": "Clonazepam",
+      "INGR_NAME": "클로나제팜",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M093594]클로나제팜",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20140925",
+      "PROHBT_CONTENT": "벤조디아제핀계 약물의 최기형성 사례(대조군에 비해 높음), 신생아 포유곤란, 근긴장저하, 졸음, 황달 증가 및 분만전 연용시 신생아 금단증상(신경과민, 진전, 과다긴장 등) 보고.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2020",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000055",
+      "INGR_ENG_NAME": "Clonidine",
+      "INGR_NAME": "클로니딘",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M223200]클로니딘염산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20130723",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2021",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000675",
+      "INGR_ENG_NAME": "Clonixin",
+      "INGR_NAME": "클로닉신",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M080375]클로닉신리시네이트/[M100531]클로닉신리진/[M104025]클로닉신리시네이트/[M212258]클로닉신리신/[M259773]클로닉신리지네이트",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20121211",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립.\n동물실험에서 태자독성 보고.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2022",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000676",
+      "INGR_ENG_NAME": "Clorazepate",
+      "INGR_NAME": "클로라제핀산",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M088370]클로라제핀산칼륨",
+      "CLASS_NAME": "",
+      "FORM_NAME": "캡슐/산제/용액용산제/현탁액용산제/세립/용액용세립제/현탁액용세립제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20121213",
+      "PROHBT_CONTENT": "\"임신 초기에 투여시 선천성기형 보고.\n임신 후기에 벤조디아제핀연용시 신생아 포유곤란, 근긴장저하, 졸음, 황달의 증강 보고.\n분만전 연용시 신생아 금단증상(신경과민, 진전, 과긴장) 보고.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2023",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000278",
+      "INGR_ENG_NAME": "Clotiazepam",
+      "INGR_NAME": "클로티아제팜",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M207668]클로티아제팜",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20121213",
+      "PROHBT_CONTENT": "벤조디아제핀계 약물의 최기형성 사례(대조군에 비해 높음), 신생아 포유곤란, 근긴장저하, 졸음, 황달 증가 및 분만전 연용시 신생아 금단증상(신경과민, 진전, 과다긴장 등) 보고.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2024",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000180",
+      "INGR_ENG_NAME": "Clozapine",
+      "INGR_NAME": "클로자핀",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M081194]클로자핀",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "02010925",
+      "PROHBT_CONTENT": "\"임신중 투여에 대한 안전성 미확립.\n임신 3기에 투여시 신생아에서 추체외로장애, 금단증상(초조, 근육긴장항진 또는 저하, 진전 등) 보고.\"\n",
+      "REMARK": "경구",
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2025",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000582",
+      "INGR_ENG_NAME": "Colchicine",
+      "INGR_NAME": "콜키신",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M091703]콜키신",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "동물실험에서 기형발생 작용 및 사람에서 태아 염색체 손상의 위험.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2026",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000664",
+      "INGR_ENG_NAME": "Estrogens",
+      "INGR_NAME": "에스트로겐",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M051066]에스트로겐/[M095201]결합형에스트로겐/[M259850]결합형에스트로겐4.29%",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제/크림/용액주사제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제",
+      "GRADE": "1등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립.\n에스트로겐대체요법에 의해 태아에서 생식기관결함, 선천적 심장결함, 수족감소결함 가능성.\n훗날 여성에서 질선증, 질 및 자궁경부 편평세포형성장애/암의 위험 증가.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2027",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "복합",
+      "INGR_CODE": "D000664",
+      "INGR_ENG_NAME": "Estrogens",
+      "INGR_NAME": "에스트로겐",
+      "MIX_INGR": "[D000121]Medroxyprogesterone(메드록시프로게스테론)",
+      "ORI_INGR": "[M051066]에스트로겐/[M095201]결합형에스트로겐/[M259850]결합형에스트로겐4.29%/[M040146]초산메드록시프로게스테론/[M200491]메드록시프로게스테론아세테이트",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제/용액주사제",
+      "GRADE": "1등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립.\n에스트로겐대체요법에 의해 태아에서 생식기관 결함, 선천적 심장결함, 수족감소결함 가능성.\n훗날 여성에서 질선증, 질 및 자궁경부 편평세포형성장애/암의 위험 증가.\"\n",
+      "REMARK": "경구",
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2028",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000674",
+      "INGR_ENG_NAME": "Crizotinib",
+      "INGR_NAME": "크리조티닙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M253698]크리조티닙",
+      "CLASS_NAME": "",
+      "FORM_NAME": "캡슐",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20130523",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립. \n동물실험에서 배태자 독성(착상 후 손실, 태자 체중감소), 고용량 투여시 난포의 단일세포 괴사 등 보고.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2029",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000243",
+      "INGR_ENG_NAME": "Cyclofenil",
+      "INGR_NAME": "시클로페닐",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M050879]시클로페닐",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "1등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "유사화합물의 동물실험에서 태자독성 및 기형유발 보고.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2030",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000732",
+      "INGR_ENG_NAME": "Cyclophosphamide",
+      "INGR_NAME": "시클로포스파미드",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M040333]시클로포스파미드/[M223085]시클로포스파미드수화물",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제/용액주사제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "동물실험에서 유전독성 및 태아손상 유발 가능성.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2031",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000334",
+      "INGR_ENG_NAME": "Cyclosporine",
+      "INGR_NAME": "사이클로스포린",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A005971]시클로스포린/[M040068]마이크로에멀젼용시클로스포린/[M085282]사이클로스포린/[M085565]시클로스포린",
+      "CLASS_NAME": "",
+      "FORM_NAME": "캡슐/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제/용액주사제/산제/용액용산제/현탁액용산제/세립/용액용세립제/현탁액용세립제/경구용현탁액제/점이제, 현탁액용산제/현탁액제용주사용용제/직장용현탁액제/일반현탁분무제/정량현탁분무제/이식용현탁액제/점이현탁액제/유제/틴크제/전제/침제/레모네이드제/방향수제/주정제/피부액제/피부리니멘트제/도료/샴푸/경구용액제/질세정액/관류제/점이액제/혈액항응고보존액제/밀폐제용용액제/장기보존용액제/주사/피부단자시험용용액/방광내적용용액",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립.\n동물실험에서 생식독성 보고.\n37주 미만의 미숙아 출산 위험성 높음.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2032",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000026",
+      "INGR_ENG_NAME": "Cyproheptadine",
+      "INGR_NAME": "시프로헵타딘",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M040335]염산시프로헵타딘/[M081195]오로트산시프로헵타딘/[M094432]시프로헵타딘/[M223093]시프로헵타딘염산염수화물/[M254960]시프로헵타딘오로트산염수화물",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제/캡슐",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20130712",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2033",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000733",
+      "INGR_ENG_NAME": "Cyproterone",
+      "INGR_NAME": "시프로테론",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M080323]초산시프로테론/[M222867]시프로테론아세테이트",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "1등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2034",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000449",
+      "INGR_ENG_NAME": "Cytarabine",
+      "INGR_NAME": "시타라빈",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M040334]시타라빈",
+      "CLASS_NAME": "",
+      "FORM_NAME": "용액주사제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "동물실험에서 기형발생 작용 보고.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2035",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000396",
+      "INGR_ENG_NAME": "Dabigatran etexilate",
+      "INGR_NAME": "다비가트란에텍실레이트",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M251630]다비가트란에텍실레이트메실산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "캡슐",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20150520",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립.\n모체독성용량에서 태자의 체중감소, 태자변이 증가, 배태자 생존력 감소 보고.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2036",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000691",
+      "INGR_ENG_NAME": "Dacarbazine",
+      "INGR_NAME": "다카르바진",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M086213]다카르바진",
+      "CLASS_NAME": "",
+      "FORM_NAME": "용액주사제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "동물실험에서 기형유발 보고.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2037",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000293",
+      "INGR_ENG_NAME": "Dactinomycin",
+      "INGR_NAME": "닥티노마이신",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M085416]닥티노마이신",
+      "CLASS_NAME": "",
+      "FORM_NAME": "용액주사제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립.\n동물실험에서 기형, 태자독성 보고.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2038",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000394",
+      "INGR_ENG_NAME": "Danazol",
+      "INGR_NAME": "다나졸",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M081135]다나졸",
+      "CLASS_NAME": "",
+      "FORM_NAME": "캡슐/산제/용액용산제/현탁액용산제/세립/용액용세립제/현탁액용세립제",
+      "GRADE": "1등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "여성 태아의 남성화 가능성(음핵비대, 음순융합, 비뇨생식동결손, 질폐쇄) 보고.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2039",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000692",
+      "INGR_ENG_NAME": "Dapagliflozin",
+      "INGR_NAME": "다파글리플로진",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M258339]다파글리플로진프로판디올수화물",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20160129",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립\n동물실험에서 사람의 임신 2기와 3기에 해당하는 신장 발달 독성(신우 및 세뇨관 확장) 보고\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2040",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000292",
+      "INGR_ENG_NAME": "Dasatinib",
+      "INGR_NAME": "다사티닙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M206461]다사티닙",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립.\n동물실험에서 배태자 독성(근골격기형과 골형성 감소, 부종, 소간증 등) 보고.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2041",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000198",
+      "INGR_ENG_NAME": "Daunorubicin",
+      "INGR_NAME": "다우노루비신",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M089345]염산다우노루비신/[M222833]다우노루비신염산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "용액주사제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2042",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000609",
+      "INGR_ENG_NAME": "Decitabine",
+      "INGR_NAME": "데시타빈",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M213782]데시타빈",
+      "CLASS_NAME": "",
+      "FORM_NAME": "용액주사제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립.\n동물실험에서 발육독성, 태자기형 유발, 태자 생존감소 및 태자 체중감소 보고.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2043",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000788",
+      "INGR_ENG_NAME": "Deflazacort",
+      "INGR_NAME": "데프라자코르트",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M084608]미결정데프라자코르트/[M102052]데프라자코르트/[M257402]데플라자코트(미분화)",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "\"동물실험에서 기형발생 작용 보고.\n태아의 성장지체, 언청이의 위험 등의 증가, 뇌성장 및 발달에 영향 가능성. 신생아에 부신부전증 유발 가능성.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2044",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000693",
+      "INGR_ENG_NAME": "Degarelix",
+      "INGR_NAME": "데가렐릭스",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M256795]데가렐릭스",
+      "CLASS_NAME": "",
+      "FORM_NAME": "용액주사제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20140915",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2045",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000294",
+      "INGR_ENG_NAME": "Denopamine",
+      "INGR_NAME": "데노파민",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M085404]데노파민",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20130712",
+      "PROHBT_CONTENT": "동물실험에서 심실중격결손, 손.발가락 발육부전의 기형발생 및 태자치사작용 보고.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2046",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000199",
+      "INGR_ENG_NAME": "Dexamethasone",
+      "INGR_NAME": "덱사메타손",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M040080]덱사메타손/[M050208]인산덱사메타손/[M082700]덱사메타손인산나트륨/[M085432]디나트륨인산덱사메타손/[M222954]덱사메타손디나트륨인산염/[M256848]덱사메타손포스페이트이나트륨/[M258481]덱사메타손팔미테이트/[M260226]덱사메타손시페실레이트/[M260415]덱사메타손시페실레이트(미분화)",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제/캡슐/용액주사제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제/이식물",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20130712",
+      "PROHBT_CONTENT": "\"동물실험에서 기형발생 작용 보고.\n태아의 성장지체, 언청이의 위험 등의 증가, 뇌성장 및 발달에 영향 가능성. 신생아에 부신부전증 유발 가능성.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2047",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000316",
+      "INGR_ENG_NAME": "Dexbrompheniramine",
+      "INGR_NAME": "덱스브롬페니라민",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M095060]말레인산덱스브롬페니라민/[M253274]d-브롬페니라민말레산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20130712",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2048",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000086",
+      "INGR_ENG_NAME": "Dexibuprofen",
+      "INGR_NAME": "덱시부프로펜",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M088349]덱시부프로펜디ㆍ씨/[M092057]덱시부프로펜/[M212364]덱시부프로펜디씨/[M214134]덱시부프로펜 디.씨/[M215523]덱시부프로펜 디.씨./[M240099]덱시부프로펜디.씨/[M254719]덱시부프로펜",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제/캡슐/액상시럽제/건조시럽용 과립제/산제/용액용산제/현탁액용산제/세립/용액용세립제/현탁액용세립제/경구용현탁액제/점이제, 현탁액용산제/현탁액제용주사용용제/직장용현탁액제/일반현탁분무제/정량현탁분무제/이식용현탁액제/점이현탁액제/유제/틴크제/전제/침제/레모네이드제/방향수제/주정제/피부액제/피부리니멘트제/도료/샴푸/경구용액제/질세정액/관류제/점이액제/혈액항응고보존액제/밀폐제용용액제/장기보존용액제/주사/피부단자시험용용액/방광내적용용액",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20121211",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립.\n임신 말기에 투여시 태아의 동맥관조기폐쇄 가능성.\n동물실험에서 대사독성, 동맥관수축, 난산발생빈도 증가, 분만지연, 태아 생존율 감소 보고.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2050",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000085",
+      "INGR_ENG_NAME": "Dexmedetomidine",
+      "INGR_NAME": "덱스메데토미딘",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M250146]덱스메데토미딘염산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "용액주사제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20150520",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립.\n동물실험에서 피하투여시 착상 후 손실 증가, 생존태아 감소, 태자 체중감소 및 성장발달지연 보고. \"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2053",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000298",
+      "INGR_ENG_NAME": "Diflunisal",
+      "INGR_NAME": "디플루니살",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M085412]디플루니살",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립. \n임신 말기에 투여시 태아의 동맥관조기폐쇄 가능성.\n동물실험에서 난산발생빈도 증가, 분만지연, 태아 생존율 감소 보고.\"\n",
+      "REMARK": "경구",
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2054",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000202",
+      "INGR_ENG_NAME": "Dihydroergotamine",
+      "INGR_NAME": "디히드로에르고타민",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M086240]디히드로에르고타민메실레이트",
+      "CLASS_NAME": "",
+      "FORM_NAME": "용액주사제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제",
+      "GRADE": "1등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "\"(경구) \n임부에 대한 안전성 미확립.\n(주사)\n동물실험에서 고용량 투여시 자궁평활근 및 태반의 혈류량을 감소시켜 태자의 성장장애 가능성 보고.\"\n",
+      "REMARK": "경구",
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2056",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000507",
+      "INGR_ENG_NAME": "Diphenylpyraline",
+      "INGR_NAME": "디페닐피랄린",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M050294]염산디페닐피랄린/[M051723]염산디페닐피라린/[M209282]디페닐피랄린",
+      "CLASS_NAME": "",
+      "FORM_NAME": "용액주사제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제/정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20130712",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립.\n동물실험에서 기형발생 보고.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2049",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000696",
+      "INGR_ENG_NAME": "Dexketoprofen",
+      "INGR_NAME": "덱스케토프로펜",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M213126]덱스케토프로펜트로메타몰",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제/용액주사제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20121121",
+      "PROHBT_CONTENT": "\"(경구)\n양수과소증을 수반하는 신부전, 항응고효과로 인한 출혈시간지연, 자궁수축억제로 인한 출산지연 가능성.\n(주사)\n임부에 대한 안전성 미확립. \n자궁 수축 저해로 인한 출산지연. 자궁내 수축 또는 동맥관폐쇄유도로 인한 신생아 폐성 고혈압 및 호흡 불충분. 태아 혈소판과 신장기능 억제로 인한 양수과소증 및 신생아 무뇨증 가능성.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2051",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000090",
+      "INGR_ENG_NAME": "Diazepam",
+      "INGR_NAME": "디아제팜",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M040102]디아제팜",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제/용액주사제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20121213",
+      "PROHBT_CONTENT": "\"최기형성 사례(대조군에 비해 높음) 및 신생아 포유곤란, 근긴장저하, 졸음, 황달 증가 보고.\n분만전 연용시 신생아 금단증상(신경과민, 진전, 과다긴장 등) 보고.\n분만 중 정맥 주입시 sleeping baby 보고.\n임신중 지속적 복용시 신생아 저혈압, 호흡기능저하, 체온저하 가능성.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2052",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000506",
+      "INGR_ENG_NAME": "Diclofenac",
+      "INGR_NAME": "디클로페낙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M050288]디클로페낙나트륨/[M083248]디클로페낙/[M083349]디클로페낙베타디메칠아미노에탄올/[M084600]디클로페낙칼륨/[M086205]디클로페낙디에칠암모늄/[M102665]디클로페낙에폴아민/[M230206]디클로페낙 β-디메칠아미노에탄올/[M249599]디클로페낙디에틸암모늄/[M251996]디클로페낙베타디메틸아미노에탄올/[M252249]디클로페낙β-디메틸아미노에탄올/[M255472]디클로페낙디에틸아민염/[M256203]디클로페낙디에틸아민",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제/캡슐/용액주사제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제/가글제/정량액상분무제/첩부제/카타플라스마제/피부용겔제/피부크림제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "\"(경구, 주사)임부에 대한 안전성 미확립.임신말기에 투여시 태아의 동맥관조기폐쇄, 태아 순환지속증 가능성. 동물실험에서 난산발생 증가, 분만지연, 태자 생존율 감소 보고. 임신 약 20주 이후 비스테로이드성 소염제의 사용은 태아의 신기능 이상을 일으켜 양수 과소증 유발가능 및 경우에 따라 신생아 신장애 발생 가능(외용, 점안제)임신 3기에 투여시 태아에서 심폐독성 및 신장 독성, 산모와 신생아의 출혈 연장 및 산모 분만 지연 유발 가능 (구강용 스프레이제, 구강용 액제)",
+      "REMARK": "구강용 스프레이제, 구강용 액제, 겔제, 점안제, 첩부제, 카타플라마제, 크림제 포함",
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2055",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000818",
+      "INGR_ENG_NAME": "Diltiazem",
+      "INGR_NAME": "딜티아젬",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M080266]염산딜티아젬/[M081095]딜티아젬아시딕폴리머콤플렉스/[M085036]염산딜티아젬60밀리그람서방형삼층정3정/[M088241]염산딜티아젬서방형입자/[M089288]염산딜티아젬서방성과립/[M222982]딜티아젬염산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제/캡슐/용액주사제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "\"(경구) \n동물실험에서 골격, 심장, 망막 및 혀에 기형 보고.\n출생자의 체중감소 및 생존수 감소, 분만지연, 사산수 증가 보고.\n(주사)\n동물 실험에서 최기형성 및 태자치사 작용 보고.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2057",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000612",
+      "INGR_ENG_NAME": "Etidronate",
+      "INGR_NAME": "에티드로네이트",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M082306]디소디움에티드로네이트",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립.\n동물실험에서 과량투여시 태자에 골격이상 발생 및 생존율 감소 보고.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2058",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000295",
+      "INGR_ENG_NAME": "Docetaxel",
+      "INGR_NAME": "도세탁셀",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M089802]도세탁셀/[M246487]도세탁셀삼수화물/[M249007]도세탁셀무수물/[M256208]도세탁셀무수화물/[M259927]도세탁셀수화물",
+      "CLASS_NAME": "",
+      "FORM_NAME": "용액주사제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "동물실험에서 배태자 독성(배· 태아 치사 작용, 태아 및 출생아의 발육·발달지연, 최기형성 소견) 및 수태력 감소 보고.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2060",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000810",
+      "INGR_ENG_NAME": "Dothiepin",
+      "INGR_NAME": "도티에핀",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M081861]염산도치에핀",
+      "CLASS_NAME": "",
+      "FORM_NAME": "캡슐/산제/용액용산제/현탁액용산제/세립/용액용세립제/현탁액용세립제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20121213",
+      "PROHBT_CONTENT": "임신중 세로토닌 재흡수 억제제에 노출된 신생아의 위험(호흡곤란, 청색증, 무호흡증, 발작 등) 보고.\n",
+      "REMARK": "경구",
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2061",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000088",
+      "INGR_ENG_NAME": "Doxazosin",
+      "INGR_NAME": "독사조신",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M083467]메실산독사조신/[M252421]독사조신메실산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20130712",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2062",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000504",
+      "INGR_ENG_NAME": "Doxifluridine",
+      "INGR_NAME": "독시플루리딘",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M085422]독시플루리딘",
+      "CLASS_NAME": "",
+      "FORM_NAME": "캡슐/산제/용액용산제/현탁액용산제/세립/용액용세립제/현탁액용세립제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "동물실험에서 기형유발 보고.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2063",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000502",
+      "INGR_ENG_NAME": "Doxorubicin",
+      "INGR_NAME": "독소루비신",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M020025]염산독소루비신/[M222835]독소루비신염산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "용액주사제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "동물실험에서 기형발생 보고.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2064",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000503",
+      "INGR_ENG_NAME": "Doxycycline",
+      "INGR_NAME": "독시사이클린",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M020026]독시사이클린/[M020027]독시사이클린하이클레이트/[M084576]독시사이클린/[M222836]독시사이클린수화물/[M222960]독시사이클린하이클레이트수화물",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제/캡슐/산제/용액용산제/현탁액용산제/세립/용액용세립제/현탁액용세립제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "\"태자에 일과성 골발육부전, 영구적 치아착색, 법랑질형성부전 보고.\n동물실험에서 태자독성(주로 골격발달지연과 관련) 및 배자독성 보고.\"\n",
+      "REMARK": "경구",
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2059",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000297",
+      "INGR_ENG_NAME": "Domperidone",
+      "INGR_NAME": "돔페리돈",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M081091]돔페리돈/[M085595]말레인산돔페리돈/[M222961]돔페리돈말레산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제/산제/용액용산제/현탁액용산제/세립/용액용세립제/현탁액용세립제/과립제/서방성과립제/장용성과립제 /용액용과립제/현탁액용과립제/서방성현탁액용과립제/발포과립제/경구용현탁액제/점이제, 현탁액용산제/현탁액제용주사용용제/직장용현탁액제/일반현탁분무제/정량현탁분무제/이식용현탁액제/점이현탁액제/유제/틴크제/전제/침제/레모네이드제/방향수제/주정제/피부액제/피부리니멘트제/도료/샴푸/경구용액제/질세정액/관류제/점이액제/혈액항응고보존액제/밀폐제용용액제/장기보존용액제/주사/피부단자시험용용액/방광내적용용액",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "동물실험에서 모체독성을 유발하는 농도에서 생식독성 보고.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2065",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000397",
+      "INGR_ENG_NAME": "Penicillamine",
+      "INGR_NAME": "디페니실라민",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M051705]디페니실라민",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제/캡슐",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "기형 유발로 의심되는 증례 보고.\n",
+      "REMARK": "\"2등급\n(윌슨병, 납·수은중독, 특정 시스틴뇨증시)\"\n",
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2066",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000201",
+      "INGR_ENG_NAME": "Dronedarone",
+      "INGR_NAME": "드로네다론",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M249412]드로네다론염산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20130712",
+      "PROHBT_CONTENT": "동물실험에서 기형 유발.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2067",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000610",
+      "INGR_ENG_NAME": "Dutasteride",
+      "INGR_NAME": "두타스테리드",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M102694]두타스테리드",
+      "CLASS_NAME": "",
+      "FORM_NAME": "경구용현탁액제/점이제, 현탁액용산제/현탁액제용주사용용제/직장용현탁액제/일반현탁분무제/정량현탁분무제/이식용현탁액제/점이현탁액제/유제/틴크제/전제/침제/레모네이드제/방향수제/주정제/피부액제/피부리니멘트제/도료/샴푸/경구용액제/질세정액/관류제/점이액제/혈액항응고보존액제/밀폐제용용액제/장기보존용액제/주사/피부단자시험용용액/방광내적용용액/캡슐",
+      "GRADE": "1등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "전임상시험에서 남성 태아의 외부 생식기 발달 저해 가능성.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2068",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000611",
+      "INGR_ENG_NAME": "Dydrogesterone",
+      "INGR_NAME": "디드로게스테론",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M050236]디드로게스테론",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "1등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "여성 태아의 외부생식기 남성화 및 남성 태아의 요도하열과의 관련성 보고.\n",
+      "REMARK": "\"1등급\n( 황체기능부전에 의한 불임치료, 황체호르몬 부족으로 인한 유·조산 치료시 제외)\"\n",
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2069",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000348",
+      "INGR_ENG_NAME": "Ebastine",
+      "INGR_NAME": "에바스틴",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M085337]에바스틴/[M088967]에바스틴구형과립",
+      "CLASS_NAME": "",
+      "FORM_NAME": "경구용현탁액제/점이제, 현탁액용산제/현탁액제용주사용용제/직장용현탁액제/일반현탁분무제/정량현탁분무제/이식용현탁액제/점이현탁액제/유제/틴크제/전제/침제/레모네이드제/방향수제/주정제/피부액제/피부리니멘트제/도료/샴푸/경구용액제/질세정액/관류제/점이액제/혈액항응고보존액제/밀폐제용용액제/장기보존용액제/주사/피부단자시험용용액/방광내적용용액/정제/캡슐",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20130712",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2070",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000558",
+      "INGR_ENG_NAME": "Efavirenz",
+      "INGR_NAME": "에파비렌즈",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M088675]에파비렌즈",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립.\n동물실험에서 기형(무뇌증 및 단안 무안구증, 소안구증, 구개열) 및 태자 재흡수 증가 보고.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2071",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000752",
+      "INGR_ENG_NAME": "Efonidipine",
+      "INGR_NAME": "에포니디핀",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M257938]에포니디핀염산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "실험동물에서 모체동물, 출생자에 체중증가 억제 보고.\n\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2072",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000460",
+      "INGR_ENG_NAME": "Emorfazone",
+      "INGR_NAME": "에몰파존",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M082008]에몰파존",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2073",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000157",
+      "INGR_ENG_NAME": "Empagliflozin",
+      "INGR_NAME": "엠파글리플로진",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M260057]엠파글리플로진",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20160129",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립\n동물실험에서 출생 후 발달에 유해한 영향 보고\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2074",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000554",
+      "INGR_ENG_NAME": "Enalapril",
+      "INGR_NAME": "에날라프릴",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M082059]말레인산에날라프릴/[M099977]말레인산에날프릴/[M223118]에날라프릴말레산염/[M223119]에날라프릴말레산염 정/[M249863]에날라프릴말레인산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "임신 제2 및 3기에 ACE 저해제 투여시 양수과소증, 태아 및 신생아의 사망, 신생아 저혈압, 신부전, 고칼륨혈증, 두개형성부전, 양수과소증에 의한 것으로 추정되는 사지의 경축, 두개단면의 변형 보고.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2075",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000746",
+      "INGR_ENG_NAME": "Enocitabine",
+      "INGR_NAME": "에노시타빈",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M093669]에노시타빈",
+      "CLASS_NAME": "",
+      "FORM_NAME": "용액주사제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "동물실험에서 기형발생 작용 보고.\n",
+      "REMARK": "경구",
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2076",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000347",
+      "INGR_ENG_NAME": "Enoxacin",
+      "INGR_NAME": "에녹사신",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M081589]에녹사신/[M223120]에녹사신수화물",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2078",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000156",
+      "INGR_ENG_NAME": "Epinastine",
+      "INGR_NAME": "에피나스틴",
+      "MIX_INGR": "",
+      "ORI_INGR": "[I012505]에피나스틴염산염/[M256607]에피나스틴염산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20130712",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2080",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000464",
+      "INGR_ENG_NAME": "Epirubicin",
+      "INGR_NAME": "에피루비신",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M084299]염산에피루비신/[M222876]에피루비신염산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "용액주사제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "\"동물실험에서 태자독성 보고\n기형발생 보고(안트라사이클린계의 다른 항악성종양제).\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2081",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000559",
+      "INGR_ENG_NAME": "Eprosartan",
+      "INGR_NAME": "에프로사르탄",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M257111]에프로사르탄메실산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "임신 제 2~3기 투여시 태아와 신생아의 저혈압, 신생아 두개골형성부전, 무뇨, 신부전, 양수과소증(사지골절, 두개안면변형, 폐발육부전과 관련) 및 사망 보고.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2082",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000034",
+      "INGR_ENG_NAME": "Eribulin",
+      "INGR_NAME": "에리불린",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M255209]에리불린메실산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "용액주사제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20130523",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립\n동물실험에서 배태자독성 및 최기형성 보고.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2079",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000560",
+      "INGR_ENG_NAME": "Epinephrine",
+      "INGR_NAME": "에피네프린",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M040421]에피네프린/[M040581]중주석산에피네프린/[M094252]주석산에피네프린/[M251244]에피네프린타르타르산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "경구용현탁액제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제/용액주사제/점이제, 현탁액용산제/현탁액제용주사용용제/직장용현탁액제/일반현탁분무제/정량현탁분무제/이식용현탁액제/점이현탁액제/유제/틴크제/전제/침제/레모네이드제/방향수제/주정제/피부액제/피부리니멘트제/도료/샴푸/경구용액제/질세정액/관류제/점이액제/혈액항응고보존액제/밀폐제용용액제/장기보존용액제/주사/피부단자시험용용액/방광내적용용액",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20130713",
+      "PROHBT_CONTENT": "태아의 산소결핍 초래 가능성.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2083",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000465",
+      "INGR_ENG_NAME": "Erlotinib",
+      "INGR_NAME": "엘로티닙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M250547]엘로티닙염산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립.\n동물실험에서 생존태자수 감소 및 과량 투여시 모체독성(유산 및 배/태자 사망 등) 보고.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2084",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000349",
+      "INGR_ENG_NAME": "Esmolol",
+      "INGR_NAME": "에스몰롤",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M085107]염산에스몰롤/[M258655]에스몰롤염산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "용액주사제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20130712",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립.\n임신후기 및 분만시 태아의 서맥 유발 가능성.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2085",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000748",
+      "INGR_ENG_NAME": "Estradiol",
+      "INGR_NAME": "에스트라디올",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M040401]에스트라디올/[M040402]길초산에스트라디올/[M088710]에스트라디올1/2수화물/[M103099]에스트라디올헤미하이드레이트/[M223135]에스트라디올 발레레이트/[M224167]에스트라디올반수화물/[M257134]에스트라디올발레레이트",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제/용액주사제/겔/경피흡수제/서방성경피흡수제/전류조절형서방성경피흡수제",
+      "GRADE": "1등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립.\n에스트로겐 대체 요법에 의해 남녀 태아의 생식기관 유전적 결함을 증가, 훗날 여성의 경우 질선증, 자궁경부 편평세포 형성장애, 자궁암의 위험 증가. 임신 중 에스트로겐 대체 요법이 필요한 적응증은 없음.\"\n",
+      "REMARK": "경구",
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2086",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000462",
+      "INGR_ENG_NAME": "Estramustine",
+      "INGR_NAME": "에스트라머스틴",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M257238]에스트라머스틴인산나트륨수화물",
+      "CLASS_NAME": "",
+      "FORM_NAME": "캡슐/산제/용액용산제/현탁액용산제/세립/용액용세립제/현탁액용세립제",
+      "GRADE": "1등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2088",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000555",
+      "INGR_ENG_NAME": "Estropipate",
+      "INGR_NAME": "에스트로피페이트",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M089024]에스트로피페이트",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제/크림",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립.\n에스트로겐대체요법에 의해 태아에서 생식기관결함, 선천적 심장결함, 수족감소결함, 사지감소장애 등 가능성.\n훗날 여성에서 질선증, 질 및 자궁경부 편평세포형성장애, 자궁암의 위험 증가.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2089",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000749",
+      "INGR_ENG_NAME": "Ethinyl estradiol",
+      "INGR_NAME": "에티닐에스트라디올",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A005749]에티닐에스트라디올/[M040405]에치닐에스트라디올/[M223147]에티닐에스트라디올/[M259133]에티닐에스트라디올(EE-베타덱스 포접체로서)",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "1등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "태아의 손상 가능성.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2090",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000257",
+      "INGR_ENG_NAME": "Ethosuximide",
+      "INGR_NAME": "에토숙시미드",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M223146]에토숙시미드",
+      "CLASS_NAME": "",
+      "FORM_NAME": "경구용현탁액제/점이제, 현탁액용산제/현탁액제용주사용용제/직장용현탁액제/일반현탁분무제/정량현탁분무제/이식용현탁액제/점이현탁액제/유제/틴크제/전제/침제/레모네이드제/방향수제/주정제/피부액제/피부리니멘트제/도료/샴푸/경구용액제/질세정액/관류제/점이액제/혈액항응고보존액제/밀폐제용용액제/장기보존용액제/주사/피부단자시험용용액/방광내적용용액/캡슐",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "동물실험에서 기형발생 보고.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2092",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000352",
+      "INGR_ENG_NAME": "Etizolam",
+      "INGR_NAME": "에티졸람",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M088371]에티졸람",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20121213",
+      "PROHBT_CONTENT": "벤조디아제핀계 약물의 최기형성 사례(대조군에 비해 높음), 신생아 포유곤란, 근긴장저하, 졸음, 황달 증가 및 분만전 연용시 신생아 금단증상(신경과민, 진전, 과다긴장 등) 보고.\n",
+      "REMARK": "경구",
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2093",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000463",
+      "INGR_ENG_NAME": "Etodolac",
+      "INGR_NAME": "에토돌락",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M081813]미결정에토돌락/[M083240]에토돌락/[M257127]미분화에토돌락",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제/캡슐/산제/용액용산제/현탁액용산제/세립/용액용세립제/현탁액용세립제/과립제/서방성과립제/장용성과립제 /용액용과립제/현탁액용과립제/서방성현탁액용과립제/발포과립제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립.\n임신 말기에 투여시 태아의 동맥관조기폐쇄 가능성.\n동물실험에서 난산발생빈도 증가, 분만지연, 태아 생존율 감소 보고.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2094",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000154",
+      "INGR_ENG_NAME": "Etoposide",
+      "INGR_NAME": "에토포시드",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M081926]에토포시드",
+      "CLASS_NAME": "",
+      "FORM_NAME": "캡슐/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제/용액주사제/산제/용액용산제/현탁액용산제/세립/용액용세립제/현탁액용세립제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "동물실험에서 기형유발, 태자독성 보고.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2095",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000461",
+      "INGR_ENG_NAME": "Everolimus",
+      "INGR_NAME": "에베로리무스",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M255713]에베로리무스",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20130523",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립.\n동물실험에서 배태자독성(사망률, 태자 체중감소) 및 골격근 변화와 기형(흉골열 등) 발생률 증가.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2096",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000038",
+      "INGR_ENG_NAME": "Exemestane",
+      "INGR_NAME": "엑스메스탄",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M089836]엑스메스탄",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "1등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립.\n동물실험에서 생식 및 발생독성 보고.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2097",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000037",
+      "INGR_ENG_NAME": "Exenatide",
+      "INGR_NAME": "엑세나타이드",
+      "MIX_INGR": "",
+      "ORI_INGR": "[I012174]엑세나타이드/[M233532]엑세나타이드",
+      "CLASS_NAME": "",
+      "FORM_NAME": "용액주사제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20121121",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립.\n동물실험에서 생식독성 보고.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2098",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000402",
+      "INGR_ENG_NAME": "Febuxostat",
+      "INGR_NAME": "페북소스타트",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M245171]페북소스타트/[M245172]페북소스타트/[M245173]페북소스타트/[M245174]페북소스타트/[M245186]페북소스타트",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20150520",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2099",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000404",
+      "INGR_ENG_NAME": "Felodipine",
+      "INGR_NAME": "펠로디핀",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M081580]펠로디핀과립4ㆍ79%/[M084735]펠로디핀",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제/캡슐/과립제/서방성과립제/장용성과립제 /용액용과립제/현탁액용과립제/서방성현탁액용과립제/발포과립제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "\"임부에 대한 안전성 미확립.\n동물실험에서 태자손상, 분만지연, 태자 및 신생자의 사망률 증가 보고.\"\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "2100",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000686",
+      "INGR_ENG_NAME": "Fenofibrate",
+      "INGR_NAME": "페노피브레이트",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M051799]페노피브레이트/[M092604]미세화페노피브레이트/[M095127]페노피브레이트펠렛/[M096854]미세화페노피브레이트구형과립/[M099150]페노피브레이트펠렛타입/[M099756]미세화페노피브레이트혼합분말/[M255612]페노피브릭산/[M256159]페노피브레이트콜린/[M257159]페노피브레이트 과립(미분화)/[M260738]페노피브레이트(미분화)",
+      "CLASS_NAME": "",
+      "FORM_NAME": "정제/캡슐/과립제/서방성과립제/장용성과립제 /용액용과립제/현탁액용과립제/서방성현탁액용과립제/발포과립제/산제/용액용산제/현탁액용산제/세립/용액용세립제/현탁액용세립제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20081211",
+      "PROHBT_CONTENT": "임신 3개월 이후 투여시 태아에 축적되어 태아독성 유발 가능성.\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  }
+]
