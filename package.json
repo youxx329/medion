@@ -12,7 +12,8 @@
     "fetch:dur": "tsx supabase/scripts/fetch-dur.ts",
     "load:dur": "tsx supabase/scripts/load-dur.ts",
     "fetch:dur-items": "tsx supabase/scripts/fetch-dur-items.ts",
-    "load:dur-items": "tsx supabase/scripts/load-dur-items.ts"
+    "load:dur-items": "tsx supabase/scripts/load-dur-items.ts",
+    "load:rx": "tsx supabase/scripts/load-rx.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.4",
