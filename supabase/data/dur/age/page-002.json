@@ -1,0 +1,1902 @@
+[
+  {
+    "item": {
+      "DUR_SEQ": "574",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000158",
+      "INGR_ENG_NAME": "Methacycline",
+      "INGR_NAME": "메타사이클린",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M020046]염산메타사이클린",
+      "CLASS_NAME": "[06150]주로 그람양성, 음성균, 리케치아, 비루스에 작용하는 것",
+      "FORM_NAME": "캡슐",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "소아 등(특히 치아 형성기인 12세 미만의 소아)에 투여 시, 치아의 착색·법랑질 형성 부전, 또는 일과성 골발육 부전을 일으킬 수 있음",
+      "REMARK": "다만, 다른 약을 사용할 수 없거나 효과가 없는 경우에만 8세 이상 신중투여",
+      "DEL_YN": "정상",
+      "AGE_BASE": "12세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "575",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000229",
+      "INGR_ENG_NAME": "Methylphenidate",
+      "INGR_NAME": "메틸페니데이트",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M223025]메틸페니데이트염산염",
+      "CLASS_NAME": "[01150]각성제,흥분제",
+      "FORM_NAME": "정제/캡슐",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "안전성 및 유효성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "5세 이하"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "576",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000425",
+      "INGR_ENG_NAME": "Metoclopramide",
+      "INGR_NAME": "메토클로프라미드",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M050465]메토클로프라미드/[M050466]염산메토클로프라미드/[M223013]메토클로프라미드염산염수화물",
+      "CLASS_NAME": "[02390]기타의 소화기관용약",
+      "FORM_NAME": "정제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제/용액주사제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "추체외로장애 위험성 증가",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "1세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "577",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "복합",
+      "INGR_CODE": "D000425",
+      "INGR_ENG_NAME": "Metoclopramide",
+      "INGR_NAME": "메토클로프라미드",
+      "MIX_INGR": "[D000803]Pancreatin(판크레아틴)",
+      "ORI_INGR": "[M050465]메토클로프라미드/[M050466]염산메토클로프라미드/[M223013]메토클로프라미드염산염수화물/[M040678]판크레아틴/[M082071]판크레아틴장용과립/[M089689]판크레아틴I/[M089690]판크레아틴II/[M102500]판크레아틴장용성제피정/[M257265]판크레아틴장용성제피펠렛/[M261343]판크레아틴Ⅰ/[M262958]판크레아틴장용성제피미세정",
+      "CLASS_NAME": "[02390]기타의 소화기관용약",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "추체외로장애 위험성 증가",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "1세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "578",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000326",
+      "INGR_ENG_NAME": "Milnacipran",
+      "INGR_NAME": "밀나시프란",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M251320]밀나시프란염산염",
+      "CLASS_NAME": "[01170]정신신경용제",
+      "FORM_NAME": "캡슐",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "안전성 및 유효성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "18세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "579",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000127",
+      "INGR_ENG_NAME": "Minocycline",
+      "INGR_NAME": "미노사이클린",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M223036]미노사이클린염산염",
+      "CLASS_NAME": "[06150]주로 그람양성, 음성균, 리케치아, 비루스에 작용하는 것",
+      "FORM_NAME": "캡슐",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "소아 등(특히 치아 형성기인 12세 미만의 소아)에 투여 시, 치아의 착색·법랑질 형성 부전, 또는 일과성 골발육 부전을 일으킬 수 있음",
+      "REMARK": "다만, 다른 약을 사용할 수 없거나 효과가 없는 경우에만 8세 이상 신중투여",
+      "DEL_YN": "정상",
+      "AGE_BASE": "12세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "580",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000128",
+      "INGR_ENG_NAME": "Mirodenafil",
+      "INGR_NAME": "미로데나필",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M214384]염산미로데나필/[M253534]미로데나필",
+      "CLASS_NAME": "[02590]기타의 비뇨생식기관 및 항문용약",
+      "FORM_NAME": "정제/구강붕해필름",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "_",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "18세 이하"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "581",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000431",
+      "INGR_ENG_NAME": "Molindone",
+      "INGR_NAME": "몰린돈",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M086757]염산몰린돈/[M256587]몰린돈염산염",
+      "CLASS_NAME": "[01170]정신신경용제",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "안전성 및 유효성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "12세 이하"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "582",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000633",
+      "INGR_ENG_NAME": "Mometasone",
+      "INGR_NAME": "모메타손",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M070188]모메타손푸로에이트/[M099947]푸로산모메타손/[M264264]모메타손푸로에이트일수화물",
+      "CLASS_NAME": "[02640]진통.진양.수렴.소염제",
+      "FORM_NAME": "피부로션제/연고/크림",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "소아는 체중당 체표면적의 비율이 성인보다 커서 코르티코이드로 인해 HPA축(시상하부-뇌하수체-부신 축) 억제, 쿠싱증후군, 발육장애, 두개내압항진 등이 나타나기 쉬움",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "2세 이하"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "583",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000231",
+      "INGR_ENG_NAME": "Moxonidine",
+      "INGR_NAME": "목소니딘",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M085598]목소니딘",
+      "CLASS_NAME": "[02140]혈압강하제",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "안전성 및 유효성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "18세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "584",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000783",
+      "INGR_ENG_NAME": "Nalidixic Acid",
+      "INGR_NAME": "날리딕스산",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M040054]날리딕스산",
+      "CLASS_NAME": "[06290]기타의 화학요법제",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "두개내압을 상승시켜 두통, 구토 등의 증상이 나타날 수 있음",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "3개월 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "585",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000605",
+      "INGR_ENG_NAME": "Norfloxacin",
+      "INGR_NAME": "노르플록사신",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M081284]노르플록사신",
+      "CLASS_NAME": "[06290]기타의 화학요법제",
+      "FORM_NAME": "정제/캡슐",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "- 안전성 및 유효성 미확립\n- 퀴놀론계 항균제는 몇몇 어린 동물종에서 관절병증, 뼈연골증을 유발함",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "18세 이하"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "586",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000466",
+      "INGR_ENG_NAME": "Nortriptyline",
+      "INGR_NAME": "노르트립틸린",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M050132]염산노르트립틸린",
+      "CLASS_NAME": "[01170]정신신경용제",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "안전성 및 유효성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "18세 이하"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "587",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000666",
+      "INGR_ENG_NAME": "Ofloxacin",
+      "INGR_NAME": "오플록사신",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M081639]오플록사신",
+      "CLASS_NAME": "[06290]기타의 화학요법제",
+      "FORM_NAME": "정제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제/용액주사제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "- 안전성 및 유효성 미확립\n- 몇몇 어린 동물종에서 관절이상을 유발함",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "18세 이하"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "588",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000357",
+      "INGR_ENG_NAME": "Olanzapine",
+      "INGR_NAME": "올란자핀",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M089222]올란자핀/[M233301]미세올란자핀",
+      "CLASS_NAME": "[01170]정신신경용제",
+      "FORM_NAME": "정제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제/용액주사제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "(정제)\n- 안전성 및 유효성 미확립\n- 체중증가, 진정, 총콜레스테롤, 중성지방, LDL콜레스테롤, 프로락틴과 간 아미노트랜스퍼라제 수치가 성인에 비해 증가\n(주사제)\n- 안전성 및 유효성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "13세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "589",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000356",
+      "INGR_ENG_NAME": "Oxycodone",
+      "INGR_NAME": "옥시코돈",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M040451]염산옥시코돈/[M238042]옥시코돈염산염",
+      "CLASS_NAME": "[08210]합성마약",
+      "FORM_NAME": "정제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제/용액주사제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "안전성 및 유효성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "18세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "590",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000754",
+      "INGR_ENG_NAME": "Oxytetracycline",
+      "INGR_NAME": "옥시테트라사이클린",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M223166]옥시테트라사이클린염산염",
+      "CLASS_NAME": "[06150]주로 그람양성, 음성균, 리케치아, 비루스에 작용하는 것",
+      "FORM_NAME": "정제/캡슐",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "소아 등(특히 치아 형성기인 12세 미만의 소아)에 투여시, 치아의 착색·법랑질 형성 부전, 또는 일과성 골발육 부전을 일으킬 수 있음",
+      "REMARK": "다만, 다른 약을 사용할 수 없거나 효과가 없는 경우에만 8세 이상 신중투여",
+      "DEL_YN": "정상",
+      "AGE_BASE": "12세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "591",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000424",
+      "INGR_ENG_NAME": "Pefloxacin",
+      "INGR_NAME": "페플록사신",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M081951]메탄설폰산페플록사신/[M250421]페플록사신메실산염수화물",
+      "CLASS_NAME": "[06290]기타의 화학요법제",
+      "FORM_NAME": "정제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제/용액주사제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "- 안전성 및 유효성 미확립\n- 퀴놀론계 항균제는 몇몇 어린 동물종에서 관절병증, 뼈연골증을 유발함",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "15세 이하"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "592",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000781",
+      "INGR_ENG_NAME": "Perphenazine",
+      "INGR_NAME": "페르페나진",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M091367]페르페나진/[M232514]페르페나진염산염",
+      "CLASS_NAME": "[01170]정신신경용제",
+      "FORM_NAME": "정제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제/용액주사제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "추체외로증상 특히 운동장애가 나타나기 쉬움",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "14세 이하"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "593",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000701",
+      "INGR_ENG_NAME": "Phendimetrazine tartrate",
+      "INGR_NAME": "펜디메트라진타르타르산염",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M088437]주석산펜디메트라진/[M214394]주석산펜디메트라진/[M230784]펜디메트라진타르타르산염",
+      "CLASS_NAME": "[01230]자율신경제",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "안전성 및 유효성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "16세 이하"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "594",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000795",
+      "INGR_ENG_NAME": "Phentermine",
+      "INGR_NAME": "펜터민",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M099629]염산펜터민/[M219108]염산펜터민/[M238557]펜터민염산염",
+      "CLASS_NAME": "[01230]자율신경제",
+      "FORM_NAME": "정제/캡슐",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "안전성 및 유효성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "16세 이하"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "595",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000191",
+      "INGR_ENG_NAME": "Phenylephrine",
+      "INGR_NAME": "페닐레프린",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M040696]염산페닐에프린/[M222724]페닐레프린염산염/[M225151]페닐에프린염산염",
+      "CLASS_NAME": "[01310]안과용제",
+      "FORM_NAME": "점안용액제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "_",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "4주 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "596",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000108",
+      "INGR_ENG_NAME": "Pimecrolimus",
+      "INGR_NAME": "피메크로리무스",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M097515]피메크로리무스",
+      "CLASS_NAME": "[02690]기타의 외피용약",
+      "FORM_NAME": "크림",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "- 안전성 및 유효성 미확립\n- 영아의 면역기계 발달에 미치는 영향은 알려지지 않았음",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "2세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "597",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000110",
+      "INGR_ENG_NAME": "Pipemidic Acid",
+      "INGR_NAME": "피페미드산",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M051885]피페미드산",
+      "CLASS_NAME": "[06290]기타의 화학요법제",
+      "FORM_NAME": "캡슐",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "- 안전성 및 유효성 미확립\n- 퀴놀론계 항균제는 몇몇 어린 동물종에서 관절병증, 뼈연골증을 유발함",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "18세 이하"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "598",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000307",
+      "INGR_ENG_NAME": "Piracetam",
+      "INGR_NAME": "피라세탐",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M101651]피라세탐",
+      "CLASS_NAME": "[01190]기타의 중추신경용약",
+      "FORM_NAME": "정제/캡슐/용액주사제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "_",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "16세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "599",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000309",
+      "INGR_ENG_NAME": "Piroxicam",
+      "INGR_NAME": "피록시캄",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M071634]피록시캄",
+      "CLASS_NAME": "[01140]해열.진통.소염제",
+      "FORM_NAME": "용액주사제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "벤질알코올은 조숙아에게서 치명적인 가쁜 호흡증상과 연관이 있는 것으로 보고됨",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "4주 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "601",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000418",
+      "INGR_ENG_NAME": "Repaglinide",
+      "INGR_NAME": "레파글리니드",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M088889]레파글리니드",
+      "CLASS_NAME": "[03960]당뇨병용제",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "안전성 및 유효성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "18세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "602",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000040",
+      "INGR_ENG_NAME": "Ritodrine",
+      "INGR_NAME": "리토드린",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M050378]염산리토드린",
+      "CLASS_NAME": "[02590]기타의 비뇨생식기관 및 항문용약",
+      "FORM_NAME": "캡슐/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제/용액주사제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "_",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "65세 이상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "603",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000040",
+      "INGR_ENG_NAME": "Ritodrine",
+      "INGR_NAME": "리토드린",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M050378]염산리토드린",
+      "CLASS_NAME": "[02590]기타의 비뇨생식기관 및 항문용약",
+      "FORM_NAME": "캡슐/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제/용액주사제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "_",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "12세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "604",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000246",
+      "INGR_ENG_NAME": "Sildenafil",
+      "INGR_NAME": "실데나필",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M089346]구연산실데나필/[M252789]실데나필시트르산염/[M253237]실데나필",
+      "CLASS_NAME": "[02590]기타의 비뇨생식기관 및 항문용약",
+      "FORM_NAME": "구강붕해필름/정제/세립",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "_",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "18세 이하"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "605",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000446",
+      "INGR_ENG_NAME": "Silver Sulfadazine",
+      "INGR_NAME": "설파디아진은",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M050775]설파디아진은",
+      "CLASS_NAME": "[02630]화농성질환용제",
+      "FORM_NAME": "크림",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "- 안전성 및 유효성이 미확립\n- 미숙아, 신생아(생후 2개월이내)는 핵황달을 일으킬 가능성 증가",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "2개월 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "607",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000183",
+      "INGR_ENG_NAME": "Tetradecyl",
+      "INGR_NAME": "테트라데실",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M089182]테트라데실황산나트륨콘센트레이트/[M210690]테트라데실황산나트륨",
+      "CLASS_NAME": "[03390]기타의 혈액 및 체액용약",
+      "FORM_NAME": "용액주사제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "_",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "3세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "600",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000210",
+      "INGR_ENG_NAME": "Calcium Polystyrene Sulfonate",
+      "INGR_NAME": "폴리스티렌설폰산칼슘",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M081346]폴리스티렌설폰산칼슘",
+      "CLASS_NAME": "[02190]기타의 순환계용약",
+      "FORM_NAME": "겔/산제/용액용산제/현탁액용산제/세립/용액용세립제/현탁액용세립제/과립제/서방성과립제/장용성과립제 /용액용과립제/현탁액용과립제/서방성현탁액용과립제/발포과립제/경구용현탁액제/점이제, 현탁액용산제/현탁액제용주사용용제/직장용현탁액제/일반현탁분무제/정량현탁분무제/이식용현탁액제/점이현탁액제/유제/틴크제/전제/침제/레모네이드제/방향수제/주정제/피부액제/피부리니멘트제/도료/샴푸/경구용액제/질세정액/관류제/점이액제/혈액항응고보존액제/밀폐제용용액제/장기보존용액제/주사/피부단자시험용용액/방광내적용용액/젤리형겔",
+      "NOTIFICATION_DATE": "20230705",
+      "PROHBT_CONTENT": "_",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "1개월 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "606",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000193",
+      "INGR_ENG_NAME": "Sodium Ferric Gluconate complex",
+      "INGR_NAME": "글루콘산제이철나트륨복염",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M089472]글루콘산제이철나트륨복염/[M095234]글루콘산제이철나트륨복염액/[M252430]글루콘산제이철나트륨착염",
+      "CLASS_NAME": "[03220]무기질제제",
+      "FORM_NAME": "경구용현탁액제/캡슐/액상시럽제/건조시럽용 과립제/점이제, 현탁액용산제/현탁액제용주사용용제/직장용현탁액제/일반현탁분무제/정량현탁분무제/이식용현탁액제/점이현탁액제/유제/틴크제/전제/침제/레모네이드제/방향수제/주정제/피부액제/피부리니멘트제/도료/샴푸/경구용액제/질세정액/관류제/점이액제/혈액항응고보존액제/밀폐제용용액제/장기보존용액제/주사/피부단자시험용용액/방광내적용용액",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "_",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "12개월 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "608",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "복합",
+      "INGR_CODE": "D000545",
+      "INGR_ENG_NAME": "Sulfadiazine",
+      "INGR_NAME": "설파디아진",
+      "MIX_INGR": "[D000067]Trimethoprim(트리메토프림)",
+      "ORI_INGR": "[M050774]설파디아진/[M051623]트리메토프림",
+      "CLASS_NAME": "[06210]설화제",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "고빌리루빈혈증을 일으킬 수 있음",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "2개월 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "609",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "복합",
+      "INGR_CODE": "D000726",
+      "INGR_ENG_NAME": "Sulfadoxine",
+      "INGR_NAME": "설파독신",
+      "MIX_INGR": "[D000310]Pyrimethamine(피리메타민)",
+      "ORI_INGR": "[M089110]설파독신/[M040752]피리메타민",
+      "CLASS_NAME": "[06410]항원충제",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "글루쿠로니드 형성 효소체계가 확립되어 있지 않은 2개월 미만의 영아에게는 투여하지 말 것",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "2개월 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "610",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "복합",
+      "INGR_CODE": "D000546",
+      "INGR_ENG_NAME": "Sulfamethoxazole",
+      "INGR_NAME": "설파메톡사졸",
+      "MIX_INGR": "[D000067]Trimethoprim(트리메토프림)",
+      "ORI_INGR": "[M040283]설파메톡사졸/[M081371]설파메톡사졸나트륨/[M051623]트리메토프림",
+      "CLASS_NAME": "[06210]설화제",
+      "FORM_NAME": "정제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제/용액주사제/액상시럽제/건조시럽용 과립제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "고빌리루빈혈증을 일으킬 수 있음",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "2개월 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "611",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000727",
+      "INGR_ENG_NAME": "Sulfasalazine",
+      "INGR_NAME": "설파살라진",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M083653]설파살라진",
+      "CLASS_NAME": "[06210]설화제",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "- 안전성 및 유효성 미확립\n- 고빌리루빈혈증을 일으킬 수 있음",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "2세 이하"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "612",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000655",
+      "INGR_ENG_NAME": "Sulfisoxazole Acetyl",
+      "INGR_NAME": "아세틸설피속사졸",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M260960]아세틸설피속사졸",
+      "CLASS_NAME": "[06210]설화제",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "2개월 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "613",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "복합",
+      "INGR_CODE": "D000655",
+      "INGR_ENG_NAME": "Sulfisoxazole Acetyl",
+      "INGR_NAME": "아세틸설피속사졸",
+      "MIX_INGR": "[D000256]Erythromycin(에리트로마이신)",
+      "ORI_INGR": "[M260960]아세틸설피속사졸/[M020095]에리스로마이신/[M020096]락토비온산에리스로마이신/[M020099]에리스로마이신에스톨레이트/[M020201]프로피온산에리스로마이신/[M223129]에리트로마이신/[M223130]에리트로마이신스테아르산염/[M223131]에리트로마이신에스톨산염/[M223132]에리트로마이신에틸숙시네이트/[M251863]에리트로마이신락토비온산염/[M256206]에리트로마이신 장용피입자/[M257644]에리트로마이신스티노프레이트",
+      "CLASS_NAME": "[06190]기타의 항생물질제제(복합항생물질제제를 포함)",
+      "FORM_NAME": "시럽/건조시럽용 과립제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "- 안전성 및 유효성 미확립\n- 고빌리루빈혈증을 일으킬 수 있음",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "2개월 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "614",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000279",
+      "INGR_ENG_NAME": "Tacrolimus",
+      "INGR_NAME": "타크로리무스",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M089193]타크로리무스수화물/[M227652]타크로리무스 수화물",
+      "CLASS_NAME": "[02690]기타의 외피용약",
+      "FORM_NAME": "연고",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "안전성 및 유효성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "2세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "615",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000181",
+      "INGR_ENG_NAME": "Tadalafil",
+      "INGR_NAME": "타다라필",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M095435]타다라필",
+      "CLASS_NAME": "[02590]기타의 비뇨생식기관 및 항문용약",
+      "FORM_NAME": "정제/구강붕해필름/산제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "_",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "18세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "616",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000280",
+      "INGR_ENG_NAME": "Talniflumate",
+      "INGR_NAME": "탈니플루메이트",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M081412]탈니플루메이트",
+      "CLASS_NAME": "[01140]해열.진통.소염제",
+      "FORM_NAME": "정제/캡슐",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "소아 용량이 설정되어 있지 않음",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "12세 이하"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "617",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000586",
+      "INGR_ENG_NAME": "Taurolidine",
+      "INGR_NAME": "타우로리딘",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M081946]타우로리딘",
+      "CLASS_NAME": "[06290]기타의 화학요법제",
+      "FORM_NAME": "용액주사제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "_",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "6세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "618",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000184",
+      "INGR_ENG_NAME": "Telbivudine",
+      "INGR_NAME": "텔비부딘",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M210121]텔비부딘",
+      "CLASS_NAME": "[03910]간장질환용제",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "안전성 및 유효성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "16세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "619",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000681",
+      "INGR_ENG_NAME": "Terazosin",
+      "INGR_NAME": "테라조신",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M083720]염산테라조신/[M101588]염산테라조신/[M249200]테라조신염산염/[M250456]테라조신염산염수화물/[M256626]테라조신염산염수화물(이수화물)",
+      "CLASS_NAME": "[02590]기타의 비뇨생식기관 및 항문용약",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "안전성 및 유효성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "12세 이하"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "620",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000380",
+      "INGR_ENG_NAME": "Terbinafine",
+      "INGR_NAME": "테르비나핀",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M085321]염산테르비나핀/[M245869]테르비나핀염산염/[M252342]테르비나핀염산염/[M258362]테르비나핀염산염",
+      "CLASS_NAME": "[06290]기타의 화학요법제",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "안전성 및 유효성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "2세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "621",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000484",
+      "INGR_ENG_NAME": "Teriparatide",
+      "INGR_NAME": "테리파라타이드",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M255493]테리파라타이드(유전자재조합)(숙주:E.coli K12RQ228, 벡터:pHMM193)/[M263083]테리파라타이드아세트산염",
+      "CLASS_NAME": "[02430]갑상선, 부갑상선호르몬제",
+      "FORM_NAME": "용액주사제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "- 안전성 및 유효성 미확립\n- 일반적으로 골육종 발현 위험이 높을 수 있음",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "18세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "622",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000064",
+      "INGR_ENG_NAME": "Tetracycline",
+      "INGR_NAME": "테트라사이클린",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M223235]테트라사이클린염산염",
+      "CLASS_NAME": "[06150]주로 그람양성, 음성균, 리케치아, 비루스에 작용하는 것",
+      "FORM_NAME": "캡슐",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "소아 등(특히 치아 형성기인 12세 미만의 소아)에 투여 시, 치아의 착색？법랑질 형성 부전, 또는 일과성 골발육 부전을 일으킬 수 있음",
+      "REMARK": "다만, 다른 약을 사용할 수 없거나 효과가 없는 경우에만 8세 이상 신중투여",
+      "DEL_YN": "정상",
+      "AGE_BASE": "12세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "623",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000778",
+      "INGR_ENG_NAME": "Thiothixene",
+      "INGR_NAME": "티오틱센",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M259343]티오틱센",
+      "CLASS_NAME": "[01170]정신신경용제",
+      "FORM_NAME": "캡슐",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "- 안전성 및 유효성 미확립\n- 소아에 투여한 경우 추체외로증상 특히 운동장애가 나타나기 쉽다는 보고가 있음",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "12세 이하"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "624",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000384",
+      "INGR_ENG_NAME": "Tianeptine",
+      "INGR_NAME": "티아넵틴",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M089308]티아넵틴나트륨",
+      "CLASS_NAME": "[01170]정신신경용제",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "_",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "15세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "625",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000812",
+      "INGR_ENG_NAME": "Ferucarbotran",
+      "INGR_NAME": "페루카르보트란",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M096213]페루카르보트란",
+      "CLASS_NAME": "[07210]X선조영제",
+      "FORM_NAME": "용액주사제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "_",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "18세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "626",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000619",
+      "INGR_ENG_NAME": "Fusidic Acid",
+      "INGR_NAME": "푸시딘산",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M020165]푸시딘산나트륨/[M020229]푸시딘산",
+      "CLASS_NAME": "[06110]주로 그람양성균에 작용하는 것",
+      "FORM_NAME": "용액주사제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "핵황달 발생 위험이 있음",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "4주 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "627",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "복합",
+      "INGR_CODE": "D000425",
+      "INGR_ENG_NAME": "Metoclopramide",
+      "INGR_NAME": "메토클로프라미드",
+      "MIX_INGR": "[D000814]Simethicone(시메티콘)/[D000815]Dizet100(다이제트100)",
+      "ORI_INGR": "[M050465]메토클로프라미드/[M050466]염산메토클로프라미드/[M223013]메토클로프라미드염산염수화물/[M050855]시메치콘/[M098445]시메치콘파우더/[M223083]시메티콘/[M095620]다이제트100/[M257502]다이젵100",
+      "CLASS_NAME": "[02390]기타의 소화기관용약",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "추체외로장애 위험성 증가",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "1세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "628",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000816",
+      "INGR_ENG_NAME": "Pyrazinobutazone",
+      "INGR_NAME": "피라지노부타존",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M081982]피라지노부타존",
+      "CLASS_NAME": "[01140]해열.진통.소염제",
+      "FORM_NAME": "캡슐",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "_",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "14세 이하"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "629",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000817",
+      "INGR_ENG_NAME": "Sulfisoxazole",
+      "INGR_NAME": "설피속사졸",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M040288]설프이속사졸/[M223072]설피속사졸/[M223073]설피속사졸 정",
+      "CLASS_NAME": "[06210]설화제",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "_",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "2개월 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "1351",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000633",
+      "INGR_ENG_NAME": "Mometasone",
+      "INGR_NAME": "모메타손",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M070188]모메타손푸로에이트/[M099947]푸로산모메타손/[M264264]모메타손푸로에이트일수화물",
+      "CLASS_NAME": "[01320]이비과용제",
+      "FORM_NAME": "일반현탁분무제/정량현탁분무제/일반액상분무제/정량액상분무제/일반분말분무제/정량분말분무제",
+      "NOTIFICATION_DATE": "20171106",
+      "PROHBT_CONTENT": "- 소아 환자에게 비강 코르티코스테로이드의 투여에 대한 임상시험에서 성장속도가 감소될 수 있다는 결과 나타남\n- 2세 미만에서 안전성 및 유효성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "24개월 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "3139",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000890",
+      "INGR_ENG_NAME": "Duloxetine",
+      "INGR_NAME": "둘록세틴",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M215169]염산둘록세틴(둘록세틴염기로서)/[M245183]둘록세틴/[M245184]둘록세틴염산염/[M245333]염산둘록세틴/[M258601]둘록세틴염산염과립/[M258603]둘록세틴염산염/[M259598]둘록세틴염산염장용과립",
+      "CLASS_NAME": "[01170]정신신경용제",
+      "FORM_NAME": "정제/캡슐",
+      "NOTIFICATION_DATE": "20161230",
+      "PROHBT_CONTENT": "소아 및 18세 미만의 청소년의 주요우울장애의 치료에는 사용해서는 안 됨.만 7세에서 17세까지의 주요우울장애 환자에서 플루옥세틴 군보다 이상사례(주로 오심)로 인한 중단 및 자살행동 높음.",
+      "REMARK": "다만, '주요 우울장애의 치료'에 한함",
+      "DEL_YN": "정상",
+      "AGE_BASE": "18세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "3147",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000323",
+      "INGR_ENG_NAME": "Mirtazapine",
+      "INGR_NAME": "미르타자핀",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M088893]미르타자핀/[M260571]제피미르타자핀",
+      "CLASS_NAME": "[01170]정신신경용제",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20161230",
+      "PROHBT_CONTENT": "소아 및 청소년에서의 사용 승인되지 않음.소아(7~17세) 임상시험에서 7% 이상 체중이 증가된 환자 비율이 위약군보다 높음.",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "18세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "3148",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000903",
+      "INGR_ENG_NAME": "Levocetirizine",
+      "INGR_NAME": "레보세티리진",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M102532]염산레보세티리진/[M102581]레보세티리진/[M228621]레보세티리진염산염/[M233506]레보세티리진염산영/[M244596]레보세티리진염산염",
+      "CLASS_NAME": "[01410]항히스타민제",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20161230",
+      "PROHBT_CONTENT": "(정제) 6세 미만의 유아에게는 정제가 아닌 액제를 투여할 것",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "6세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "3230",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001016",
+      "INGR_ENG_NAME": "Tapentadol",
+      "INGR_NAME": "타펜타돌",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M252145]타펜타돌염산염",
+      "CLASS_NAME": "[08210]합성마약",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20161230",
+      "PROHBT_CONTENT": "8세 미만에서 사용 권장되지 않음.",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "18세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "3231",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001010",
+      "INGR_ENG_NAME": "Desvenlafaxine",
+      "INGR_NAME": "데스벤라팍신 ",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A004571]데스벤라팍신",
+      "CLASS_NAME": "[01170]정신신경용제",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20161230",
+      "PROHBT_CONTENT": "소아 및 청소년에서의 사용 승인되지 않음.",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "18세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "3232",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001011",
+      "INGR_ENG_NAME": "Vortioxetine",
+      "INGR_NAME": "보티옥세틴",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M260128]보티옥세틴브롬화수소산염",
+      "CLASS_NAME": "[01170]정신신경용제",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20161230",
+      "PROHBT_CONTENT": "소아에 대한 안전성 및 유효성이 확립되지 않았으므로, 소아에게 이 약을 투여하는 것은 권장되지 않음.",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "18세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "3293",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001058",
+      "INGR_ENG_NAME": "Nifuroxazide",
+      "INGR_NAME": "니푸록사지드",
+      "MIX_INGR": "",
+      "ORI_INGR": "[I002555]니푸록사지드/[M080689]니푸록사짓/[M200244]니푸록사지드/[M218893]니푸록사자이드",
+      "CLASS_NAME": "[02390]기타의 소화기관용약",
+      "FORM_NAME": "캡슐/경구용현탁액제/점이현탁액제",
+      "NOTIFICATION_DATE": "20171106",
+      "PROHBT_CONTENT": "Nitrofuran계 항생제는 글루타티온 환원효소 억제로 인한 용혈성 빈혈 위험이 있음",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "1개월 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "3294",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000329",
+      "INGR_ENG_NAME": "Verapamil",
+      "INGR_NAME": "베라파밀",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M080637]염산베라파밀/[M203207]베라파밀염산염",
+      "CLASS_NAME": "[02170]혈관확장제",
+      "FORM_NAME": "정제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제/용액주사제",
+      "NOTIFICATION_DATE": "20171106",
+      "PROHBT_CONTENT": "신생아 및 영아는 칼슘채널 차단제의 감수성이 높고, 서맥, 심장마비 등을 일으킬 위험이 있음\n신생아 및 영아에게 이 약을 투여했을 때 심각한 서맥과 저혈압, 심장마비 등이 나타났다는 보고가 있음",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "24개월 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "3295",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000920",
+      "INGR_ENG_NAME": "L-Carbocisteine",
+      "INGR_NAME": "엘카르보시스테인",
+      "MIX_INGR": "",
+      "ORI_INGR": "[I000322]L-카르보시스테인/[M220819]L-카르보시스테인/[M227255]엘-카르보시스테인/[M238361]엘카르보시스테인",
+      "CLASS_NAME": "[02220]진해거담제",
+      "FORM_NAME": "캡슐/액상시럽제/건조시럽용 과립제",
+      "NOTIFICATION_DATE": "20171106",
+      "PROHBT_CONTENT": "Mucolytics는 2세 미만에서 호흡기 장애 유발 가능",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "24개월 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "3149",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000903",
+      "INGR_ENG_NAME": "Levocetirizine",
+      "INGR_NAME": "레보세티리진",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M102532]염산레보세티리진/[M102581]레보세티리진/[M228621]레보세티리진염산염/[M233506]레보세티리진염산영/[M244596]레보세티리진염산염",
+      "CLASS_NAME": "[01410]항히스타민제",
+      "FORM_NAME": "경구용현탁액제/점이제, 현탁액용산제/현탁액제용주사용용제/직장용현탁액제/일반현탁분무제/정량현탁분무제/이식용현탁액제/점이현탁액제/유제/틴크제/전제/침제/레모네이드제/방향수제/주정제/피부액제/피부리니멘트제/도료/샴푸/경구용액제/질세정액/관류제/점이액제/혈액항응고보존액제/밀폐제용용액제/장기보존용액제/주사/피부단자시험용용액/방광내적용용액",
+      "NOTIFICATION_DATE": "20161230",
+      "PROHBT_CONTENT": "(액제) 1세 미만의 영아에 대한 사용 경험이 적어 투여하지 않음.1세 이상 6세 미만의 소아에 대한 임상시험 결과, 가장 흔하게 나타난 이상반응은 발열, 설사, 구토, 중이염이었음.",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "1세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "3151",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "복합",
+      "INGR_CODE": "D000506",
+      "INGR_ENG_NAME": "Diclofenac",
+      "INGR_NAME": "디클로페낙",
+      "MIX_INGR": "[D000233]Misoprostol(미소프로스톨)",
+      "ORI_INGR": "[M050288]디클로페낙나트륨/[M083248]디클로페낙/[M083349]디클로페낙베타디메칠아미노에탄올/[M084600]디클로페낙칼륨/[M086205]디클로페낙디에칠암모늄/[M102665]디클로페낙에폴아민/[M230206]디클로페낙 β-디메칠아미노에탄올/[M249599]디클로페낙디에틸암모늄/[M251996]디클로페낙베타디메틸아미노에탄올/[M252249]디클로페낙β-디메틸아미노에탄올/[M255472]디클로페낙디에틸아민염/[M256203]디클로페낙디에틸아민/[M082141]미소프로스톨에취ㆍ피ㆍ엠ㆍ씨배산/[M082142]미소프로스톨/[M098012]미소프로스톨에취ㆍ피ㆍ엠ㆍ씨배산(1:100)/[M216471]미소프로스톨·히드록시프로필메칠셀룰로오스배산(1:100)/[M254672]미소프로스톨히프로멜로오스배산(1:100)/[M256097]미소프로스톨·히드록시프로필메틸셀룰로오스배산(1:100)/[M256598]미소프로스톨-히드록시프로필메틸셀룰로오스 배산/[M257626]미소프로스톨 100배산/[M258072]미소프로스톨 에취.피.엠.씨 배산",
+      "CLASS_NAME": "[01140]해열.진통.소염제/[02320]소화성궤양용제",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20161230",
+      "PROHBT_CONTENT": "소아에 대한 안전성 유효성이 아직 확립되지 않았으므로 사용하지 말 것",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "18세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "3296",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "복합",
+      "INGR_CODE": "D001005",
+      "INGR_ENG_NAME": "Olodaterol",
+      "INGR_NAME": "올로다테롤",
+      "MIX_INGR": "[D001006]Tiotropium(티오트로피움)",
+      "ORI_INGR": "[I012706]올로다테롤염산염/[M262661]올로다테롤염산염/[M100354]브롬화티오트로피움일수화물/[M260630]티오트로퓸브롬화물수화물/[M261811]브롬화티오트로피움일수화물(미분화)/[M265286]티오트로퓸브롬화물(미분화)",
+      "CLASS_NAME": "[02290]기타의 호흡기관용약",
+      "FORM_NAME": "정량흡입제, 용액제/정량흡입제, 현탁액제/정량흡입제, 분말제/흡입제, 미분류",
+      "NOTIFICATION_DATE": "20171106",
+      "PROHBT_CONTENT": "안전성 및 유효성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "18세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "3297",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000987",
+      "INGR_ENG_NAME": "Cholecalciferol",
+      "INGR_NAME": "콜레칼시페롤",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M040594]콜레칼시페롤/[M094322]농축콜레칼시페롤분말/[M099907]콜레칼시페롤과립/[M102050]콜레칼시페롤농축분말/[M218189]농축콜레칼시페롤(분말형)/[M233228]콜레칼시페롤농축물(분말형)/[M255949]농축콜레칼시페롤과립/[M256378]농축콜레칼시페롤 과립",
+      "CLASS_NAME": "",
+      "FORM_NAME": "캡슐",
+      "NOTIFICATION_DATE": "20171106",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "삭제",
+      "AGE_BASE": "6세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "3298",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001059",
+      "INGR_ENG_NAME": "Zabofloxacin",
+      "INGR_NAME": "자보플록사신",
+      "MIX_INGR": "",
+      "ORI_INGR": "[I012683]자보플록사신D-아스파르트산염수화물\r\n/[M261970]자보플록사신D-아스파르트산염수화물",
+      "CLASS_NAME": "[06290]기타의 화학요법제",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20171106",
+      "PROHBT_CONTENT": "안전성 및 유효성 미확립\n퀴놀론계 항균제는 몇몇 어린 동물종에서 관절병증, 뼈연골증을 유발함",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "18세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "3299",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000631",
+      "INGR_ENG_NAME": "Mesalazine",
+      "INGR_NAME": "메살라진",
+      "MIX_INGR": "",
+      "ORI_INGR": "[I002148]메살라진/[M083890]메살라진/[M088568]메살라민/[M095342]메살라민(5-아미노살리실산)",
+      "CLASS_NAME": "[02390]기타의 소화기관용약",
+      "FORM_NAME": "서방정/서방성필름코팅정/서방성당의정/서방성다층정/서방성장용필름코팅정/서방성과립제",
+      "NOTIFICATION_DATE": "20171106",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "6세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "3300",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000633",
+      "INGR_ENG_NAME": "Mometasone",
+      "INGR_NAME": "모메타손",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M070188]모메타손푸로에이트/[M099947]푸로산모메타손/[M264264]모메타손푸로에이트일수화물",
+      "CLASS_NAME": "[02220]진해거담제",
+      "FORM_NAME": "정제/산제/용액용산제/현탁액용산제/세립/용액용세립제/현탁액용세립제/정량흡입제, 용액제/정량흡입제, 현탁액제/정량흡입제, 분말제/흡입제, 미분류",
+      "NOTIFICATION_DATE": "20171106",
+      "PROHBT_CONTENT": "소아는 체중당 체표면적의 비율이 성인보다 커서 코르티코이드로 인해 HPA축(시상하부-뇌하수체-부신 축) 억제, 쿠싱증후군, 발육장애, 두개내압항진 등이 나타나기 쉬움",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "12세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4017",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001153",
+      "INGR_ENG_NAME": "strontium chloride",
+      "INGR_NAME": "스트론티움 클로라이드",
+      "MIX_INGR": "",
+      "ORI_INGR": "[C092953]염화스트론튬/[I003931]염화스트론튬(89 Sr)/[M092953]염화스트론튬/[M093575]염화스트론튬(89 Sr)",
+      "CLASS_NAME": "[04310]방사성 의약품",
+      "FORM_NAME": "용액주사제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제",
+      "NOTIFICATION_DATE": "20181102",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "12세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4020",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "복합",
+      "INGR_CODE": "D000673",
+      "INGR_ENG_NAME": "Cobicistat",
+      "INGR_NAME": "코비시스타트",
+      "MIX_INGR": "[D000150]Atazanavir(아타자나비르)",
+      "ORI_INGR": "[M256270]코비시스타트이산화규소/[M249264]아타자나비어황산염/[M263079]아타자나비르황산염",
+      "CLASS_NAME": "[06290]기타의 화학요법제",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20181102",
+      "PROHBT_CONTENT": "핵황달의 위험 나타날 수 있음.",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "3개월 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4021",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "복합",
+      "INGR_CODE": "D000673",
+      "INGR_ENG_NAME": "Cobicistat",
+      "INGR_NAME": "코비시스타트",
+      "MIX_INGR": "[D000395]Darunavir(다루나비르)",
+      "ORI_INGR": "[M256270]코비시스타트이산화규소/[M258751]다루나비르에탄올레이트",
+      "CLASS_NAME": "[06290]기타의 화학요법제",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20181102",
+      "PROHBT_CONTENT": "안전성 및 유효성 미확립생후 23-26일 랫트에서 사망 관찰됨.",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "36개월 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4022",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000309",
+      "INGR_ENG_NAME": "Piroxicam",
+      "INGR_NAME": "피록시캄",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M071634]피록시캄",
+      "CLASS_NAME": "[01140]해열.진통.소염제/[02640]진통.진양.수렴.소염제",
+      "FORM_NAME": "정제/캡슐/용액주사제/유화주사제/용액용분말주사제/서방성현탁액용분말주사제/용액용동결건조분말주사제/현탁액용동결건조분말주사제/서방성현탁액용동결건조분말주사제/리포좀화현탁액용동결건조분말주사제/현탁액주사제/서방성현탁액성주사제",
+      "NOTIFICATION_DATE": "20181102",
+      "PROHBT_CONTENT": "중증의 위장관계 이상반응을 일으킬 위험은 연령에 따라 증가함. 고령자는 중대한 위장관계 이상반응의 위험이 더 클 수 있음.",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "80세 이상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4026",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "복합",
+      "INGR_CODE": "D001157",
+      "INGR_ENG_NAME": "live attenuated influenza virus type A (H1N1)",
+      "INGR_NAME": "약독인플루엔자생바이러스A형(H1N1)",
+      "MIX_INGR": "[D001159]live attenuated influenza virus type A (H3N2)(약독인플루엔자 생바이러스 A형 (H3N2))/[D001160]live attenuated influenza virus type B(약독인플루엔자 생바이러스 B형)",
+      "ORI_INGR": "[A004450]약독인플루엔자생바이러스A형(A/California/7/2009, H1N1)/[A004451]약독인플루엔자생바이러스A형(A/Texas/50/2012, H3N2)/[A004452]약독인플루엔자생바이러스B형(B/Massachusetts/2/2012)",
+      "CLASS_NAME": "",
+      "FORM_NAME": "점비액제",
+      "NOTIFICATION_DATE": "20181102",
+      "PROHBT_CONTENT": "고위험의 기저질환이 있는 피험자에 대해 이 약의 안전성을 평가한 결과 위약 대비 플루미스트 투여군에서 인후염이 발생",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "50세 이상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4016",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "복합",
+      "INGR_CODE": "D001152",
+      "INGR_ENG_NAME": "chlorhexidine",
+      "INGR_NAME": "클로르헥시딘",
+      "MIX_INGR": "[D000709]Lidocaine(리도카인)",
+      "ORI_INGR": "[C040620]염산클로르헥시딘/[C051536]글루콘산클로르헥시딘액/[C081338]초산클로르헥시딘/[C083151]디글루콘산클로르헥시딘/[C084526]글루콘산클로르헥시딘/[C088672]글루콘산클로르헥시딘액20%/[C089477]글로콘산클로르헥시딘액/[C315323]클로르헥시딘디글루코네이트/[C315339]클로르헥시딘디글루코네이트 20%/[C409535]클로르헥시딘/[I004578]클로르헥시딘/[I004579]초산클로르헥시딘/[I004580]클로르헥시딘글루콘산염/[I004581]클로르헥시딘염산염/[M040620]염산클로르헥시딘/[M051536]글루콘산클로르헥시딘액/[M081338]초산클로르헥시딘/[M084526]글루콘산클로르헥시딘/[M088672]글루콘산클로르헥시딘액20%/[M089477]글로콘산클로르헥시딘액/[M106679]초산클로르헥시딘연고/[M202318]20%글루콘산클로르헥시딘액/[M203914]클로르헥시딘글루코네이트/[M203915]클로르헥시딘염산염/[M203916]클로르헥시딘이초산염/[M207602]글루콘산클로르헥시딘액(20%)/[M214668]글루콘산 클로르헥시딘액/[M223220]클로르헥시딘글루콘산염 액/[M224233]클로르헥시딘글루콘산염/[M234944]클로르헥시딘디글루콘산액/[M241336]20% 클로르헥시딘글루콘산염 용액/[M243030]글루콘산클로르헥시딘액/[M244239]클로르헥시딘글루콘산염액/[M246214]20% 글루콘산클로르헥시딘/[M246507]클로르헥시딘글루코네이트용액/[M246648]클로르헥시딘글루콘산염액 20%/[M247682]클로르헥시딘아세트산염/[M256314]글루콘산클로르헥시딘 액/[M260778]클로르헥시딘디글루코네이트액/[M040131]리도카인/[M050364]염산리도카인/[M203064]리도카인염산염일수화물/[M222842]리도카인염산염수화물/[M241764]리도카인염산염",
+      "CLASS_NAME": "[01210]국소마취제",
+      "FORM_NAME": "겔",
+      "NOTIFICATION_DATE": "20181102",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "삭제",
+      "AGE_BASE": "24개월 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4018",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "복합",
+      "INGR_CODE": "D000092",
+      "INGR_ENG_NAME": "Dihydrocodeine",
+      "INGR_NAME": "디히드로코데인",
+      "MIX_INGR": "[D000893]Chlorpheniramine(클로르페니라민)/[D001116]Methylephedrine(메틸에페드린)/[D000493]Guaifenesin(구아이페네신)",
+      "ORI_INGR": "[M051341]주석산수소디히드로코데인/[M247988]디히드로코데인주석산염/[M249060]디히드로코데인타르타르산염/[M261072]디히드로코데인타르타르산염/[M040616]말레인산클로르페니라민/[M050213]말레인산덱스클로르페니라민/[M051529]클로르페니라민/[M082701]디엘말레인산클로르페니라민/[M083325]디말레인산클로르페니라민/[M099959]말레인산클로로페니라민/[M100018]말레산클로르페니라민/[M100476]디말레인산클로르페니라민/[M101581]디엘말레인산클로르페니라민/[M200471]말레인산클로르페니라민제피과립/[M202197]D-말레인산클로르페니라민/[M202204]DL-말레인산클로르페니라민/[M203913]클로르페니라민말레인산염/[M212847]클로르페니라민말레이트/[M223211]클로르페니라민말레산염/[M223212]d-클로르페니라민말레산염/[M223213]클로르페니라민말레산염 산/[M223214]클로르페니라민말레산염 정/[M223215]클로르페니라민말레산염 주사액/[M226783]dl-클로르페니라민말레산염/[M249715]덱스클로르페니라민 말레산염/[M251936]덱스클로르페니라민말레이트/[A006116]메틸에페드린/[I006391]dl-메틸에페드린염산염/[M204422]dl-메틸에페드린염산염/[M223022]dl-메틸에페드린염산염 산 10%/[M235519]디엘메틸에페드린염산염/[M240608]dI-메틸에페드린염산염/[M240859]디엘-메틸에페드린염산염/[M252389]㎗-메틸에페드린염산염/[M264046]DL-메틸에페드린염산염/[M050058]구아이페네신",
+      "CLASS_NAME": "[02220]진해거담제",
+      "FORM_NAME": "시럽/정제",
+      "NOTIFICATION_DATE": "20181102",
+      "PROHBT_CONTENT": "12세 미만 소아는 호흡억제 감수성이 큼.12세 미만 소아에서 사망을 포함하는 중증 호흡억제 위험이 크다는 국외 보고 있음.",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "12세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4019",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "복합",
+      "INGR_CODE": "D000092",
+      "INGR_ENG_NAME": "Dihydrocodeine",
+      "INGR_NAME": "디히드로코데인",
+      "MIX_INGR": "[D000893]Chlorpheniramine(클로르페니라민)/[D001116]Methylephedrine(메틸에페드린)/[D000852]Caffeine(카페인)",
+      "ORI_INGR": "[M051341]주석산수소디히드로코데인/[M247988]디히드로코데인주석산염/[M249060]디히드로코데인타르타르산염/[M261072]디히드로코데인타르타르산염/[M040616]말레인산클로르페니라민/[M050213]말레인산덱스클로르페니라민/[M051529]클로르페니라민/[M082701]디엘말레인산클로르페니라민/[M083325]디말레인산클로르페니라민/[M099959]말레인산클로로페니라민/[M100018]말레산클로르페니라민/[M100476]디말레인산클로르페니라민/[M101581]디엘말레인산클로르페니라민/[M200471]말레인산클로르페니라민제피과립/[M202197]D-말레인산클로르페니라민/[M202204]DL-말레인산클로르페니라민/[M203913]클로르페니라민말레인산염/[M212847]클로르페니라민말레이트/[M223211]클로르페니라민말레산염/[M223212]d-클로르페니라민말레산염/[M223213]클로르페니라민말레산염 산/[M223214]클로르페니라민말레산염 정/[M223215]클로르페니라민말레산염 주사액/[M226783]dl-클로르페니라민말레산염/[M249715]덱스클로르페니라민 말레산염/[M251936]덱스클로르페니라민말레이트/[A006116]메틸에페드린/[I006391]dl-메틸에페드린염산염/[M204422]dl-메틸에페드린염산염/[M223022]dl-메틸에페드린염산염 산 10%/[M235519]디엘메틸에페드린염산염/[M240608]dI-메틸에페드린염산염/[M240859]디엘-메틸에페드린염산염/[M252389]㎗-메틸에페드린염산염/[M264046]DL-메틸에페드린염산염/[M040579]카페인(함수)/[M040580]무수카페인/[M090611]카페인/[M223183]카페인무수물/[M223184]카페인수화물/[M241017]무수물카페인",
+      "CLASS_NAME": "[02220]진해거담제",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20181102",
+      "PROHBT_CONTENT": "12세 미만 소아는 호흡억제 감수성이 큼.12세 미만 소아에서 사망을 포함하는 중증 호흡억제 위험이 크다는 국외 보고 있음.",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "12세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4045",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001068",
+      "INGR_ENG_NAME": "Propofol",
+      "INGR_NAME": "프로포폴",
+      "MIX_INGR": "",
+      "ORI_INGR": "[I003335]프로포폴/[M082350]프로포폴/[M260874]프로포폴",
+      "CLASS_NAME": "[01110]전신마취제",
+      "FORM_NAME": "용액주사제/유화주사제",
+      "NOTIFICATION_DATE": "20181102",
+      "PROHBT_CONTENT": "신생아에게 마취 목적으로 투여 시 심장-호흡기계 억제 보고. 후두염 및 후두개염으로 진단된 소아에게 진정 목적으로 이 약을 장기간(3~5일) 투여 시 사망 보고",
+      "REMARK": "1개월 이하(1%) (전신마취), 36개월 미만(2%) (전신마취)",
+      "DEL_YN": "정상",
+      "AGE_BASE": "36개월 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4047",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "복합",
+      "INGR_CODE": "D001155",
+      "INGR_ENG_NAME": "naltrexone",
+      "INGR_NAME": "날트랙손",
+      "MIX_INGR": "[D000018]Bupropion Hydrochloride(부프로피온염산염)",
+      "ORI_INGR": "[C089318]염산날트렉손/[I002456]날트렉손/[I002457]염산날트렉손/[M089318]염산날트렉손/[M254702]날트렉손염산염/[I000166]부프로피온염산염/[M095783]염산부프로피온/[M233238]부프로피온염산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "서방정",
+      "NOTIFICATION_DATE": "20181102",
+      "PROHBT_CONTENT": "18세 이하 소아 및 청소년에서 안전성 및 유효성 미확립.  이 약을 포함한 항우울제는 소아, 청소년 등의 나이가 어린 환자에서 자살에 대한 생각 및 행동에 대한 위험을 증가시키는 것으로 알려져 있음.",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "18세 이하"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4023",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "복합",
+      "INGR_CODE": "D001154",
+      "INGR_ENG_NAME": "polymyxin B",
+      "INGR_NAME": "폴리믹신 비",
+      "MIX_INGR": "[D000199]Dexamethasone(덱사메타손)/[D000603]Neomycin(네오마이신)",
+      "ORI_INGR": "[M020164]황산폴리믹신비/[M202139]황산폴리믹신B/[M222901]폴리믹스B황산염/[M233313]폴리믹신B황산염/[M247930]폴리믹신 B/[M040080]덱사메타손/[M050208]인산덱사메타손/[M082700]덱사메타손인산나트륨/[M085432]디나트륨인산덱사메타손/[M222954]덱사메타손디나트륨인산염/[M256848]덱사메타손포스페이트이나트륨/[M258481]덱사메타손팔미테이트/[M260226]덱사메타손시페실레이트/[M260415]덱사메타손시페실레이트(미분화)/[M020009]황산네오마이신/[M202893]네오마이신황산염",
+      "CLASS_NAME": "[01310]안과용제",
+      "FORM_NAME": "점안용액제/용액용점안분말제/현탁액점안제/안연고제/안겔/점안주사제",
+      "NOTIFICATION_DATE": "20181102",
+      "PROHBT_CONTENT": "소아에서 코르티코스테로이드 유발성 고안압증 위험이 더 높을 수 있고 성인보다 더 일찍 발생할 수 있음.",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "4주 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4024",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "복합",
+      "INGR_CODE": "D000092",
+      "INGR_ENG_NAME": "Dihydrocodeine",
+      "INGR_NAME": "디히드로코데인",
+      "MIX_INGR": "[D000893]Chlorpheniramine(클로르페니라민)/[D001116]Methylephedrine(메틸에페드린)/[D001156]ammonium chloride(암모늄염)",
+      "ORI_INGR": "[M051341]주석산수소디히드로코데인/[M247988]디히드로코데인주석산염/[M249060]디히드로코데인타르타르산염/[M261072]디히드로코데인타르타르산염/[M040616]말레인산클로르페니라민/[M050213]말레인산덱스클로르페니라민/[M051529]클로르페니라민/[M082701]디엘말레인산클로르페니라민/[M083325]디말레인산클로르페니라민/[M099959]말레인산클로로페니라민/[M100018]말레산클로르페니라민/[M100476]디말레인산클로르페니라민/[M101581]디엘말레인산클로르페니라민/[M200471]말레인산클로르페니라민제피과립/[M202197]D-말레인산클로르페니라민/[M202204]DL-말레인산클로르페니라민/[M203913]클로르페니라민말레인산염/[M212847]클로르페니라민말레이트/[M223211]클로르페니라민말레산염/[M223212]d-클로르페니라민말레산염/[M223213]클로르페니라민말레산염 산/[M223214]클로르페니라민말레산염 정/[M223215]클로르페니라민말레산염 주사액/[M226783]dl-클로르페니라민말레산염/[M249715]덱스클로르페니라민 말레산염/[M251936]덱스클로르페니라민말레이트/[A006116]메틸에페드린/[I006391]dl-메틸에페드린염산염/[M204422]dl-메틸에페드린염산염/[M223022]dl-메틸에페드린염산염 산 10%/[M235519]디엘메틸에페드린염산염/[M240608]dI-메틸에페드린염산염/[M240859]디엘-메틸에페드린염산염/[M252389]㎗-메틸에페드린염산염/[M264046]DL-메틸에페드린염산염/[C040435]염화암모늄/[I004220]염화암모늄/[M040435]염화암모늄/[M095727]염화암모늄",
+      "CLASS_NAME": "[02220]진해거담제",
+      "FORM_NAME": "시럽",
+      "NOTIFICATION_DATE": "20181102",
+      "PROHBT_CONTENT": "12세 미만 소아는 호흡억제 감수성이 큼.12세 미만 소아에서 사망을 포함하는 중증 호흡억제 위험이 크다는 국외 보고 있음.",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "12세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4046",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "복합",
+      "INGR_CODE": "D001152",
+      "INGR_ENG_NAME": "chlorhexidine",
+      "INGR_NAME": "클로르헥시딘",
+      "MIX_INGR": "[D000709]Lidocaine(리도카인)",
+      "ORI_INGR": "[C040620]염산클로르헥시딘/[C051536]글루콘산클로르헥시딘액/[C081338]초산클로르헥시딘/[C083151]디글루콘산클로르헥시딘/[C084526]글루콘산클로르헥시딘/[C088672]글루콘산클로르헥시딘액20%/[C089477]글로콘산클로르헥시딘액/[C315323]클로르헥시딘디글루코네이트/[C315339]클로르헥시딘디글루코네이트 20%/[C409535]클로르헥시딘/[I004578]클로르헥시딘/[I004579]초산클로르헥시딘/[I004580]클로르헥시딘글루콘산염/[I004581]클로르헥시딘염산염/[M040620]염산클로르헥시딘/[M051536]글루콘산클로르헥시딘액/[M081338]초산클로르헥시딘/[M084526]글루콘산클로르헥시딘/[M088672]글루콘산클로르헥시딘액20%/[M089477]글로콘산클로르헥시딘액/[M106679]초산클로르헥시딘연고/[M202318]20%글루콘산클로르헥시딘액/[M203914]클로르헥시딘글루코네이트/[M203915]클로르헥시딘염산염/[M203916]클로르헥시딘이초산염/[M207602]글루콘산클로르헥시딘액(20%)/[M214668]글루콘산 클로르헥시딘액/[M223220]클로르헥시딘글루콘산염 액/[M224233]클로르헥시딘글루콘산염/[M234944]클로르헥시딘디글루콘산액/[M241336]20% 클로르헥시딘글루콘산염 용액/[M243030]글루콘산클로르헥시딘액/[M244239]클로르헥시딘글루콘산염액/[M246214]20% 글루콘산클로르헥시딘/[M246507]클로르헥시딘글루코네이트용액/[M246648]클로르헥시딘글루콘산염액 20%/[M247682]클로르헥시딘아세트산염/[M256314]글루콘산클로르헥시딘 액/[M260778]클로르헥시딘디글루코네이트액/[M040131]리도카인/[M050364]염산리도카인/[M203064]리도카인염산염일수화물/[M222842]리도카인염산염수화물/[M241764]리도카인염산염",
+      "CLASS_NAME": "[01210]국소마취제",
+      "FORM_NAME": "겔",
+      "NOTIFICATION_DATE": "20181102",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "24개월 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4048",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "복합",
+      "INGR_CODE": "D001155",
+      "INGR_ENG_NAME": "naltrexone",
+      "INGR_NAME": "날트랙손",
+      "MIX_INGR": "[D000018]Bupropion Hydrochloride(부프로피온염산염)",
+      "ORI_INGR": "[C089318]염산날트렉손/[I002456]날트렉손/[I002457]염산날트렉손/[M089318]염산날트렉손/[M254702]날트렉손염산염/[I000166]부프로피온염산염/[M095783]염산부프로피온/[M233238]부프로피온염산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "서방정",
+      "NOTIFICATION_DATE": "20181102",
+      "PROHBT_CONTENT": "고령자에서 이 약의 중추신경계 이상반응에 대한 민감성이 더 크게 나타날 수 있음.  이 약은 대체로 신장에서 배설된다고 알려져 있으므로, 신기능이 감소되어 있을 가능성이 큰 고령의 환자는 이상 반응의 위험성이 더 클 수 있음.",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "75세 이상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4049",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "복합",
+      "INGR_CODE": "D001157",
+      "INGR_ENG_NAME": "live attenuated influenza virus type A (H1N1)",
+      "INGR_NAME": "약독인플루엔자생바이러스A형(H1N1)",
+      "MIX_INGR": "[D001159]live attenuated influenza virus type A (H3N2)(약독인플루엔자 생바이러스 A형 (H3N2))/[D001160]live attenuated influenza virus type B(약독인플루엔자 생바이러스 B형)",
+      "ORI_INGR": "[A004450]약독인플루엔자생바이러스A형(A/California/7/2009, H1N1)/[A004451]약독인플루엔자생바이러스A형(A/Texas/50/2012, H3N2)/[A004452]약독인플루엔자생바이러스B형(B/Massachusetts/2/2012)",
+      "CLASS_NAME": "",
+      "FORM_NAME": "점비액제",
+      "NOTIFICATION_DATE": "20181102",
+      "PROHBT_CONTENT": "안전성 미확립, 천명 위험 및 입원 증가",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "24개월 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4086",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000773",
+      "INGR_ENG_NAME": "Tramadol",
+      "INGR_NAME": "트라마돌",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M080418]염산트라마돌/[M104509]염산트라마돌지속성제피과립/[M222893]트라마돌염산염/[M255410]트라마돌염산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "캡슐/서방정/발포정/용액주사제/서방성캡슐제, 펠렛",
+      "NOTIFICATION_DATE": "20190522",
+      "PROHBT_CONTENT": "소아에서 생명에 치명적인 호흡 억제 및 사망 발생",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "12세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4087",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "복합",
+      "INGR_CODE": "D000773",
+      "INGR_ENG_NAME": "Tramadol",
+      "INGR_NAME": "트라마돌",
+      "MIX_INGR": "[D000147]Acetaminophen(아세트아미노펜)",
+      "ORI_INGR": "[M080418]염산트라마돌/[M104509]염산트라마돌지속성제피과립/[M222893]트라마돌염산염/[M255410]트라마돌염산염/[M040353]아세트아미노펜/[M082309]아세트아미노펜제피세립/[M233006]아세트아미노펜 DC 500/600/[M246556]아세트아미노펜 (미분화)/[M262287]아세트아미노펜 과립",
+      "CLASS_NAME": "[01140]해열.진통.소염제",
+      "FORM_NAME": "정제/서방정",
+      "NOTIFICATION_DATE": "20190522",
+      "PROHBT_CONTENT": "소아에서 생명에 치명적인 호흡 억제 및 사망 발생",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "12세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4088",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000033",
+      "INGR_ENG_NAME": "Acamprosate",
+      "INGR_NAME": "아캄프로세이트",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M102626]아캄프로세이트칼슘",
+      "CLASS_NAME": "[01190]기타의 중추신경용약",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20190522",
+      "PROHBT_CONTENT": "65세 이상에서 안전성 및 유효성 미확립. 연령이 높아질 수록 신장기능이 저하되어 이 약이 축적될 수 있음.",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "65세 이상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4191",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000226",
+      "INGR_ENG_NAME": "Mequitazine",
+      "INGR_NAME": "메퀴타진",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M050446]메퀴타진",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20161230",
+      "PROHBT_CONTENT": "2세 이하 영아에 투여하지 말 것.다른 페노치아진계 약물을 소아(특히 2세 이하)에 투여한 경우 유아돌연사망증후군(SIDS) 및 유아 수면시 무호흡발작이 나타났다는 보고 있음.",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "24개월 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4416",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000641",
+      "INGR_ENG_NAME": "Brimonidine",
+      "INGR_NAME": "브리모니딘",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M090423]주석산브리모니딘/[M251494]브리모니딘타르타르산염/[M255020]브리모니딘타르타르산염",
+      "CLASS_NAME": "[02690]기타의 외피용약",
+      "FORM_NAME": "피부용겔제",
+      "NOTIFICATION_DATE": "20191217",
+      "PROHBT_CONTENT": "안전성 및 유효성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "18세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4417",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000647",
+      "INGR_ENG_NAME": "Cetirizine",
+      "INGR_NAME": "세티리진",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M051285]염산세티리진/[M222857]세티리진염산염",
+      "CLASS_NAME": "[01410]항히스타민제",
+      "FORM_NAME": "정제/캡슐",
+      "NOTIFICATION_DATE": "20140109",
+      "PROHBT_CONTENT": "안전성 및 유효성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "6세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4418",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000097",
+      "INGR_ENG_NAME": "Fentanyl",
+      "INGR_NAME": "펜타닐",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M210478]구연산펜타닐/[M223286]펜타닐시트르산염/[M230151]펜타닐/[M259588]펜타닐시트르산염(미분화)/[M261073]펜타닐",
+      "CLASS_NAME": "[08210]합성마약",
+      "FORM_NAME": "설하정/박칼정/트로키제/정량액상분무제",
+      "NOTIFICATION_DATE": "20191217",
+      "PROHBT_CONTENT": "(구강정) 적절한 투여 용량 및 안전성 미확립, (박칼정, 설하정, 점비액제) 안전성 및 유효성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "18세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4960",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001369",
+      "INGR_ENG_NAME": "Dioctahedral smectite",
+      "INGR_NAME": "디옥타헤드랄스멕타이트",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A000193]디옥타헤드랄스멕타이트/[M084602]디옥타헤드랄스멕타이트",
+      "CLASS_NAME": "",
+      "FORM_NAME": "현탁액",
+      "NOTIFICATION_DATE": "20201228",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "24개월 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4961",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "복합",
+      "INGR_CODE": "D001370",
+      "INGR_ENG_NAME": "Kaolin",
+      "INGR_NAME": "카올린",
+      "MIX_INGR": "[D001371]Berberine tannate(베르베린탄닌산염)/[D001372]Pectin(펙틴)",
+      "ORI_INGR": "[A001083]카올린/[M040574]카올린/[M223040]베르베린탄닌산염/[A001293]펙틴/[M051732]펙틴",
+      "CLASS_NAME": "",
+      "FORM_NAME": "액상시럽제",
+      "NOTIFICATION_DATE": "20201228",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "19세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4962",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001373",
+      "INGR_ENG_NAME": "Hydrotalcite",
+      "INGR_NAME": "히드로탈시트",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A001465]히드로탈시트/[M051022]히드로탈시트",
+      "CLASS_NAME": "",
+      "FORM_NAME": "과립/산제",
+      "NOTIFICATION_DATE": "20201228",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "15세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4963",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "복합",
+      "INGR_CODE": "D001373",
+      "INGR_ENG_NAME": "Hydrotalcite",
+      "INGR_NAME": "히드로탈시트",
+      "MIX_INGR": "[D001374]Azulene(아줄렌)/[D001785]Glutamine(글루타민)",
+      "ORI_INGR": "[A001465]히드로탈시트/[M051022]히드로탈시트/[A000742]아줄렌/[M113242]아줄렌25%/[M083069]글루타민",
+      "CLASS_NAME": "",
+      "FORM_NAME": "추어블정(저작정)",
+      "NOTIFICATION_DATE": "20201228",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "15세 미만"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5156",
+      "TYPE_NAME": "특정연령대금기",
+      "MIX_TYPE": "복합",
+      "INGR_CODE": "D001416",
+      "INGR_ENG_NAME": "Tipiracil",
+      "INGR_NAME": "티피라실",
+      "MIX_INGR": "[D001417]Trifluridine(트리플루리딘)",
+      "ORI_INGR": "[A110479]티피라실염산염/[M270421]티피라실염산염/[A001208]트리플루리딘/[M085753]트리플루리딘",
+      "CLASS_NAME": "[04210]항악성종양제",
+      "FORM_NAME": "정제/필름코팅정",
+      "NOTIFICATION_DATE": "20201228",
+      "PROHBT_CONTENT": "소아에 대한 안전성 및 유효성 미확립동물실험(랫트)에서 지속적으로 성장하는 전치에 대한 영향 보고",
+      "REMARK": null,
+      "DEL_YN": "정상",
+      "AGE_BASE": "18세 이하"
+    }
+  }
+]

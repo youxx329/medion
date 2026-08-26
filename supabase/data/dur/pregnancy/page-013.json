@@ -1,0 +1,1902 @@
+[
+  {
+    "item": {
+      "DUR_SEQ": "5152",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001508",
+      "INGR_ENG_NAME": "Sodium phenylbutyrate",
+      "INGR_NAME": "페닐부틸산나트륨",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A001284]페닐부틸산나트륨/[M102326]페닐부틸산나트륨",
+      "CLASS_NAME": "",
+      "FORM_NAME": "나정/과립제/산제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20201228",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5153",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001509",
+      "INGR_ENG_NAME": "Clevudine",
+      "INGR_NAME": "클레부딘",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A001123]클레부딘/[M207075]클레부딘",
+      "CLASS_NAME": "",
+      "FORM_NAME": "경질캡슐제, 산제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20201228",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5154",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "복합",
+      "INGR_CODE": "D001498",
+      "INGR_ENG_NAME": "Bismuth Subsalicylate",
+      "INGR_NAME": "비스무트차살리실산염",
+      "MIX_INGR": "[D001511]Calcium Carbonate p.p.t.(침강탄산칼슘)",
+      "ORI_INGR": "[A000479]비스무트차살리실산염/[M251876]비스무트차살리실산염/[M040634]침강탄산칼슘/[M275023]침강탄산칼슘 과립90%",
+      "CLASS_NAME": "",
+      "FORM_NAME": "경구용현탁액제/환제/필름코팅정/페이스트제/치약/추어블정(저작정)/유핵정/연질캡슐제, 현탁상/산제/당의정/다층정/나정/과립/경구용현탁액제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20201228",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5155",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001512",
+      "INGR_ENG_NAME": "Gadobenate dimeglumine",
+      "INGR_NAME": "가도베네이트디메글루민",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M256662]가도펜테틴산디메글루민",
+      "CLASS_NAME": "",
+      "FORM_NAME": "용액주사제/경구용액제/용액용동결건조분말주사제/연질캡슐제, 액상",
+      "GRADE": "1등급",
+      "NOTIFICATION_DATE": "20201228",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5163",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001537",
+      "INGR_ENG_NAME": "Factor IX Fc fusion protein recombinant",
+      "INGR_NAME": "에프트레노나코그-알파(혈액응고인자IX-Fc융합단백, 유전자재조합)",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M117710]에프트레노나코그-알파(혈액응고인자IX-Fc융합단백, 유전자재조합)",
+      "CLASS_NAME": "",
+      "FORM_NAME": "용액용동결건조분말주사제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20201228",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5215",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001538",
+      "INGR_ENG_NAME": "Remdesivir",
+      "INGR_NAME": "렘데시비르",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110573]렘데시비르/[M279177]렘데시비르",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20210831",
+      "PROHBT_CONTENT": "랫트를 이용한 수태능 및 초기배 발생시험에서 10mg/kg(임상 권장용량의 1.3배) 투여 시 황체 수, 배아의 착상 및 생존 배아의 감소 관찰",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5226",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001542",
+      "INGR_ENG_NAME": "D-Mannitol",
+      "INGR_NAME": "D-만니톨",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M243496]D-만니톨",
+      "CLASS_NAME": "",
+      "FORM_NAME": "수액제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20211216",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5296",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001545",
+      "INGR_ENG_NAME": "Esketamine",
+      "INGR_NAME": "에스케타민",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110559]에스케타민",
+      "CLASS_NAME": "",
+      "FORM_NAME": "점비분말제/점비액제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "알케타민과 에스케타민의 이성질체 혼합물인 케타민을 이용한 동물연구에서 발달성 신경독성의 증거가 있었음. 태아에 미칠 수 있는 에스케타민의 잠재적 신경독성 영향을 배제할 수 없음",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5297",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001557",
+      "INGR_ENG_NAME": "Loxapine",
+      "INGR_NAME": "록사핀",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110490]록사핀",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임신 후기 동안 항정신병약에 반복적으로 노출된 신생아는 출산에 따른 기간과 정도에서 다양한 추체외로 그리고/또는 금단증상을 포함한 부작용 위험이 있음. 초조, 저긴장증, 고긴장증, 진전, 기면, 호흡억제 또는 영양섭취장애가 보고됨",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5298",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001546",
+      "INGR_ENG_NAME": "Armodafinil",
+      "INGR_NAME": "아모다피닐",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A000703]아모다피닐",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임신 레지스트리 및 자발보고에서 얻은 제한된 사용경험에 따르면 이 약을 임신 중에 투여했을 때 선천성 기형을 유발하는 것으로 추정됨, 동물시험에서는 생식독성을 보임",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5299",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001567",
+      "INGR_ENG_NAME": "Ataluren",
+      "INGR_NAME": "아탈루렌",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A000751]아탈루렌",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "동물시험에서 임신 모체의 독성을 일으켰던 용량에서만 생식독성이 발생함, 랫드와 토끼에서 배태자 독성시험(예, 조기 재흡수 증가, 착상후 손실, 태자생존 감소)과 성장지연의 징후(골격계 변형증가)등이 모체독성에서 발견됨",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5300",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001568",
+      "INGR_ENG_NAME": "Edaravone",
+      "INGR_NAME": "에다라본",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A000814]에다라본",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5301",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001569",
+      "INGR_ENG_NAME": "L-arginine-L-aspartate",
+      "INGR_NAME": "엘-아스파르트산-엘-아르기닌",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M251855]L-아스파르트산-L-아르기닌",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "동물 기형에 대한 자료가 존재함",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5302",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001570",
+      "INGR_ENG_NAME": "Tafamidis",
+      "INGR_NAME": "타파미디스",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M279366]타파미디스",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "동물시험에서 발생독성이 나타남",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5303",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001547",
+      "INGR_ENG_NAME": "Canakinumab",
+      "INGR_NAME": "카나키누맙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A001064]카나키누맙",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "이 약과 같은 단일클론 항체는 주로 임신 제2분기 및 제3분기에 태반을 능동적으로 통과하여 태아에게서 검출될 수 있음. 제한된 인간 대상 자료에 따르면 탯줄 및 신생아의 혈액에서 이 약의 농도가 검출되었으며, 그 임상적인 영향은 알려지지 않음",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5304",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001571",
+      "INGR_ENG_NAME": "Purified house dust mite allergen extract",
+      "INGR_NAME": "집먼지진드기정제추출물",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M093002]집먼지진드기정제추출물",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5305",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001572",
+      "INGR_ENG_NAME": "Gadoterate meglumine",
+      "INGR_NAME": "가도테레이트메글루민",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A001534]가도테레이트메글루민",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5306",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001573",
+      "INGR_ENG_NAME": "Perflutren",
+      "INGR_NAME": "퍼플루트렌",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A001270]퍼플루트렌",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5307",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001574",
+      "INGR_ENG_NAME": "Varenicline",
+      "INGR_NAME": "바레니클린",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A002020]바레니클린",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "동물 시험에서 생식독성이 나타남",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5308",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000328",
+      "INGR_ENG_NAME": "Bedaquiline",
+      "INGR_NAME": "베다퀼린",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M259110]베다퀼린푸마르산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5309",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001548",
+      "INGR_ENG_NAME": "Conestat Alpha",
+      "INGR_NAME": "코네스타트알파",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A003009]코네스타트알파",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "토끼에서 태아 심혈관결손의 발생률 증가",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5310",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001549",
+      "INGR_ENG_NAME": "Follitropin delta",
+      "INGR_NAME": "폴리트로핀델타",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M270741]폴리트로핀델타",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "1등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "랫드의 수태능 및 초기 배 발생에 부정적 영향을 미침",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5311",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001559",
+      "INGR_ENG_NAME": "Foscarnet",
+      "INGR_NAME": "포스카네트",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A001316]포스카르네트",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "랫트에서 태반 통과 보고",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5312",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001575",
+      "INGR_ENG_NAME": "Human serum albumin",
+      "INGR_NAME": "사람혈청알부민",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M010062]사람혈청알부민",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립, 사람 파르보바이러스 B19의 감염 가능성을 부정할 수 없음, 감염된 경우 태아에 장애(유산, 태아 부종, 태아 사망)가 생길 가능성을 부정할 수 없음",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5313",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001550",
+      "INGR_ENG_NAME": "Icatibant",
+      "INGR_NAME": "이카티반트",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A000956]이카티반트",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "랫드에서 분만 지연, 태자 사망, 착상 전 손실이 발생, 토끼에서 조산, 유산, 태자 사망, 착상 전 손실이 발생",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5314",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001576",
+      "INGR_ENG_NAME": "Mepolizumab",
+      "INGR_NAME": "메폴리주맙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A000344]메폴리주맙",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5315",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001577",
+      "INGR_ENG_NAME": "Migalastat",
+      "INGR_NAME": "미갈라스타트",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A001982]미갈라스타트",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "토끼 배태자 독성 연구에서 배아-태아의 사망, 태아의 평균 체중 감소, 지골연화, 미미한 뼈 기형의 발생률 증가",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5316",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001565",
+      "INGR_ENG_NAME": "Nitrofurantoin",
+      "INGR_NAME": "니트로푸란토인",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A001727]니트로푸란토인",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립, 임신 기간(임신 38-42주) 및 분만 또는 출산 시 사용해서는 안됨, 태아 및 신생아에서 용혈성 빈혈의 가능성",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5317",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001073",
+      "INGR_ENG_NAME": "Riociguat",
+      "INGR_NAME": "리오시구앗",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M259695]리오시구앗(미분화)",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "1등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "랫드에서 심장기형(심실중격결손) 유발, 배자독성(착상후소실증가) 관찰됨. 토끼에서 자연유산, 흡수증가 관찰됨",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5318",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001561",
+      "INGR_ENG_NAME": "Defibrotide",
+      "INGR_NAME": "데피브로타이드",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A000152]데피브로타이드",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립, 랫드 및 토끼에서 출혈성 유산의 발생률 증가",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5319",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001578",
+      "INGR_ENG_NAME": "Asfotase alfa",
+      "INGR_NAME": "아스포타제알파",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A000736]아스포타제알파",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립, 태반 통과 가능성 있음",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5320",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001579",
+      "INGR_ENG_NAME": "Elosulfase alfa",
+      "INGR_NAME": "엘로설파제알파",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A000846]엘로설파제알파",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5321",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001580",
+      "INGR_ENG_NAME": "Eliglustat",
+      "INGR_NAME": "엘리글루스타트",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A000848]엘리글루스타트",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5322",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001581",
+      "INGR_ENG_NAME": "Sapropterin",
+      "INGR_NAME": "사프롭테린",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A000504]사프롭테린",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5323",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001582",
+      "INGR_ENG_NAME": "Alectinib",
+      "INGR_NAME": "알렉티닙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A000769]알렉티닙",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립, 동물시험에서 인체 투여용량의 약 2.7배 용량 투여 시 배태자독성 및 모체 태자 흡수를 유발",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5324",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001583",
+      "INGR_ENG_NAME": "Avelumab",
+      "INGR_NAME": "아벨루맙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110503]아벨루맙",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5325",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001584",
+      "INGR_ENG_NAME": "Blinatumomab",
+      "INGR_NAME": "블리나투모맙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A000475]블리나투모맙",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5326",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001585",
+      "INGR_ENG_NAME": "Cabozantinib",
+      "INGR_NAME": "카보잔티닙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A002982]카보잔티닙",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립, 동물 실험에서 배아독성, 태아독성 및 기형유발 영향, 랫드에서 이식 후 손실, 태아 부종, 구개열/구순열, 피부 무형성, 비틀린 또는 미성숙한 꼬리 유발, 토끼에서 태아의 연조직 변화(비장 크기 감소, 중간 폐엽이 작거나 결손) 및 총 기형의 태아 발병 증가",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5327",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001076",
+      "INGR_ENG_NAME": "Ceritinib",
+      "INGR_NAME": "세리티닙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M261400]세리티닙",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립, 랫트와 토끼에서 권장용량보다 낮은 용량에서 태자 골격형성장애 유발",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5328",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001586",
+      "INGR_ENG_NAME": "Cobimetinib",
+      "INGR_NAME": "코비메티닙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A003013]코비메티닙",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립, 랫드에서 배아치사성과 대혈관 및 두 대골의 태아 기형을 유발",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5329",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001078",
+      "INGR_ENG_NAME": "Dabrafenib",
+      "INGR_NAME": "다브라페닙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M260368]다브라페닙메실산염(미분화)/[M266849]다브라페닙메실산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립, 비임상 연구에서 생식독성 및 최기형성을 포함한 배태자독성 나타남",
+      "REMARK": null,
+      "DEL_YN": "삭제"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5330",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001078",
+      "INGR_ENG_NAME": "Dabrafenib",
+      "INGR_NAME": "다브라페닙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M260368]다브라페닙메실산염(미분화)/[M266849]다브라페닙메실산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립, 비임상 연구에서 생식독성 및 최기형성을 포함한 배태자독성 나타남",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5331",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001587",
+      "INGR_ENG_NAME": "Daratumumab",
+      "INGR_NAME": "다라투무맙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A001729]다라투무맙",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5332",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001588",
+      "INGR_ENG_NAME": "Entrectinib",
+      "INGR_NAME": "엔트렉티닙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110496]엔트렉티닙",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5333",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001589",
+      "INGR_ENG_NAME": "Gilteritinib",
+      "INGR_NAME": "길테리티닙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110484]길테리티닙푸마르산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립, 랫드에서 태아 성장을 억제하고 배아-태아 사망 및 최기형성을 초래",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5334",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001590",
+      "INGR_ENG_NAME": "Ibrutinib",
+      "INGR_NAME": "이브루티닙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A000940]이브루티닙",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "동물실험 결과에 근거하여 임부 복용 시 태아에 위해 가능성 있음",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5335",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001591",
+      "INGR_ENG_NAME": "Ipilimumab",
+      "INGR_NAME": "이필리무맙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A000962]이필리무맙",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립, 사이노몰거스 원숭이에서 임신후기 초반에 이필리무맙 투여군은 유산, 사산, 조산(저체중 동반)을 포함하는 중증 독성 발생률 및 영아사망률이 대조군에 비해 용량 의존적으로 높게 나타남",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5336",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001592",
+      "INGR_ENG_NAME": "Ixazomib citrate",
+      "INGR_NAME": "익사조밉시트레이트",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M117799]익사조밉시트르산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립, 임신한 랫트 및 토끼에게 권장 용량보다 높은 용량으로 노출 시 배태자 독성 일으킴, 토끼에서 태자 골격 변화 및 비정상(꼬리 척추뼈 융합, 요추 개수, 완전한 과잉 늑골)이 증가, 랫트에서 태자 체중 감소, 태자 생존 감소의 경향 및 착상 후 소실 증가",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5337",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001593",
+      "INGR_ENG_NAME": "Larotrectinib",
+      "INGR_NAME": "라로트렉티닙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110536]라로트렉티닙",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5338",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001594",
+      "INGR_ENG_NAME": "Midostaurin",
+      "INGR_NAME": "미도스타우린",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110202]미도스타우린",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립, 랫드와 토끼에서 태자 독성 유발, 랫드와 토끼를 대상으로 한 태자 발달 연구에서 만기 재흡수 수의 증가, 태자 중량 감소 그리고 골격 골화 감소가 관찰됨. 출생 전, 후 발생 시험에서 모체성 난산 및 감소된 산자수, 새끼의 저체중, 완벽한 개안 촉진, 늦은 청각반사 개체(delayed auricular startle ontogeny)가 관찰",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5339",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001595",
+      "INGR_ENG_NAME": "Niraparib",
+      "INGR_NAME": "니라파립",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110491]니라파립",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "최기형성 및/또는 배아-태아 사망을 발생시킬 수 있음",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5340",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001596",
+      "INGR_ENG_NAME": "Obinutuzumab",
+      "INGR_NAME": "오비누투주맙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A000878]오비누투주맙",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립, 사이노몰거스 원숭이에서 출생자의 B 림프구는 완전히 고갈되는 현상을 보임. 그러나 출생 6개월 이내에 B 세포수 및 면역기능은 정상적으로 회복 됨",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5341",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001597",
+      "INGR_ENG_NAME": "Pomalidomide",
+      "INGR_NAME": "포말리도마이드",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A001313]포말리도마이드",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "1등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "기형 유발이 예상됨, 구조적으로 탈리도마이드와 관련성이 있음. 탈리도마이드는 인간에게 중증의 치명적인 선천적 기형을 초래하는 기형 유발 물질로 알려져 있음. 쥐와 토끼 모두에서 발생독성 확인",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5342",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001598",
+      "INGR_ENG_NAME": "Ponatinib",
+      "INGR_NAME": "포나티닙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A003172]포나티닙",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "기관형성기에 임신한 랫드 대상 배태자 발달에 대한 영향 연구 결과 배태자 독성 관찰됨. 모체 독성 용량 3mg/kg/일(사람 권장용량에서 AUC와 동등)에서 태아 흡수 증가, 체중 감소, 외형 변화, 여러 연조직 및 골격 변화, 골화 감소, 1mg/kg/일(사람 권장 용량에서 AUC의 약 24%)에서도 여러 태아 연조직 및 골화 감소를 포함한 골격 변화 등 배태자 독성 관찰 나타남",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5343",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001599",
+      "INGR_ENG_NAME": "Siltuximab",
+      "INGR_NAME": "실툭시맙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A000687]실툭시맙(단클론항체, 유전자재조합)",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5344",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001600",
+      "INGR_ENG_NAME": "Trametinib",
+      "INGR_NAME": "트라메티닙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A001188]트라메티닙",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립, 사람 최대 권장용량 2mg/일의 약 0.3배 및 1.8배 농도에 노출된 랫드에서 태자 체중 감소와 착상 후 소실 증가 관찰됨, 사람 최대 권장용량 2mg/일의 0.09배 및 0.3배 농도에 노출된 토끼에서 태자 체중 감소 및 골형성 변이 발생률, 착상 후 소실 증가 관찰됨",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5345",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001601",
+      "INGR_ENG_NAME": "Fluoroestradiol(18F)",
+      "INGR_NAME": "플루오로에스트라디올(18F)",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M270509]플루오로에스트라디올 (18F) 액",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5346",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001602",
+      "INGR_ENG_NAME": "Lutetium(177Lu) oxodotreotide",
+      "INGR_NAME": "루테튬(177Lu)옥소도트레오타이드",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110568]루테튬옥소도트레오타이드",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "1등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립, 방사선 의약품은 태아 손상을 유발할 가능성 있음",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5347",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001603",
+      "INGR_ENG_NAME": "Eslicarbazepine acetate",
+      "INGR_NAME": "에슬리카르바제핀아세테이트",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M279911]에슬리카르바제핀아세테이트(미분화)",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5348",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001551",
+      "INGR_ENG_NAME": "Mirogabalin",
+      "INGR_NAME": "미로가발린",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110473]미로가발린",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "동물 시험에서 수태능 장애가 관찰됨",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5349",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001604",
+      "INGR_ENG_NAME": "Safinamide",
+      "INGR_NAME": "사피나미드",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110561]사피나미드",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임신한 랫트에서 기관형성 기간에 이 약의 투여는 이소성 고환, 비뇨기적 변화 (세뇨관 확장 및 신우 확장) 및 태아의 골격 이상을 유발함",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5350",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001605",
+      "INGR_ENG_NAME": "Upadacitinib",
+      "INGR_NAME": "유파다시티닙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110560]유파다시티닙",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "동물 시험에 의하면, 이 약은 발달 중인 태아에게 영향을 미칠 잠재성이 있음",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5351",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001562",
+      "INGR_ENG_NAME": "Ranolazine",
+      "INGR_NAME": "라놀라진",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110483]라놀라진",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "동물 연구에서 배·태자 독성을 보임",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5352",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001552",
+      "INGR_ENG_NAME": "Burosumab",
+      "INGR_NAME": "부로수맙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110581]부로수맙",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "원숭이를 이용한 생식 및 발달 독성 연구 결과, 임상 최대 노출 용량의 3.7 배에 해당하는 용량에서 조기 분만율의 증가, 임상 최대 노출 용량의 32배에 해당하는 용량에서 태반의 무게와 미네랄 축적의 증가, 유산율 및 배태아 사망률의 증가가 확인됨",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5353",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001606",
+      "INGR_ENG_NAME": "Brigatinib",
+      "INGR_NAME": "브리가티닙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110219]브리가티닙",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에게 투여 시 태아 손상을 발생시킬 수 있음. 동물에 대한 시험에서 생식 독성이 확인됨",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5354",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001607",
+      "INGR_ENG_NAME": "Dacomitinib",
+      "INGR_NAME": "다코미티닙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110480]다코미티닙수화물",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "동물시험에서 생식독성에 제한적인 영향을 보임(랫드와 토끼에서 모체 체중증가량과 음식섭취량 감소, 랫드에서만 태자 체중감소 및 높은 중족골 골화부전 발생률). 이 약의 작용기전에 근거하면, 이 약은 임부에 투여시 태아에게 위해할 수 있음",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5355",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001608",
+      "INGR_ENG_NAME": "Talazoparib",
+      "INGR_NAME": "탈라조파립",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110574]탈라조파립",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "동물시험에서 배태자 독성을 보임. 이 약을 임부에게 투여할 경우 태아에 위해할 수 있음",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5356",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001609",
+      "INGR_ENG_NAME": "Venetoclax",
+      "INGR_NAME": "베네토클락스",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110514]베네토클락스",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "동물시험에서 배아-태아 독성이 나타남. 이 약은 임부에 투여 시 태아에 유해할 수 있음",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5357",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001610",
+      "INGR_ENG_NAME": "Brolucizumab",
+      "INGR_NAME": "브롤루시주맙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110562]브롤루시주맙",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "VEGF 억제는 난포 발달, 황체 기능 및 출산력에 영향을 미치는 것으로 나타남. VEGF 억제제의 작용 기전을 고려했을 때, 여성의 생식 및 배아-태아 발달에 대한 잠재적 위험성이 존재함",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5358",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001611",
+      "INGR_ENG_NAME": "Vedolizumab",
+      "INGR_NAME": "베돌리주맙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A000411]베돌리주맙",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5359",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001612",
+      "INGR_ENG_NAME": "Isavuconazonium",
+      "INGR_NAME": "이사부코나조늄",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M268759]이사부코나조늄황산염",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "동물 시험에서 생식독성이 관찰됨",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5360",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001613",
+      "INGR_ENG_NAME": "Ravulizumab",
+      "INGR_NAME": "라불리주맙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110538]라불리주맙",
+      "CLASS_NAME": "",
+      "FORM_NAME": "",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20220630",
+      "PROHBT_CONTENT": "인간 IgG는 인간의 태반 장벽을 통과하는 것으로 알려져 있으며, 따라서 이 약은 태아 순환에서 잠재적으로 말단 보체 억제를 유발할 수 있음",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5966",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001726",
+      "INGR_ENG_NAME": "Manganese Sulfate",
+      "INGR_NAME": "황산망간",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A001450]황산망간",
+      "CLASS_NAME": "",
+      "FORM_NAME": "용액주사제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20230705",
+      "PROHBT_CONTENT": "임부에 대한 안전성 미확립",
+      "REMARK": "주사제에 한함",
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5967",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "복합",
+      "INGR_CODE": "D001727",
+      "INGR_ENG_NAME": "amidotrizoate",
+      "INGR_NAME": "아미도트리조산",
+      "MIX_INGR": "[D001728]meglumine(메글루민)/[D001729]sodium hydroxide(수산화나트륨)",
+      "ORI_INGR": "[A000711]아미도트리조산/[M040141]메글루민/[A000632]수산화나트륨",
+      "CLASS_NAME": "",
+      "FORM_NAME": "경구용액제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20230705",
+      "PROHBT_CONTENT": "- 임부에 대한 안전성 미확립. - 임신 기간 동안 노출된 신생아, 특히 미숙아는 과량의 요오드가 갑상선 기능 저하증을 유발할 수 있으므로 갑상선 기능 모니터링이 권장됨.",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5968",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "복합",
+      "INGR_CODE": "D001617",
+      "INGR_ENG_NAME": "D-Sorbitol",
+      "INGR_NAME": "D-소르비톨",
+      "MIX_INGR": "[D001503]Glycerin(글리세린)/[D001730]Sodium citrate(시트르산나트륨수화물)",
+      "ORI_INGR": "[A000606]소르비톨/[A000075]글리세린/[M040043]글리세린/[A000675]시트르산나트륨",
+      "CLASS_NAME": "",
+      "FORM_NAME": "관장제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20230705",
+      "PROHBT_CONTENT": "-",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5969",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "복합",
+      "INGR_CODE": "D001731",
+      "INGR_ENG_NAME": "Iodine",
+      "INGR_NAME": "요오드",
+      "MIX_INGR": "[D001732]Isopropanol(이소프로판올)",
+      "ORI_INGR": "[M040461]요오드/[A000950]이소프로판올",
+      "CLASS_NAME": "",
+      "FORM_NAME": "피부액제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20230705",
+      "PROHBT_CONTENT": "- 건강한 피부를 통해 요오드가 작은 양이라도 흡수되므로 치료상 유익성과 태아 갑상선기능에 대한 영향의 가능성 비교 검토 필",
+      "REMARK": "외용액제 포함",
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5970",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001733",
+      "INGR_ENG_NAME": "Povidone-iodine",
+      "INGR_NAME": "포비돈요오드",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M244708]포비돈요오드",
+      "CLASS_NAME": "",
+      "FORM_NAME": "피부액제/가글제/약물이포함된거즈/피부연고제/가글제, 용액용정제/일반액상분무제/질세정액/약물이포함된스폰지/일반분말분무제/약물이포함된면봉/질좌제, 일반/경구용액제/피부연고제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20230705",
+      "PROHBT_CONTENT": "- (질용좌제, 외용액제, 연고제, 에어로솔제) 태아나 신생아의 갑상선기능에 영향을 미치거나 갑상선종을 일으킬 수 있음- (가글제) 태아나 신생아의 TSH가 증가하여 일시적인 갑상선기능저하증을 일으킬 수 있음- (구강용 스프레이제) -",
+      "REMARK": "질용좌제, 외용액제, 가글제, 구강용 스프레이제, 연고제, 에어로솔제 포함 ",
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5971",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "복합",
+      "INGR_CODE": "D001731",
+      "INGR_ENG_NAME": "Iodine",
+      "INGR_NAME": "요오드",
+      "MIX_INGR": "[D000471]Potassium Iodide(요오드화칼륨)",
+      "ORI_INGR": "[M040461]요오드/[M040473]요오드화칼륨/[M225609]요오드화칼륨/유당 혼합물",
+      "CLASS_NAME": "",
+      "FORM_NAME": "경구용액제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20230705",
+      "PROHBT_CONTENT": "-",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5972",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001734",
+      "INGR_ENG_NAME": "Remimazolam",
+      "INGR_NAME": "레미마졸람",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110594]레미마졸람",
+      "CLASS_NAME": "",
+      "FORM_NAME": "용액용동결건조분말주사제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20230705",
+      "PROHBT_CONTENT": "- 랫트에서 조기 재흡수 증가",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5973",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001724",
+      "INGR_ENG_NAME": "Valbenazine",
+      "INGR_NAME": "발베나진",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110656]발베나진",
+      "CLASS_NAME": "",
+      "FORM_NAME": "경질캡슐제, 산제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20230705",
+      "PROHBT_CONTENT": "- 동물실험에서 사산 및 출산 후 출생자 사망 증가, 태자 발달 지연(체중 감소 및 골화 지연) 관찰",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5974",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001649",
+      "INGR_ENG_NAME": "Latanoprostene bunod",
+      "INGR_NAME": "라타노프로스틴부노드",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M280415]라타노프로스틴부노드",
+      "CLASS_NAME": "",
+      "FORM_NAME": "점안용액제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20230705",
+      "PROHBT_CONTENT": "- 동물실험에서 유산, 낙태, 태자 손상, 기형 관찰",
+      "REMARK": "점안제 포",
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5975",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001644",
+      "INGR_ENG_NAME": "Abrocitinib",
+      "INGR_NAME": "아브로시티닙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M281729]아브로시티닙",
+      "CLASS_NAME": "",
+      "FORM_NAME": "필름코팅정",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20230705",
+      "PROHBT_CONTENT": "- 동물실험에서 생식독성, 태자의 골격변형, 배태자 치사율 증가, 난산, 체중감소, 출생 후 생존률 감소 관찰",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5976",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001735",
+      "INGR_ENG_NAME": "Lanadelumab",
+      "INGR_NAME": "라나델루맙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110588]라나델루맙",
+      "CLASS_NAME": "",
+      "FORM_NAME": "용액주사제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20230705",
+      "PROHBT_CONTENT": "- 임부에 대한 안전성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5977",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001736",
+      "INGR_ENG_NAME": "Vericiguat",
+      "INGR_NAME": "베리시구앗",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110660]베리시구앗",
+      "CLASS_NAME": "",
+      "FORM_NAME": "필름코팅정",
+      "GRADE": "1등급",
+      "NOTIFICATION_DATE": "20230705",
+      "PROHBT_CONTENT": "- 동물실험에서 유산, 흡수 증가, 심장 및 주요 혈관 기형, 새끼의 체중 증가량 감소, 새끼 치사율 증가 관찰",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5978",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001648",
+      "INGR_ENG_NAME": "Fexuprazan",
+      "INGR_NAME": "펙수프라잔",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110665]펙수프라잔",
+      "CLASS_NAME": "",
+      "FORM_NAME": "필름코팅정",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20230705",
+      "PROHBT_CONTENT": "- 임부에 대한 안전성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5979",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001737",
+      "INGR_ENG_NAME": "Trifarotene",
+      "INGR_NAME": "트리파로텐",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110621]트리파로텐",
+      "CLASS_NAME": "",
+      "FORM_NAME": "피부크림제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20230705",
+      "PROHBT_CONTENT": "- 국소 투여한 레티노이드계 약물의 흡수가 증가될 수 있으므로 임신 중 사용하지 않음. - 동물실험에서 경구투여 시 태자 사망, 외부, 내장 및 골격기형과 같은 생식독성 관찰됨.",
+      "REMARK": "크림제 포함",
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5980",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001738",
+      "INGR_ENG_NAME": "Roxadustat",
+      "INGR_NAME": "록사두스타트",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110634]록사두스타트",
+      "CLASS_NAME": "",
+      "FORM_NAME": "필름코팅정",
+      "GRADE": "1등급",
+      "NOTIFICATION_DATE": "20230705",
+      "PROHBT_CONTENT": "- Roxadustat의 콜레스테롤 저하 효과로 임신 후기에 위해성 우려가 있음. - 동물실험에서 태아 체중 감소 및 발달 지연, 태반 무게 증가, 모체 체중 감소, 유산, 심박수 증가 관찰됨.",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5981",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001701",
+      "INGR_ENG_NAME": "Acalabrutinib",
+      "INGR_NAME": "아칼라브루티닙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110597]아칼라브루티닙",
+      "CLASS_NAME": "",
+      "FORM_NAME": "경질캡슐제, 산제/필름코팅정",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20230705",
+      "PROHBT_CONTENT": "- 동물실험에서 난산, 태아 체중 감소 및 골화 지연 관찰됨.",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5982",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001704",
+      "INGR_ENG_NAME": "Alpelisib",
+      "INGR_NAME": "알펠리십",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110623]알펠리십/[M280473]알펠리십",
+      "CLASS_NAME": "",
+      "FORM_NAME": "필름코팅정",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20230705",
+      "PROHBT_CONTENT": "- 동물실험에서 배태자 사망, 태자 체중 감소 및 기형 증가 관찰됨.",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5983",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001694",
+      "INGR_ENG_NAME": "Lazertinib",
+      "INGR_NAME": "레이저티닙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M280186]레이저티닙메실산염일수화물",
+      "CLASS_NAME": "",
+      "FORM_NAME": "필름코팅정",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20230705",
+      "PROHBT_CONTENT": "- 랫트에서 태자 착상 후 손실 증가 및 중량 감소 관찰됨.",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5984",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001699",
+      "INGR_ENG_NAME": "Neratinib",
+      "INGR_NAME": "네라티닙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110653]네라티닙",
+      "CLASS_NAME": "",
+      "FORM_NAME": "필름코팅정",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20230705",
+      "PROHBT_CONTENT": "-토끼에서 유산, 배태자 사망(흡수 증가), 태자 이상 관찰됨",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5985",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001739",
+      "INGR_ENG_NAME": "Tisagenlecleucel",
+      "INGR_NAME": "티사젠렉류셀",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110599]티사젠렉류셀",
+      "CLASS_NAME": "",
+      "FORM_NAME": "현탁액주사제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20230705",
+      "PROHBT_CONTENT": "- 임부에 대한 안전성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5986",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001740",
+      "INGR_ENG_NAME": "Fluciclovine(18F)",
+      "INGR_NAME": "플루시클로빈(18F)액",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110650]플루시클로빈",
+      "CLASS_NAME": "",
+      "FORM_NAME": "용액주사제",
+      "GRADE": "1등급",
+      "NOTIFICATION_DATE": "20230705",
+      "PROHBT_CONTENT": "- 임부에 대한 안전성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5987",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001741",
+      "INGR_ENG_NAME": "Fremanezumab",
+      "INGR_NAME": "프레마네주맙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110635]프레마네주맙",
+      "CLASS_NAME": "",
+      "FORM_NAME": "용액주사제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20230705",
+      "PROHBT_CONTENT": "- 임부에 대한 안전성 미확립",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5988",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001742",
+      "INGR_ENG_NAME": "Eflapegrastim",
+      "INGR_NAME": "에플라페그라스팀",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110605]에플라페그라스팀",
+      "CLASS_NAME": "",
+      "FORM_NAME": "용액주사제",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20230705",
+      "PROHBT_CONTENT": "- 임부에 대한 안전성 미확립. - 토끼에서 태자독성 관찰됨.",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "6091",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001746",
+      "INGR_ENG_NAME": "Lasmiditan",
+      "INGR_NAME": "라스미디탄",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110834]라스미디탄헤미",
+      "CLASS_NAME": "",
+      "FORM_NAME": "필름코팅정",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20240625",
+      "PROHBT_CONTENT": "-임부에 대한 안전성 미확립. - 동물실험에서 기형(골격 및 내장), 골격 변화 증가, 배태자 사망률 증가, 태자 체중 감소가 관찰됨",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "6092",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001755",
+      "INGR_ENG_NAME": "Filgotinib",
+      "INGR_NAME": "필고티닙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110782]필고티닙",
+      "CLASS_NAME": "",
+      "FORM_NAME": "필름코팅정",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20240625",
+      "PROHBT_CONTENT": "- 임부에 대한 안전성 미확립- 동물실험에서 내부 수두증, 팽창된 수뇨관,생존 가능 태자 수 감소, 조기 및 후기 흡수횟수 증가, 태아 체중 감소, 폐와 심혈관계내장 기형, 척추뼈, 갈비뼈 및 흉골분절의골격 기형, 흉골분절 융합, 골격 골화 지체가 관찰됨",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "6093",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001743",
+      "INGR_ENG_NAME": "Finerenone",
+      "INGR_NAME": "피네레논",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110831]피네레논",
+      "CLASS_NAME": "",
+      "FORM_NAME": "필름코팅정",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20240625",
+      "PROHBT_CONTENT": "- 임부에 대한 안전성 미확립- 동물실험에서 태아 체중 감소, 골화 지연,태반 무게 감소, 내장 및 골격 변이(경미한부종, 짧은 탯줄, 약간 확대된 천문, 귓바퀴풀림 지연), 희귀 기형(중복 대동맥궁)을 포함한 복잡한 기형, 새끼 사망률 증가, 새끼에서 약간 증가된 운동 활동, 초기 배아 독성 징후(착상 후 손실 증가 및 생존 가능한태아 수 감소)가 관찰됨",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "6094",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001756",
+      "INGR_ENG_NAME": "Vibegron",
+      "INGR_NAME": "비베그론",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110833]비베그론",
+      "CLASS_NAME": "",
+      "FORM_NAME": "필름코팅정",
+      "GRADE": "2등급",
+      "NOTIFICATION_DATE": "20240625",
+      "PROHBT_CONTENT": "- 동물실험(랫드)에서 태아로의 이행이 보고됨",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "6095",
+      "TYPE_NAME": "임부금기",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001744",
+      "INGR_ENG_NAME": "Enarodustat",
+      "INGR_NAME": "에나로두스타트",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110889]에나로두스타트",
+      "CLASS_NAME": "",
+      "FORM_NAME": "필름코팅정",
+      "GRADE": "1등급",
+      "NOTIFICATION_DATE": "20240625",
+      "PROHBT_CONTENT": "- 임부에 대한 안전성 미확립- 동물실험에서 배태자 사망률 증가, 출생자발육 지연이 관찰됨",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  }
+]

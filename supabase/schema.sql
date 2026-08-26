@@ -98,17 +98,22 @@ create table dur_interactions (
 -- form_name: 제형 조건. 아세트아미노펜은 서방정 계열만 12세 미만 금기이므로
 --            제형을 무시하면 어린이 시럽에도 경고가 뜬다
 -- 용량주의/투여기간주의 API 미사용: 복용량·이력을 수집하지 않아 판정 불가
--- TODO: 병용금기에 del_yn/remark 가 있었으므로 이쪽 응답도 확인할 것.
---       있으면 컬럼 추가 (없는 채로 시딩하면 폐지 고시로 경고가 나갈 수 있음)
+-- del_yn ★ '삭제' 는 폐지된 고시. 적재 후 확인 결과 35건(임부 27/노인 5/연령 3)
+--   저장 후 쿼리에서 제외한다. '정상'만 골라 넣으면 이후 폐지되어도
+--   upsert 가 해당 행을 갱신하지 않아 유효한 금기로 남는다
+-- remark 는 API 별 의미가 다르다 (병용금기=용량 조건, 임부금기=투여 경로 "경구")
+--   판정에 쓰지 않고 안내 문구로만 노출
 create table dur_conditions (
   id                 uuid primary key default gen_random_uuid(),
   dur_seq            text not null,
   ingredient_id      uuid not null references ingredients(id) on delete cascade,
   condition_type     text not null,   -- pregnancy / age / elderly
-  condition_value    text,            -- AGE_BASE 원문 ("12세 미만")
+  condition_value    text,            -- AGE_BASE 원문 ("12세 미만", "65세 이상")
   grade              text,            -- 1등급 / 2등급 (임부금기만)
   form_name          text,
   prohibit_content   text,
+  remark             text,            -- 판정 미사용, 안내에만 노출
+  del_yn             text,            -- 정상 / 삭제
   notification_date  text,
   created_at         timestamptz not null default now(),
   unique (dur_seq, condition_type)

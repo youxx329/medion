@@ -1,0 +1,206 @@
+[
+  {
+    "item": {
+      "DUR_SEQ": "5207",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000180",
+      "INGR_ENG_NAME": "Clozapine",
+      "INGR_NAME": "클로자핀",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M081194]클로자핀",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5208",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000357",
+      "INGR_ENG_NAME": "Olanzapine",
+      "INGR_NAME": "올란자핀",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M089222]올란자핀/[M233301]미세올란자핀",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5209",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000491",
+      "INGR_ENG_NAME": "Paliperidone",
+      "INGR_NAME": "팔리페리돈",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M220478]팔리페리돈/[M250479]팔리페리돈팔미테이트",
+      "FORM_NAME": "서방정/서방성필름코팅정/서방성현탁액성주사제",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5210",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000583",
+      "INGR_ENG_NAME": "Quetiapine",
+      "INGR_NAME": "쿠에티아핀",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M091777]푸마르산쿠에티아핀/[M220436]푸마르산 쿠에티아핀/[M228429]쿠에티아핀푸마르산염/[M243782]쿠에티아핀푸마르산염",
+      "FORM_NAME": "정제/서방정",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5211",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000422",
+      "INGR_ENG_NAME": "Risperidone",
+      "INGR_NAME": "리스페리돈",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M086310]리스페리돈/[M098171]리스페리돈서방성미립구",
+      "FORM_NAME": "정제/서방성현탁액용분말주사제",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5212",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000173",
+      "INGR_ENG_NAME": "Ziprasidone",
+      "INGR_NAME": "지프라시돈",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M251493]지프라시돈염산염 일수화물",
+      "FORM_NAME": "캡슐",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5253",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000030",
+      "INGR_ENG_NAME": "Amisulpride",
+      "INGR_NAME": "아미설프리드",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M089148]아미설프리드",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20220527",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5254",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000020",
+      "INGR_ENG_NAME": "Blonanserin",
+      "INGR_NAME": "블로난세린",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M247117]블로난세린",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20220527",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5255",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001557",
+      "INGR_ENG_NAME": "Loxapine",
+      "INGR_NAME": "록사핀",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110490]록사핀",
+      "FORM_NAME": "흡입제, 미분류",
+      "NOTIFICATION_DATE": "20220527",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5256",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000728",
+      "INGR_ENG_NAME": "Sulpiride",
+      "INGR_NAME": "설피리드",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M050794]설피리드",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20220527",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5257",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000369",
+      "INGR_ENG_NAME": "Zotepine",
+      "INGR_NAME": "죠테핀",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M086840]죠테핀",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20220527",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "6151",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001763",
+      "INGR_ENG_NAME": "Lurasidone",
+      "INGR_NAME": "루라시돈",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A110986]루라시돈",
+      "FORM_NAME": "필름코팅정",
+      "NOTIFICATION_DATE": "20250530",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  }
+]

@@ -1,0 +1,1702 @@
+[
+  {
+    "item": {
+      "DUR_SEQ": "1",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000056",
+      "INGR_ENG_NAME": "Chlordiazepoxide",
+      "INGR_NAME": "클로르디아제폭시드",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M088403]클로르디아제폭시드/[M223206]클로르디아제폭시드염산염",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20150728",
+      "PROHBT_CONTENT": "노인에서의 장기지속형 벤조다이아제핀 사용은 운동실조, 과진정 등이 나타나기 쉬움으로 소량부터 신중투여\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "3",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000375",
+      "INGR_ENG_NAME": "Clonazepam",
+      "INGR_NAME": "클로나제팜",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M093594]클로나제팜",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20150728",
+      "PROHBT_CONTENT": "노인에서의 장기지속형 벤조다이아제핀 사용은 운동실조, 과진정 등이 나타나기 쉬움으로 소량부터 신중투여\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000676",
+      "INGR_ENG_NAME": "Clorazepate",
+      "INGR_NAME": "클로라제핀산",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M088370]클로라제핀산칼륨",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20150728",
+      "PROHBT_CONTENT": "노인에서의 장기지속형 벤조다이아제핀 사용은 운동실조, 과진정 등이 나타나기 쉬움으로 소량부터 신중투여\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000090",
+      "INGR_ENG_NAME": "Diazepam",
+      "INGR_NAME": "디아제팜",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M040102]디아제팜",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20150728",
+      "PROHBT_CONTENT": "노인에서의 장기지속형 벤조다이아제핀 사용은 운동실조, 과진정 등이 나타나기 쉬움으로 소량부터 신중투여\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "7",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000411",
+      "INGR_ENG_NAME": "Flunitrazepam",
+      "INGR_NAME": "플루니트라제팜",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M088375]플루니트라제팜",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20150728",
+      "PROHBT_CONTENT": "노인에서의 장기지속형 벤조다이아제핀 사용은 운동실조, 과진정 등이 나타나기 쉬움으로 소량부터 신중투여\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "8",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000106",
+      "INGR_ENG_NAME": "Flurazepam",
+      "INGR_NAME": "플루라제팜",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M223321]플루라제팜염산염",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20150728",
+      "PROHBT_CONTENT": "노인에서의 장기지속형 벤조다이아제핀 사용은 운동실조, 과진정 등이 나타나기 쉬움으로 소량부터 신중투여\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "9",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000378",
+      "INGR_ENG_NAME": "Clobasam ",
+      "INGR_NAME": "클로바잠",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M051537]클로바잠",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20150728",
+      "PROHBT_CONTENT": "노인에서의 장기지속형 벤조다이아제핀 사용은 운동실조, 과진정 등이 나타나기 쉬움으로 소량부터 신중투여\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "11",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "복합",
+      "INGR_CODE": "D000056",
+      "INGR_ENG_NAME": "Chlordiazepoxide",
+      "INGR_NAME": "클로르디아제폭시드",
+      "MIX_INGR": "[D000585]Clidinium(클리디늄)",
+      "ORI_INGR": "[M088403]클로르디아제폭시드/[M223206]클로르디아제폭시드염산염/[M253729]클리디늄브롬화물",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20150728",
+      "PROHBT_CONTENT": "노인에서의 장기지속형 벤조다이아제핀 사용은 운동실조, 과진정 등이 나타나기 쉬움으로 소량부터 신중투여\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "12",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000529",
+      "INGR_ENG_NAME": "Mexazolam",
+      "INGR_NAME": "멕사졸람",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M220309]멕사졸람",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20150728",
+      "PROHBT_CONTENT": "노인에서의 장기지속형 벤조다이아제핀 사용은 운동실조, 과진정 등이 나타나기 쉬움으로 소량부터 신중투여\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "13",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000801",
+      "INGR_ENG_NAME": "Pinazepam",
+      "INGR_NAME": "피나제팜",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M088433]피나제팜",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20150728",
+      "PROHBT_CONTENT": "노인에서의 장기지속형 벤조다이아제핀 사용은 운동실조, 과진정 등이 나타나기 쉬움으로 소량부터 신중투여\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "14",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000178",
+      "INGR_ENG_NAME": "Quazepam ",
+      "INGR_NAME": "쿠아제팜",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M102600]쿠아제팜",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20150728",
+      "PROHBT_CONTENT": "노인에서의 장기지속형 벤조다이아제핀 사용은 운동실조, 과진정 등이 나타나기 쉬움으로 소량부터 신중투여\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "15",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000248",
+      "INGR_ENG_NAME": "Amoxapine",
+      "INGR_NAME": "아목사핀",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M088554]아목사핀",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20150728",
+      "PROHBT_CONTENT": "노인에서의 삼환계 항우울제 사용은 기립성 저혈압, 비틀거림, 항콜린작용에 의한 구갈, 배뇨곤란, 변비, 안내압항진 등이 나타나기 쉬움으로 소량으로 신중투여\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "16",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000277",
+      "INGR_ENG_NAME": "Clomipramine",
+      "INGR_NAME": "클로미프라민",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M223223]클로미프라민염산염",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20150728",
+      "PROHBT_CONTENT": "노인에서의 삼환계 항우울제 사용은 기립성 저혈압, 비틀거림, 항콜린작용에 의한 구갈, 배뇨곤란, 변비, 안내압항진 등이 나타나기 쉬움으로 소량으로 신중투여\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "17",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000362",
+      "INGR_ENG_NAME": "Imipramine",
+      "INGR_NAME": "이미프라민",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M223168]이미프라민염산염",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20140728",
+      "PROHBT_CONTENT": "노인에서의 삼환계 항우울제 사용은 기립성 저혈압, 비틀거림, 항콜린작용에 의한 구갈, 배뇨곤란, 변비, 안내압항진 등이 나타나기 쉬움으로 소량으로 신중투여\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "18",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000466",
+      "INGR_ENG_NAME": "Nortriptyline",
+      "INGR_NAME": "노르트립틸린",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M050132]염산노르트립틸린",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20150728",
+      "PROHBT_CONTENT": "노인에서의 삼환계 항우울제 사용은 기립성 저혈압, 비틀거림, 항콜린작용에 의한 구갈, 배뇨곤란, 변비, 안내압항진 등이 나타나기 쉬움으로 소량으로 신중투여\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "532",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000809",
+      "INGR_ENG_NAME": "Amitriptyline",
+      "INGR_NAME": "아미트리프틸린",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M040348]염산아미트리프틸린/[M089101]염산아미트리프틸린서방정과립/[M201277]염산아미트리프틸린서방과립/[M223101]아미트리프틸린염산염",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20150728",
+      "PROHBT_CONTENT": "노인에서의 삼환계 항우울제 사용은 기립성 저혈압, 비틀거림, 항콜린작용에 의한 구갈, 배뇨곤란, 변비, 안내압항진 등이 나타나기 쉬움으로 소량으로 신중투여\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "533",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000810",
+      "INGR_ENG_NAME": "Dothiepin",
+      "INGR_NAME": "도티에핀",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M081861]염산도치에핀",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20150728",
+      "PROHBT_CONTENT": "노인에서의 삼환계 항우울제 사용은 기립성 저혈압, 비틀거림, 항콜린작용에 의한 구갈, 배뇨곤란, 변비, 안내압항진 등이 나타나기 쉬움으로 소량으로 신중투여\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "534",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000811",
+      "INGR_ENG_NAME": "Quinupramine",
+      "INGR_NAME": "퀴누프라민",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M082061]퀴누프라민",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20150728",
+      "PROHBT_CONTENT": "노인에서의 삼환계 항우울제 사용은 기립성 저혈압, 비틀거림, 항콜린작용에 의한 구갈, 배뇨곤란, 변비, 안내압항진 등이 나타나기 쉬움으로 소량으로 신중투여\n",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "3611",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000584",
+      "INGR_ENG_NAME": "Chlorpromazine",
+      "INGR_NAME": "클로르프로마진",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M040618]염산클로르프로마진/[M223216]클로르프로마진염산염",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20180831",
+      "PROHBT_CONTENT": "노인에서의 정형 항정신병약물 사용은 추체외로 증상, 항콜린성 부작용 등이 나타나기 쉬우므로 신중투여",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "3612",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000276",
+      "INGR_ENG_NAME": "Chlorprothixene",
+      "INGR_NAME": "클로르프로틱센",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M051534]클로르프로칙센",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20180831",
+      "PROHBT_CONTENT": "노인에서의 정형 항정신병약물 사용은 추체외로 증상, 항콜린성 부작용 등이 나타나기 쉬우므로 신중투여",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "3613",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000792",
+      "INGR_ENG_NAME": "Levomepromazine",
+      "INGR_NAME": "레보메프로마진",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M222988]레보메프로마진말레산염",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20180831",
+      "PROHBT_CONTENT": "노인에서의 정형 항정신병약물 사용은 추체외로 증상, 항콜린성 부작용 등이 나타나기 쉬우므로 신중투여",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "3614",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000113",
+      "INGR_ENG_NAME": "Haloperidol",
+      "INGR_NAME": "할로페리돌",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M040766]할로페리돌/[M089302]할로페리돌데카노에이트",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20180831",
+      "PROHBT_CONTENT": "노인에서의 정형 항정신병약물 사용은 추체외로 증상, 항콜린성 부작용 등이 나타나기 쉬우므로 신중투여",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "3615",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000431",
+      "INGR_ENG_NAME": "Molindone",
+      "INGR_NAME": "몰린돈",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M086757]염산몰린돈/[M256587]몰린돈염산염",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20180831",
+      "PROHBT_CONTENT": "노인에서의 정형 항정신병약물 사용은 추체외로 증상, 항콜린성 부작용 등이 나타나기 쉬우므로 신중투여",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "3616",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000781",
+      "INGR_ENG_NAME": "Perphenazine",
+      "INGR_NAME": "페르페나진",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M091367]페르페나진/[M232514]페르페나진염산염",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20180831",
+      "PROHBT_CONTENT": "노인에서의 정형 항정신병약물 사용은 추체외로 증상, 항콜린성 부작용 등이 나타나기 쉬우므로 신중투여",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "3617",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000213",
+      "INGR_ENG_NAME": "Pimozide",
+      "INGR_NAME": "피모짓",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M071691]피모짓",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20180831",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "삭제"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "3618",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000778",
+      "INGR_ENG_NAME": "Thiothixene",
+      "INGR_NAME": "티오틱센",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M259343]티오틱센",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20180831",
+      "PROHBT_CONTENT": "노인에서의 정형 항정신병약물 사용은 추체외로 증상, 항콜린성 부작용 등이 나타나기 쉬우므로 신중투여",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "3619",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000213",
+      "INGR_ENG_NAME": "Pimozide",
+      "INGR_NAME": "피모짓",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M071691]피모짓",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20180831",
+      "PROHBT_CONTENT": "노인에서의 정형 항정신병약물 사용은 추체외로 증상, 항콜린성 부작용 등이 나타나기 쉬우므로 신중투여",
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4845",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000134",
+      "INGR_ENG_NAME": "Brompheniramine",
+      "INGR_NAME": "브롬페니라민",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M050657]말레인산브롬페니라민/[M247022]브롬페니라민말레산염",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "삭제"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4847",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000134",
+      "INGR_ENG_NAME": "Brompheniramine",
+      "INGR_NAME": "브롬페니라민",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M050657]말레인산브롬페니라민/[M247022]브롬페니라민말레산염",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "삭제"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4848",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001110",
+      "INGR_ENG_NAME": "Carbinoxamine",
+      "INGR_NAME": "카르비녹사민",
+      "MIX_INGR": "",
+      "ORI_INGR": "[C051445]말레인산카르비녹사민/[C083490]말레인산카르비녹사민서방성과립/[C090108]카르비녹사민레지네이트/[C091587]말레인산카르비녹사민과립/[I000321]말레인산카르비녹사민/[M051445]말레인산카르비녹사민/[M071403]카르비녹사민 레지네이트/[M083490]말레인산카르비녹사민서방성과립/[M090108]카르비녹사민레지네이트/[M091587]말레인산카르비녹사민과립/[M200470]말레인산카르비녹사민서방과립/[M251260]카르비녹사민말레산염",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "삭제"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4849",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001110",
+      "INGR_ENG_NAME": "Carbinoxamine",
+      "INGR_NAME": "카르비녹사민",
+      "MIX_INGR": "",
+      "ORI_INGR": "[C051445]말레인산카르비녹사민/[C083490]말레인산카르비녹사민서방성과립/[C090108]카르비녹사민레지네이트/[C091587]말레인산카르비녹사민과립/[I000321]말레인산카르비녹사민/[M051445]말레인산카르비녹사민/[M071403]카르비녹사민 레지네이트/[M083490]말레인산카르비녹사민서방성과립/[M090108]카르비녹사민레지네이트/[M091587]말레인산카르비녹사민과립/[M200470]말레인산카르비녹사민서방과립/[M251260]카르비녹사민말레산염",
+      "FORM_NAME": "",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "삭제"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4850",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000893",
+      "INGR_ENG_NAME": "Chlorpheniramine",
+      "INGR_NAME": "클로르페니라민",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M040616]말레인산클로르페니라민/[M050213]말레인산덱스클로르페니라민/[M051529]클로르페니라민/[M082701]디엘말레인산클로르페니라민/[M083325]디말레인산클로르페니라민/[M099959]말레인산클로로페니라민/[M100018]말레산클로르페니라민/[M100476]디말레인산클로르페니라민/[M101581]디엘말레인산클로르페니라민/[M200471]말레인산클로르페니라민제피과립/[M202197]D-말레인산클로르페니라민/[M202204]DL-말레인산클로르페니라민/[M203913]클로르페니라민말레인산염/[M212847]클로르페니라민말레이트/[M223211]클로르페니라민말레산염/[M223212]d-클로르페니라민말레산염/[M223213]클로르페니라민말레산염 산/[M223214]클로르페니라민말레산염 정/[M223215]클로르페니라민말레산염 주사액/[M226783]dl-클로르페니라민말레산염/[M249715]덱스클로르페니라민 말레산염/[M251936]덱스클로르페니라민말레이트",
+      "FORM_NAME": "정제/캡슐/과립/액제/시럽/용액주사제/나정",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4887",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000881",
+      "INGR_ENG_NAME": "Trihexyphenidyl",
+      "INGR_NAME": "트리헥시페니딜",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M040671]염산트리헥시페니딜/[M223252]트리헥시페니딜염산염/[M223253]트리헥시페니딜염산염 정",
+      "FORM_NAME": "정제/필름코팅정",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4888",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000883",
+      "INGR_ENG_NAME": "Procyclidine",
+      "INGR_NAME": "프로사이클리딘",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M091966]염산프로싸이클리딘/[M251683]프로싸이클리딘염산염",
+      "FORM_NAME": "정제/나정",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4889",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000440",
+      "INGR_ENG_NAME": "Benztropine",
+      "INGR_NAME": "벤즈트로핀",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M050593]벤즈트로핀메실레이트/[M200496]메실산벤즈트로핀/[M247864]벤즈트로핀메실산염",
+      "FORM_NAME": "정제/나정/용액주사제",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4890",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001354",
+      "INGR_ENG_NAME": "Trospium",
+      "INGR_NAME": "트로스피움",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A001192]트로스퓸/[M250033]트로스퓸염화물",
+      "FORM_NAME": "정제/당의정",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4891",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001234",
+      "INGR_ENG_NAME": "Tolterodine",
+      "INGR_NAME": "톨터로딘",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A001184]톨터로딘",
+      "FORM_NAME": "정제/서방정/서방성필름코팅정/서방성캡슐제, 펠렛",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4892",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000730",
+      "INGR_ENG_NAME": "Solifenacin succinate",
+      "INGR_NAME": "솔리페나신숙신산염",
+      "MIX_INGR": "",
+      "ORI_INGR": "[I012745]솔리페나신푸마르산염/[M251551]솔리페나신숙신산염/[M259862]솔리페나신숙신산염",
+      "FORM_NAME": "정제/구강붕해정/구강붕해필름/필름코팅정",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4893",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001355",
+      "INGR_ENG_NAME": "Propiverine",
+      "INGR_NAME": "프로피베린",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A001368]프로피베린/[M254865]조프로피베린염산염/[M255864]프로피베린염산염",
+      "FORM_NAME": "정제/필름코팅정",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4894",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000044",
+      "INGR_ENG_NAME": "Oxybutynin",
+      "INGR_NAME": "옥시부티닌",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M246163]옥시부티닌염산염/[M259129]옥시부티닌",
+      "FORM_NAME": "정제/나정/서방성필름코팅정/경구용액제",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4895",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000047",
+      "INGR_ENG_NAME": "Imidafenacin",
+      "INGR_NAME": "이미다페나신",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M245357]이미다페나신",
+      "FORM_NAME": "정제/구강붕해정/필름코팅정",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4896",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001356",
+      "INGR_ENG_NAME": "Flavoxate",
+      "INGR_NAME": "플라복세이트",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A001373]플라복세이트/[M223319]플라복세이트염산염",
+      "FORM_NAME": "정제/당의정",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4897",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000512",
+      "INGR_ENG_NAME": "Fesoterodine",
+      "INGR_NAME": "페소테로딘",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M242751]페소테로딘푸마르산염",
+      "FORM_NAME": "서방정/서방성필름코팅정",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4898",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000089",
+      "INGR_ENG_NAME": "Dicyclomine",
+      "INGR_NAME": "디시클로민",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M101239]염산디싸이클로민/[M222968]디싸이클로민염산염/[M256709]디시클로민염산염/[M258931]디사이클로민염산염",
+      "FORM_NAME": "정제/캡슐/나정/필름코팅정/경질캡슐제, 산제",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4899",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000089",
+      "INGR_ENG_NAME": "Dicyclomine",
+      "INGR_NAME": "디시클로민",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M101239]염산디싸이클로민/[M222968]디싸이클로민염산염/[M256709]디시클로민염산염/[M258931]디사이클로민염산염",
+      "FORM_NAME": "정제/캡슐/나정/필름코팅정/경질캡슐제, 산제",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4900",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000585",
+      "INGR_ENG_NAME": "Clidinium",
+      "INGR_NAME": "클리디늄",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M253729]클리디늄브롬화물",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4901",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001357",
+      "INGR_ENG_NAME": "Cimetropium",
+      "INGR_NAME": "시메트로퓸",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A000660]시메트로퓸/[M257165]시메트로퓸브롬화물",
+      "FORM_NAME": "정제/용액주사제/나정",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4902",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000897",
+      "INGR_ENG_NAME": "Piprinhydrinate",
+      "INGR_NAME": "피프린히드리네이트",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M051889]피프린히드리네이트(콜톤)/[M071547]피프린히드리네이트",
+      "FORM_NAME": "정제/용액주사제/나정",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4903",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000896",
+      "INGR_ENG_NAME": "Pheniramine",
+      "INGR_NAME": "페니라민",
+      "MIX_INGR": "",
+      "ORI_INGR": "[I002961]페니라민아미노살리실레이트/[I002962]페니라민말레산염/[M051704]말레인산페니라민/[M086103]니스과립디/[M086104]니스과립C-2/[M237022]페니라민말레산염",
+      "FORM_NAME": "시럽",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4904",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000226",
+      "INGR_ENG_NAME": "Mequitazine",
+      "INGR_NAME": "메퀴타진",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M050446]메퀴타진",
+      "FORM_NAME": "정제/캡슐/시럽/나정/액상시럽제",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4905",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001269",
+      "INGR_ENG_NAME": "Meclizine hydrochloride hydrate",
+      "INGR_NAME": "메클리진 염산염수화물",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M223008]메클리진염산염수화물",
+      "FORM_NAME": "정제/산제/액제/시럽/구강붕해필름/나정/경구용액제/액상시럽제/추어블정(저작정)/산제",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4906",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000114",
+      "INGR_ENG_NAME": "Hydroxyzine",
+      "INGR_NAME": "히드록시진",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M223358]히드록시진염산염",
+      "FORM_NAME": "정제/시럽/나정/액상시럽제",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4907",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000296",
+      "INGR_ENG_NAME": "Doxylamine",
+      "INGR_NAME": "독시라민",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M226319]독시라민석시네이트/[M250452]독시라민숙신산염",
+      "FORM_NAME": "정제/장용정/나정/필름코팅정/연질캡슐제, 액상/액상시럽제",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4908",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000895",
+      "INGR_ENG_NAME": "Diphenhydramine",
+      "INGR_NAME": "디펜히드라민",
+      "MIX_INGR": "",
+      "ORI_INGR": "[I006203]디펜히드라민탄느산염/[M040108]디펜히드라민/[M040110]염산디펜히드라민/[M050298]살리실산디펜히드라민/[M082024]구연산디펜히드라민/[M083318]디펜히드라민씨트레이트/[M200130]구연산디펜하이드라민/[M200353]디펜하이드라민/[M201255]염산디펜하이드라민/[M222973]디펜히드라민염산염/[M222974]디펜히드라민염산염 주사액/[M222975]디펜히드라민염산염 캡슐/[M222976]디펜히드라민탄닌산염/[M254160]디펜히드라민시트르산염/[M257663]디펜히드라민살리실산염",
+      "FORM_NAME": "정제/캡슐/시럽/연질캡슐제, 액상/필름코팅정/구강붕해정/건조시럽제, 산제/나정/액상시럽제/장용성필름코팅정/용액주사제/경질캡슐제, 산제/직장용연고제/피부액제/에어로솔, 미분류/피부용겔제/카타플라스마제/지지체가있는첩부제/지지체가없는첩부제/피부크림제/피부리니멘트제/라카/일반액상분무제/포말에어로솔/피부연고제",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4909",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001262",
+      "INGR_ENG_NAME": "Dimenhydrinate",
+      "INGR_NAME": "디멘히드리네이트",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A000183]디멘히드리네이트",
+      "FORM_NAME": "정제/추어블정(저작정)/액제/시럽/나정/필름코팅정/껌제/경구용액제/액상시럽제",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4910",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001359",
+      "INGR_ENG_NAME": "Dexchlorpheniramine",
+      "INGR_NAME": "덱스클로르페니라민",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M116597]덱스클로르페니라민말레산염",
+      "FORM_NAME": "정제/추어블정(저작정)/캡슐/구강붕해필름",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4911",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000316",
+      "INGR_ENG_NAME": "Dexbrompheniramine",
+      "INGR_NAME": "덱스브롬페니라민",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M095060]말레인산덱스브롬페니라민/[M253274]d-브롬페니라민말레산염",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4912",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000026",
+      "INGR_ENG_NAME": "Cyproheptadine",
+      "INGR_NAME": "시프로헵타딘",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M040335]염산시프로헵타딘/[M081195]오로트산시프로헵타딘/[M094432]시프로헵타딘/[M223093]시프로헵타딘염산염수화물/[M254960]시프로헵타딘오로트산염수화물",
+      "FORM_NAME": "정제/추어블정(저작정)/캡슐/나정/경질캡슐제, 산제",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4913",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000374",
+      "INGR_ENG_NAME": "Clemastine",
+      "INGR_NAME": "클레마스틴",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M051505]푸마르산클레마스틴/[M223199]클레마스틴푸마르산염",
+      "FORM_NAME": "정제/나정",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4914",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001110",
+      "INGR_ENG_NAME": "Carbinoxamine",
+      "INGR_NAME": "카르비녹사민",
+      "MIX_INGR": "",
+      "ORI_INGR": "[C051445]말레인산카르비녹사민/[C083490]말레인산카르비녹사민서방성과립/[C090108]카르비녹사민레지네이트/[C091587]말레인산카르비녹사민과립/[I000321]말레인산카르비녹사민/[M051445]말레인산카르비녹사민/[M071403]카르비녹사민 레지네이트/[M083490]말레인산카르비녹사민서방성과립/[M090108]카르비녹사민레지네이트/[M091587]말레인산카르비녹사민과립/[M200470]말레인산카르비녹사민서방과립/[M251260]카르비녹사민말레산염",
+      "FORM_NAME": "정제/캡슐/경질캡슐제, 산제/나정/연질캡슐제, 액상",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4915",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000134",
+      "INGR_ENG_NAME": "Brompheniramine",
+      "INGR_NAME": "브롬페니라민",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M050657]말레인산브롬페니라민/[M247022]브롬페니라민말레산염",
+      "FORM_NAME": "캡슐",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4916",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000999",
+      "INGR_ENG_NAME": "Scopolamine",
+      "INGR_NAME": "스코폴라민",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M086103]니스과립디/[M086104]니스과립C-2/[M223057]부틸스코폴라민브롬화물",
+      "FORM_NAME": "정제/캡슐/서방성경피흡수제/필름코팅정/나정/추어블정(저작정)/용액주사제/경질캡슐제, 산제/경구용액제/산제",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4917",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000826",
+      "INGR_ENG_NAME": "Triprolidine",
+      "INGR_NAME": "트리프롤리딘",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M051642]염산트리프롤리딘/[M241782]트리프롤리딘염산염/[M243192]트리프롤리딘염산염/[M243987]트리프롤리딘염산염/[M244139]트리프롤리딘염산염/[M246366]트리프로리딘염산염/[M250460]트리프롤리딘염산염수화물",
+      "FORM_NAME": "정제/캡슐/시럽",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4918",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001358",
+      "INGR_ENG_NAME": "Belladonna alkaloid",
+      "INGR_NAME": "벨라돈나총알칼로이드",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M050605]벨라돈나알칼로이드/[M086528]벨라돈나총알칼로이드",
+      "FORM_NAME": "추어블정(저작정)/캡슐/구강붕해필름",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "4919",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001360",
+      "INGR_ENG_NAME": "Tiquizium",
+      "INGR_NAME": "티퀴지움,티퀴쥼",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A001232]티퀴쥼/[M252651]티퀴쥼브롬화물",
+      "FORM_NAME": "캡슐",
+      "NOTIFICATION_DATE": "20200924",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5170",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000739",
+      "INGR_ENG_NAME": "Aceclofenac",
+      "INGR_NAME": "아세클로페낙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M040359]아세클로페낙",
+      "FORM_NAME": "정제/서방정/캡슐",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5171",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000452",
+      "INGR_ENG_NAME": "Aspirin",
+      "INGR_NAME": "아스피린",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M040355]아스피린/[M040356]아스피린알루미늄/[M071842]아스피린리신/[M081776]아스피린장용과립/[M082548]아스피린제피세립(아세틸살리실산제피세립)/[M084664]아스피린장용피입자/[M089224]주사용아스피린리신90%/[M246086]아스피린제피세립/[M253914]아스피린장용펠렛/[M264065]아스피린과립",
+      "FORM_NAME": "정제/장용정/캡슐/서방성캡슐제, 펠렛/서방성캡슐제, 정제펠렛/장용성캡슐제, 정제/장용성캡슐제, 펠렛/용액용분말주사제/필름코팅정/장용성필름코팅정",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5172",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000138",
+      "INGR_ENG_NAME": "Celecoxib",
+      "INGR_NAME": "세레콕시브",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M089149]세레콕시브",
+      "FORM_NAME": "정제/캡슐",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5173",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000651",
+      "INGR_ENG_NAME": "Cinoxicam",
+      "INGR_NAME": "시녹시캄",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M084858]시녹시캄",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5174",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000675",
+      "INGR_ENG_NAME": "Clonixin",
+      "INGR_NAME": "클로닉신",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M080375]클로닉신리시네이트/[M100531]클로닉신리진/[M104025]클로닉신리시네이트/[M212258]클로닉신리신/[M259773]클로닉신리지네이트",
+      "FORM_NAME": "정제/캡슐",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5175",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000086",
+      "INGR_ENG_NAME": "Dexibuprofen",
+      "INGR_NAME": "덱시부프로펜",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M088349]덱시부프로펜디ㆍ씨/[M092057]덱시부프로펜/[M212364]덱시부프로펜디씨/[M214134]덱시부프로펜 디.씨/[M215523]덱시부프로펜 디.씨./[M240099]덱시부프로펜디.씨/[M254719]덱시부프로펜",
+      "FORM_NAME": "정제/캡슐/시럽",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5176",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000696",
+      "INGR_ENG_NAME": "Dexketoprofen",
+      "INGR_NAME": "덱스케토프로펜",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M213126]덱스케토프로펜트로메타몰",
+      "FORM_NAME": "정제/용액주사제",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5177",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000506",
+      "INGR_ENG_NAME": "Diclofenac",
+      "INGR_NAME": "디클로페낙",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M050288]디클로페낙나트륨/[M083248]디클로페낙/[M083349]디클로페낙베타디메칠아미노에탄올/[M084600]디클로페낙칼륨/[M086205]디클로페낙디에칠암모늄/[M102665]디클로페낙에폴아민/[M230206]디클로페낙 β-디메칠아미노에탄올/[M249599]디클로페낙디에틸암모늄/[M251996]디클로페낙베타디메틸아미노에탄올/[M252249]디클로페낙β-디메틸아미노에탄올/[M255472]디클로페낙디에틸아민염/[M256203]디클로페낙디에틸아민",
+      "FORM_NAME": "정제/용액주사제",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5178",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000847",
+      "INGR_ENG_NAME": "Ethenzamide",
+      "INGR_NAME": "에텐자미드",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M040417]에텐자미드/[M095771]에덴자미드",
+      "FORM_NAME": "정제/캡슐/과립",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5179",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000463",
+      "INGR_ENG_NAME": "Etodolac",
+      "INGR_NAME": "에토돌락",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M081813]미결정에토돌락/[M083240]에토돌락/[M257127]미분화에토돌락",
+      "FORM_NAME": "정제/서방정/캡슐",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5180",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001012",
+      "INGR_ENG_NAME": "Etoricoxib",
+      "INGR_NAME": "에토리콕시브",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M260064]에토리콕시브",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5181",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000705",
+      "INGR_ENG_NAME": "Flurbiprofen",
+      "INGR_NAME": "플루르비프로펜",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M051827]플루르비프로펜/[M089049]플루르비프로펜/[M106668]플루비프로펜나트륨",
+      "FORM_NAME": "트로키제/로젠지",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5184",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000363",
+      "INGR_ENG_NAME": "Ibuprofen",
+      "INGR_NAME": "이부프로펜",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M051259]이부프로펜/[M071015]이부프로펜리신/[M086772]이부프로펜제피세립/[M209277]이부프로펜아르기닌/[M246943]이부프로펜나트륨이수화물",
+      "FORM_NAME": "정제/서방정/캡슐/시럽/용액주사제",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5185",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000136",
+      "INGR_ENG_NAME": "Imidazole",
+      "INGR_NAME": "이미다졸",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M259636]살리실산이미다졸",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5186",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000575",
+      "INGR_ENG_NAME": "Indometacin",
+      "INGR_NAME": "인도메타신",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M040508]인도메타신",
+      "FORM_NAME": "캡슐",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5187",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000672",
+      "INGR_ENG_NAME": "Ketoprofen",
+      "INGR_NAME": "케토프로펜",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M051464]케토프로펜/[M081361]케토프로펜리신",
+      "FORM_NAME": "용액주사제",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5188",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001289",
+      "INGR_ENG_NAME": "Ketorolac",
+      "INGR_NAME": "케토롤락",
+      "MIX_INGR": "",
+      "ORI_INGR": "[A005274]케토롤락",
+      "FORM_NAME": "정제/용액주사제",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5189",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000115",
+      "INGR_ENG_NAME": "Lornoxicam",
+      "INGR_NAME": "로녹시캄",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M088931]로녹시캄",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5190",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000525",
+      "INGR_ENG_NAME": "Loxoprofen",
+      "INGR_NAME": "록소프로펜",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M085577]록소프로펜나트륨/[M222839]록소프로펜나트륨수화물/[M259736]록소푸로펜나트륨수화물",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5191",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000230",
+      "INGR_ENG_NAME": "Mefenamic acid",
+      "INGR_NAME": "메페남산",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M050476]메페남산/[M100591]메페남산",
+      "FORM_NAME": "정제/캡슐",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5192",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000427",
+      "INGR_ENG_NAME": "Meloxicam",
+      "INGR_NAME": "멜록시캄",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M086439]멜록시캄",
+      "FORM_NAME": "정제/구강붕해정/캡슐",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5193",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000321",
+      "INGR_ENG_NAME": "Morniflumate",
+      "INGR_NAME": "모니플루메이트",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M092795]모니플루메이트",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5194",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000081",
+      "INGR_ENG_NAME": "Nabumetone",
+      "INGR_NAME": "나부메톤",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M084590]나부메톤",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5195",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000982",
+      "INGR_ENG_NAME": "Naproxen",
+      "INGR_NAME": "나프록센",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M050116]나프록센/[M070724]나프록센나트륨/[M103210]소디움나프록센/[M200898]소듐나프록센",
+      "FORM_NAME": "정제/서방정/캡슐",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5196",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000083",
+      "INGR_ENG_NAME": "Nimesulide",
+      "INGR_NAME": "니메술리드",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M082649]니메술리드",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5197",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000206",
+      "INGR_ENG_NAME": "Pelubiprofen",
+      "INGR_NAME": "펠루비프로펜",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M210533]펠루비프로펜",
+      "FORM_NAME": "정제/서방정",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5198",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000983",
+      "INGR_ENG_NAME": "Piroxicam",
+      "INGR_NAME": "피록시캄",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M071634]피록시캄/[M084084]피록시캄칼륨/[M085204]피록시캄베타-싸이클로덱스트린/[M204302]피록시캄베타-사이클로덱스트린/[M256428]피록시캄-베타사이클로덱스트린",
+      "FORM_NAME": "정제/캡슐/용액주사제",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5199",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D001004",
+      "INGR_ENG_NAME": "Polmacoxib",
+      "INGR_NAME": "폴마콕시브",
+      "MIX_INGR": "",
+      "ORI_INGR": "[I012685]폴마콕시브/[M260872]폴마콕시브",
+      "FORM_NAME": "정제/캡슐",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5200",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000703",
+      "INGR_ENG_NAME": "Pranoprofen",
+      "INGR_NAME": "프라노프로펜",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M081426]프라노프로펜",
+      "FORM_NAME": "시럽",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5201",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000211",
+      "INGR_ENG_NAME": "Proglumetacin",
+      "INGR_NAME": "프로글루메타신",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M082031]말레인산프로글루메타신/[M256432]프로글루메타신말레산염",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5202",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000644",
+      "INGR_ENG_NAME": "Sulindac",
+      "INGR_NAME": "설린닥",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M050765]설린닥",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5203",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000280",
+      "INGR_ENG_NAME": "Talniflumate",
+      "INGR_NAME": "탈니플루메이트",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M081412]탈니플루메이트",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5204",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000837",
+      "INGR_ENG_NAME": "Tiaprofenic acid",
+      "INGR_NAME": "티아프로펜산",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M080409]티아프로펜산",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5205",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000766",
+      "INGR_ENG_NAME": "Zaltoprofen",
+      "INGR_NAME": "잘토프로펜",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M086829]잘토프로펜",
+      "FORM_NAME": "정제",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  },
+  {
+    "item": {
+      "DUR_SEQ": "5206",
+      "TYPE_NAME": "노인주의",
+      "MIX_TYPE": "단일",
+      "INGR_CODE": "D000451",
+      "INGR_ENG_NAME": "Aripiprazole",
+      "INGR_NAME": "아리피프라졸",
+      "MIX_INGR": "",
+      "ORI_INGR": "[M096829]아리피프라졸/[M263313]아리피프라졸일수화물",
+      "FORM_NAME": "정제/서방성현탁액용동결건조분말주사제",
+      "NOTIFICATION_DATE": "20210715",
+      "PROHBT_CONTENT": null,
+      "REMARK": null,
+      "DEL_YN": "정상"
+    }
+  }
+]
