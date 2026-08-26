@@ -133,10 +133,6 @@ async function main() {
   for (const target of TARGETS) {
     await fetchTarget(target);
   }
-
-  console.log(`\n완료. ${OUT_ROOT}`);
-  console.log('첫 파일을 한 번 열어보고 MIXTURE_ 접두사 필드명을 확인하세요.');
-  console.log('(load-dur.ts 의 RawInteraction 타입이 그 이름에 의존합니다)');
 }
 
 main();

@@ -10,7 +10,9 @@
     "fetch:meds": "tsx supabase/scripts/fetch-medications.ts",
     "load:meds": "tsx supabase/scripts/load-medications.ts",
     "fetch:dur": "tsx supabase/scripts/fetch-dur.ts",
-    "load:dur": "tsx supabase/scripts/load-dur.ts"
+    "load:dur": "tsx supabase/scripts/load-dur.ts",
+    "fetch:dur-items": "tsx supabase/scripts/fetch-dur-items.ts",
+    "load:dur-items": "tsx supabase/scripts/load-dur-items.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.4",
