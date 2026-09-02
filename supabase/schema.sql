@@ -223,6 +223,10 @@ create table symptoms (
   name         text not null,
   icon         text,
   category_id  uuid not null references categories(id) on delete cascade,
+  -- 증상이 속한 분류. 현재 화면에서는 사용하지 않는다.
+  --   랜딩: 고정 8개를 직접 지정
+  --   카테고리 필터: 그 카테고리 상품에 달린 증상을 역산하므로 이 값과 무관
+  -- 증상 전체 목록 페이지를 만들 경우 그룹핑 기준으로 쓴다.
   sort_order   int not null default 0,
   created_at   timestamptz not null default now()
 );
