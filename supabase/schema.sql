@@ -60,13 +60,15 @@ create table medications (
 -- 함량은 약·성분 어느 쪽만으로도 정해지지 않으므로 연결 테이블에 위치
 -- numeric 사용: 소수 함량이 흔하고 float 은 부동소수점 오차 발생
 create table medication_ingredients (
-  id             uuid primary key default gen_random_uuid(),
-  medication_id  uuid not null references medications(id) on delete cascade,
-  ingredient_id  uuid not null references ingredients(id) on delete cascade,
-  amount         numeric,
-  unit           text,      -- 원문이 한글 ("밀리그램", "그램")
-  created_at     timestamptz not null default now(),
-  unique (medication_id, ingredient_id)
+  id uuid primary key default gen_random_uuid(),
+  medication_id uuid not null references medications(id) on delete cascade,
+  ingredient_id uuid references ingredients(id) on delete restrict, -- null = DUR 성분 테이블에 없는 성분
+  raw_name text not null,                                           -- MATERIAL_NAME 원문 성분명
+  amount numeric,
+  unit text not null,
+  created_at timestamptz not null default now(),
+  unique (medication_id, ingredient_id),
+  unique (medication_id, raw_name)
 );
 
 -- 병용금기 (성분↔성분). 1,836건
