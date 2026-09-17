@@ -16,7 +16,8 @@
     "load:rx": "tsx supabase/scripts/load-rx.ts",
     "fetch:hf": "tsx supabase/scripts/fetch-health-foods.ts",
     "build:medication-ingredients": "tsx supabase/scripts/build-medication-ingredients.ts",
-    "diagnose:selected-names": "tsx supabase/scripts/diagnose-selected-names.ts"
+    "diagnose:selected-names": "tsx supabase/scripts/diagnose-selected-names.ts",
+    "fetch:drug-ingredients": "tsx supabase/scripts/fetch-drug-ingredients.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.4",
