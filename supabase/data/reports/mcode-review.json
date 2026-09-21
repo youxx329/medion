@@ -1,0 +1,11 @@
+{
+  "how_to_use": [
+    "1. suggested_list 를 훑어서 원료명과 성분명이 같은 물질인지 본다 (카페인무수물 = 카페인)",
+    "2. 이상한 줄은 suggested_mappings 에서 지운다",
+    "3. suggested_mappings 를 mcode-overrides.json 의 mappings 안에 붙인다",
+    "4. manual 은 의약품안전나라에서 제품 성분을 확인하고 mappings 또는 dismissed 에 직접 추가한다"
+  ],
+  "suggested_list": [],
+  "suggested_mappings": {},
+  "manual": []
+}

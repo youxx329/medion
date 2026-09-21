@@ -88,6 +88,7 @@ type RawCondition = {
   INGR_NAME: string;
   INGR_ENG_NAME?: string;
   ORI_INGR?: string;
+  MIX_INGR?: string;
   GRADE?: string;
   AGE_BASE?: string;
   FORM_NAME?: string;
@@ -106,6 +107,48 @@ function clean(value: string | null | undefined): string | null {
   if (value == null) return null;
   const trimmed = value.trim();
   return trimmed === '' ? null : trimmed;
+}
+
+/**
+ * 복합 성분 목록 → 성분 행.
+ * "[D001116]Methylephedrine(메틸에페드린)/[D000147]Acetaminophen(아세트아미노펜)"
+ *
+ * 어떤 규칙의 주인공(INGR_CODE)으로도 안 나오고 MIX 에만 등장하는 성분이 있다.
+ * 이걸 빼면 ingredients 에 없어서 품목 성분 연결과 성분 중복 검사에서 빠진다.
+ *
+ * 한글명은 맨 끝 괄호 안이다. 한글명 자체에 괄호가 있는 경우가 있어
+ *   "Sodium Pertechnetate (99mTc)(과테크네튬산나트륨 (99mTc))"
+ * 정규식 대신 끝에서부터 괄호 짝을 맞춰 찾는다.
+ */
+function parseMixList(mix: string | null): IngredientInsert[] {
+  if (mix === null) return [];
+
+  return mix.split(/\/(?=\[D)/).map((entry) => {
+    const head = entry.match(/^\[(D\d+)\]/);
+    const body = entry.slice(head?.[0].length ?? 0).trim();
+    if (head === null || !body.endsWith(')')) {
+      throw new Error(`MIX 형식 이상: "${entry}"`);
+    }
+
+    let depth = 0;
+    let open = -1;
+    for (let i = body.length - 1; i >= 0; i--) {
+      if (body[i] === ')') depth++;
+      else if (body[i] === '(') depth--;
+      if (depth === 0) {
+        open = i;
+        break;
+      }
+    }
+    if (open <= 0) throw new Error(`MIX 괄호 짝 이상: "${entry}"`);
+
+    return {
+      code: head[1],
+      name_en: clean(body.slice(0, open)),
+      name_ko: body.slice(open + 1, -1).trim(),
+      ori_names: null,
+    };
+  });
 }
 
 /** items[].item 중첩을 벗긴다. 중첩이 없는 형태도 받아들인다. */
@@ -190,6 +233,8 @@ async function loadIngredients() {
       name_en: clean(r.MIXTURE_INGR_ENG_NAME),
       ori_names: clean(r.MIXTURE_ORI),
     });
+    parseMixList(clean(r.MIX)).forEach(put);
+    parseMixList(clean(r.MIXTURE_MIX)).forEach(put);
   }
 
   for (const dir of CONDITION_DIRS) {
@@ -201,6 +246,7 @@ async function loadIngredients() {
         name_en: clean(r.INGR_ENG_NAME),
         ori_names: clean(r.ORI_INGR),
       });
+      parseMixList(clean(r.MIX_INGR)).forEach(put);
     }
   }
 

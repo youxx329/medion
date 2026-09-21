@@ -62,13 +62,14 @@ create table medications (
 create table medication_ingredients (
   id uuid primary key default gen_random_uuid(),
   medication_id uuid not null references medications(id) on delete cascade,
-  ingredient_id uuid references ingredients(id) on delete restrict, -- null = DUR 성분 테이블에 없는 성분
-  raw_name text not null,                                           -- MATERIAL_NAME 원문 성분명
+  ingredient_id uuid references ingredients(id) on delete restrict, -- null = DUR 성분 테이블에 없는 원료
+  raw_name text not null,                                           -- 원료명 원문 (MTRAL_NM)
   amount numeric,
   unit text not null,
+  tamt_seq text not null default '1',                               -- 총량 기준 순번 (이층정 층별, 파스 규격별)
+  amount_basis text,                                                -- 함량 기준 원문 ("1매 10×7㎠ 약 1,150.62mg 중")
   created_at timestamptz not null default now(),
-  unique (medication_id, ingredient_id),
-  unique (medication_id, raw_name)
+    unique nulls not distinct (medication_id, raw_name, tamt_seq, ingredient_id)
 );
 
 -- 병용금기 (성분↔성분). 1,836건

@@ -1,0 +1,118 @@
+{
+  "mappings": {
+    "M255819": { "dcode": "D001810", "note": "토코페롤아세테이트 2배산 → 토코페롤 (Tocopherol)" },
+    "M223240": { "dcode": "D001810", "note": "토코페롤아세테이트 → 토코페롤 (Tocopherol)" },
+    "M250726": { "dcode": "D001810", "note": "D-α-토코페롤아세테이트 → 토코페롤 (Tocopherol)" },
+    "M273456": {
+      "dcode": "D001810",
+      "note": "알파-토코페롤아세테이트 농축분말 → 토코페롤 (Tocopherol)"
+    },
+    "M227389": { "dcode": "D001810", "note": "토코페롤아세테이트50% → 토코페롤 (Tocopherol)" },
+    "M222937": { "dcode": "D001768", "note": "나파졸린염산염 → 나파졸린 (Naphazoline)" },
+    "M050687": { "dcode": "D001300", "note": "비사코딜 → 비사코딜 (Bisacodyl)" },
+    "M081950": { "dcode": "D001502", "note": "도큐세이트나트륨 → 도큐세이트 (Docusate)" },
+    "M040096": {
+      "dcode": "D001262",
+      "note": "디멘히드리네이트 → 디멘히드리네이트 (Dimenhydrinate)"
+    },
+    "M261256": {
+      "dcode": "D001811",
+      "note": "이소프로필메틸페놀 → 이소프로필메틸페놀 (Isopropyl Methylphenol)"
+    },
+    "M051015": { "dcode": "D001809", "note": "알란토인 → 알란토인 (Allantoin)" },
+    "M246028": { "dcode": "D001726", "note": "황산망간수화물 → 황산망간 (Manganese Sulfate)" },
+    "M280814": {
+      "dcode": "D001116",
+      "note": "dl-메틸에페드린염산염 → 메틸에페드린 (Methylephedrine)"
+    },
+    "M095125": { "dcode": "D001374", "note": "수용성아줄렌 → 아줄렌 (Azulene)" },
+    "M083617": { "dcode": "D001801", "note": "세네가가루 → 세네가 (Senega)" },
+    "M110394": { "dcode": "D001802", "note": "아선약 가루 → 아선약 (Gambir)" },
+    "M060542": { "dcode": "D001803", "note": "행인가루 → 행인 (Apricot Kernel)" },
+    "M082727": {
+      "dcode": "D001664",
+      "note": "감초엑스산 → 감초엑스산 (Glycyrrhiza extract powder)"
+    },
+    "M089609": { "dcode": "D001804", "note": "괄루인엑스산 → 괄루인 (Trichosanthes Seed)" },
+    "M089512": {
+      "dcode": "D001685",
+      "note": "생강엑스산 → 생강엑스산 (Raw ginger extract powder)"
+    },
+    "M084062": { "dcode": "D001515", "note": "프로자임6 → 프로자임 (Prozyme)" },
+    "M051564": { "dcode": "D000671", "note": "탄산칼슘 → 탄산칼슘 (Calcium Carbonate)" },
+    "M225556": { "dcode": "D001501", "note": "아기오락스 원료과립 → 아기오락스 (Agiolax)" },
+    "M102544": { "dcode": "D001667", "note": "센노사이드칼슘 → 센노사이드 (Sennoside)" },
+    "M268718": { "dcode": "D001142", "note": "진피건조엑스(5→1) → 진피 (Citrus Unshiu Peel)" },
+    "M083538": { "dcode": "D001808", "note": "바시트라신아연 → 바시트라신 (Bacitracin)" },
+    "M085022": { "dcode": "D000380", "note": "테르비나핀 → 테르비나핀 (Terbinafine)" },
+    "M089404": { "dcode": "D001211", "note": "우레아 → 우레아 (Urea)" },
+    "M249378": { "dcode": "D001474", "note": "헤파린나트륨 → 헤파린 (Heparin)" },
+    "M110553": { "dcode": "D000987", "note": "콜레칼시페롤 과립 → 콜레칼시페롤 (Cholecalciferol)" },
+    "M281413": {
+      "dcode": "D000987",
+      "note": "콜레칼시페롤농축분말 → 콜레칼시페롤 (Cholecalciferol)"
+    },
+    "M113513": {
+      "dcode": "D001106",
+      "note": "아스코르브산 과립97% → 아스코르브산 (Ascorbic acid)"
+    },
+    "M243439": { "dcode": "D001521", "note": "판토텐산칼슘 → 판토텐산칼슘 (Calcium pantothenate)" },
+    "M100992": { "dcode": "D001752", "note": "코바마미드 → 코바마미드 (Cobamamide)" },
+    "M081378": { "dcode": "D000992", "note": "오로트산카르니틴 → 카르니틴 (Carnitine)" },
+    "M257887": {
+      "dcode": "D000564",
+      "note": "자일로메타졸린염산염 → 키실로메타졸린 (Xylometazoline). 한글 음역만 다름. 의약품안전나라 오트리빈 성분 확인"
+    },
+    "M258544": {
+      "dcodes": ["D001569", "D000996"],
+      "note": "L-아스파르트산-L-아르기닌수화물 → 엘-아스파르트산-엘-아르기닌(동일 물질) + 아르기닌(포함 성분)"
+    },
+    "M040435": {
+      "dcode": "D001315",
+      "note": "염화암모늄 → 염화암모늄 (Ammonium chloride). D001156 암모늄염은 영문명 동일로 자동 묶임"
+    },
+    "M051757": {
+      "dcode": "D001731",
+      "note": "포비돈요오드 → 요오드. 요오드 방출 복합체라 요오드 규칙이 적용될 수 있어 보수적으로 연결"
+    },
+    "M233313": {
+      "dcode": "D001154",
+      "note": "폴리믹신B황산염 → 폴리믹신 비 (Polymyxin B). B를 '비'로 적은 표기 차이"
+    },
+    "M106790": {
+      "dcode": "D000216",
+      "note": "합성비타민A농축분말 → 레티놀 (영문 Synthetic Retinol Acetate). 비타민A = 레티놀"
+    },
+    "M223183": {
+      "dcode": "D001266",
+      "note": "카페인무수물 → 카페인무수물. 카페인 D000852 는 siblings 로 묶임"
+    },
+    "M204304": {
+      "dcode": "D001265",
+      "note": "피리독신염산염 → 피리독신염산염. 피리독신 D000413 은 siblings 로 묶임"
+    },
+    "M223262": {
+      "dcode": "D001520",
+      "note": "티아민질산염 → 티아민질산염. 티아민 D000998 은 siblings 로 묶임"
+    },
+    "M050116": {
+      "dcode": "D000982",
+      "note": "나프록센 → 나프록센. D000195 는 이름 동일로 자동 묶임"
+    }
+  },
+  "siblings": [
+    {
+      "dcodes": ["D000852", "D001266"],
+      "note": "카페인 / 카페인무수물 — 무수물은 물 분자가 빠진 형태일 뿐 같은 물질"
+    },
+    { "dcodes": ["D000413", "D001265"], "note": "피리독신 / 피리독신염산염 — 염 형태 차이" },
+    { "dcodes": ["D000998", "D001520"], "note": "티아민 / 티아민질산염 — 염 형태 차이" }
+  ],
+  "dismissed": [
+    {
+      "item_seq": "201208419",
+      "dcode": "D001442",
+      "note": "도담도담츄어블정 홍삼30%에탄올건조엑스의 에탄올은 추출 용매지 성분이 아님"
+    }
+  ]
+}
