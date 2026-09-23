@@ -17,7 +17,10 @@
     "fetch:hf": "tsx supabase/scripts/fetch-health-foods.ts",
     "build:medication-ingredients": "tsx supabase/scripts/build-medication-ingredients.ts",
     "diagnose:selected-names": "tsx supabase/scripts/diagnose-selected-names.ts",
-    "fetch:drug-ingredients": "tsx supabase/scripts/fetch-drug-ingredients.ts"
+    "fetch:drug-ingredients": "tsx supabase/scripts/fetch-drug-ingredients.ts",
+    "fill:product-ids": "tsx supabase/scripts/fill-product-ids.ts",
+    "seed:products": "tsx supabase/scripts/seed-products.ts",
+    "load:health-foods": "tsx supabase/scripts/load-health-foods.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.4",
