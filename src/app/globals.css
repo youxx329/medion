@@ -1,11 +1,9 @@
 @import 'tailwindcss';
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme {
+  /* 레이아웃 */
+  --container-content: 1200px;
+
   /* 시그니처 */
   --color-primary: #4ca585;
   --color-ink: #003e53;
@@ -13,7 +11,13 @@
   --color-surface: #e6f2f0;
   --color-product-bg: #d4eeeb;
 
-  /* DUR 4단 */
+  /* 뉴트럴 (Ink 톤 회색) */
+  --color-muted: #637177; /* 보조 텍스트: 상품 수, 설명 문구 */
+  --color-disabled: #9aa6ab; /* 비활성 텍스트, placeholder */
+  --color-line: #dde3e5; /* 구분선, 입력창 보더 */
+  --color-skeleton: #eef1f2; /* 스켈레톤, 비활성 배경 */
+
+  /* DUR 4단 - safe는 토큰 이름일 뿐, 화면 문구에 '안전' 금지*/
   --color-dur-safe-bg: #e6f2f0;
   --color-dur-safe-border: #b6dbd3;
   --color-dur-safe-icon: #4ca585;
@@ -71,11 +75,4 @@
   --text-label: 12px;
   --text-label--line-height: 1.4;
   --text-label--letter-spacing: 0.01em;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
