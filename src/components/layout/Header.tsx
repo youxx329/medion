@@ -1,4 +1,3 @@
-'use client';
 import { ChevronDown, Search, ShoppingBag } from 'lucide-react';
 import Link from 'next/link';
 import Logo from './Logo';
@@ -17,7 +16,9 @@ export default function Header() {
             카테고리
             <ChevronDown className="size-4" strokeWidth={1.5} aria-hidden />
           </button>
-          <button className="hover:text-primary">AI 약사 상담</button>
+          <button type="button" className="hover:text-primary">
+            AI 약사 상담
+          </button>
 
           <label className="flex h-9 w-60 items-center gap-2 rounded-full bg-surface px-4">
             <Search className="size-4 text-muted" strokeWidth={1.5} aria-hidden />
