@@ -38,6 +38,19 @@
   --color-dur-danger-icon: #e03131;
   --color-dur-danger-text: #c92a2a;
 
+  /* 상품 라벨 (목업 오버레이) — 실제 포장 대신 쓰는 색. 글자는 Ink */
+  --color-label-red: #f2bfbc; /* 더스티 로즈 */
+  --color-label-coral: #f7c9b6; /* 살몬 */
+  --color-label-orange: #fbddb4; /* 살구 */
+  --color-label-amber: #f6e7ae; /* 버터 */
+  --color-label-lime: #ddecb4; /* 연두 */
+  --color-label-green: #c5e2c1; /* 세이지 */
+  --color-label-mint: #bce6db; /* 민트 */
+  --color-label-sky: #c2dbf2; /* 하늘 */
+  --color-label-indigo: #c9c8f0; /* 라벤더 */
+  --color-label-pink: #f4cbdd; /* 핑크 */
+  --color-label-slate: #d2d9e0; /* 블루그레이 */
+
   /* 폰트 */
   --font-sans: var(--font-pretendard), sans-serif;
 

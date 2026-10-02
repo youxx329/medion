@@ -15,8 +15,8 @@
  * price          중분류 기준가 ±20%, 100원 단위. 상품명 해시라 다시 돌려도 같은 값
  * dosage_form    제품명에서 추정. 안 되면 건기식은 성상(appearance)으로 재시도
  * child_allowed  연령금기(소아 기준)에 걸리는 성분이 있으면 false
- * image_key      제형·중분류에서 목업 용기 선택
- * label_color    대분류별 색상 토큰
+ * image_key      제형·중분류·상품명 규칙으로 목업 용기 선택. 후보가 여러 개면 상품명 해시로 고정
+ * label_color    중분류별 색상 토큰 (실제 포장 대체용, 같은 대분류 안에서 겹치지 않게)
  * stock / sales  상품명 해시로 고정값
  *
  * 추정이 안 되는 건 채우지 않고 목록으로 뽑아 멈춘다.
@@ -35,7 +35,7 @@ import { config } from 'dotenv';
 config({ path: '.env.local' });
 
 import { createClient } from '@supabase/supabase-js';
-import { access, readFile, writeFile } from 'node:fs/promises';
+import { access, mkdir, readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 
 const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
@@ -90,21 +90,73 @@ const PRICE: Record<string, number> = {
   멀미: 3000,
 };
 
-/** 대분류별 색상 토큰. 디자인 토큰이 정해지면 여기만 바꾸면 된다 */
+/** 중분류별 라벨 색. 실제 포장 대신 쓰는 색이라 카테고리 의미는 없고,
+ *  같은 대분류 안에서만 겹치지 않게 배정했다 */
 const LABEL_COLOR: Record<string, string> = {
-  '감기·호흡기': 'sky',
-  '진통·해열': 'red',
-  '소화·위장': 'amber',
-  '피부·상처': 'mint',
-  '눈·구강': 'indigo',
-  '여성·임신': 'pink',
-  어린이: 'orange',
-  '영양·컨디션': 'green',
-  '기타 상비': 'slate',
+  // 감기·호흡기
+  종합감기: 'sky',
+  '목·인후': 'mint',
+  '코·비염': 'indigo',
+  알레르기: 'lime',
+  // 진통·해열
+  해열진통: 'red',
+  소염진통: 'coral',
+  '파스·진통패치': 'orange',
+  // 소화·위장
+  '소화·속쓰림': 'amber',
+  '변비·설사': 'green',
+  // 피부·상처
+  '연고·외용제': 'sky',
+  피부미용: 'pink',
+  소독약: 'slate',
+  // 눈·구강
+  인공눈물: 'indigo',
+  잇몸: 'coral',
+  // 여성·임신
+  '엽산·임산부': 'pink',
+  철분: 'red',
+  // 어린이
+  어린이감기: 'orange',
+  어린이영양제: 'lime',
+  // 영양·컨디션
+  비타민: 'orange',
+  종합비타민: 'amber',
+  마그네슘: 'indigo',
+  오메가3: 'sky',
+  유산균: 'pink',
+  피로회복: 'red',
+  루테인: 'lime',
+  간건강: 'green',
+  '뼈·관절': 'slate',
+  수면: 'mint',
+  숙취: 'coral',
+  // 기타 상비
+  구충: 'slate',
+  멀미: 'sky',
 };
 
-/** 제형 추정 규칙. 먼저 맞는 것이 이긴다 */
+/** 영양 계열은 성분별로 포장 색을 다르게. 여기 없으면 대분류 색 */
+const LABEL_COLOR_BY_SUB: Record<string, string> = {
+  비타민: 'orange',
+  종합비타민: 'amber',
+  마그네슘: 'indigo',
+  오메가3: 'sky',
+  유산균: 'pink',
+  피로회복: 'red',
+  루테인: 'lime',
+  간건강: 'green',
+  '뼈·관절': 'slate',
+  수면: 'mint',
+  숙취: 'coral',
+};
+
+/** 제형 추정 규칙. 먼저 맞는 것이 이긴다 → 좁은 규칙을 위에 */
 const FORM_RULES: { form: string; test: RegExp }[] = [
+  // 이름에 '겔'·'시럽'이 들어가 넓은 규칙에 잘못 걸리는 것들
+  { form: '산제·과립', test: /건조시럽/ },
+  { form: '시럽·액상', test: /현탁액/ },
+  { form: '캡슐', test: /캡슐/ },
+  // 넓은 규칙
   {
     form: '외용',
     test: /(연고|크림|겔|로션|패취|패치|플라스타|카타플라스마|파스|스프레이|분무|외용액|도포)/,
@@ -126,24 +178,37 @@ const FORM_BY_SUB: Record<string, string> = {
   인공눈물: '시럽·액상',
 };
 
-/** 제형·중분류 → 목업 용기 */
-function imageKey(form: string, sub: string): string {
-  if (sub === '인공눈물') return 'dropper-bottle';
+/** 영양제처럼 통에 담겨 나오는 중분류 */
+const SUPPLEMENT_SUBS = new Set([
+  '종합비타민',
+  '비타민',
+  '오메가3',
+  '마그네슘',
+  '루테인',
+  '유산균',
+  '뼈·관절',
+  '간건강',
+  '어린이영양제',
+  '엽산·임산부',
+  '철분',
+]);
+
+/** 후보 중 하나를 상품명 해시로 고정 선택 */
+const pick = (list: string[], seed: string) =>
+  list[Math.floor(hash01(`img:${seed}`) * list.length)];
+
+/** 제형·중분류·상품명 → 목업 용기. 위에서부터 먼저 맞는 것이 이긴다 */
+function imageKey(form: string, sub: string, name: string, isFood: boolean): string {
+  if (sub === '인공눈물') return /(연고|겔)/.test(name) ? 'tube-02' : 'dropper-bottle';
   if (sub === '파스·진통패치') return 'pouch-zip';
-  switch (form) {
-    case '정제':
-      return 'bottle';
-    case '캡슐':
-      return 'cylinder';
-    case '시럽·액상':
-      return 'bottle-02';
-    case '산제·과립':
-      return 'pouch';
-    case '외용':
-      return 'tube';
-    default:
-      return 'box-wide';
-  }
+  if (/(스프레이|분무)/.test(name)) return 'dropper-bottle';
+  if (sub === '소독약' || /외용액/.test(name)) return 'bottle-02';
+  if (form === '외용') return pick(['tube', 'tube-02'], name);
+  if (/현탁액/.test(name)) return 'tube-03';
+  if (form === '산제·과립') return sub === '유산균' || sub === '숙취' ? 'tube-03' : 'pouch';
+  if (form === '시럽·액상') return 'bottle-02';
+  if (isFood || SUPPLEMENT_SUBS.has(sub)) return pick(['bottle', 'cylinder'], name);
+  return pick(['box-tall', 'box-tall-02', 'box-wide', 'box-wide-02'], name);
 }
 
 // ─── 유틸 ──────────────────────────────────────────────
@@ -322,6 +387,7 @@ async function main() {
   const problems: string[] = [];
   const needDisplayName: Record<string, string> = {};
   const renamed: string[] = [];
+  const preview: string[] = ['중분류,상품명,제형,image_key,label_color'];
 
   for (const r of csv) {
     const where = `${r.line}행 ${r.rawName}`;
@@ -386,16 +452,19 @@ async function main() {
     }
     const price = Math.round((base * (0.8 + hash01(name) * 0.4)) / 100) * 100;
 
-    const color = LABEL_COLOR[r.top];
+    const color = LABEL_COLOR[r.sub];
     if (color === undefined) {
-      problems.push(`${where}: 대분류 '${r.top}' 색상 없음`);
+      problems.push(`${where}: 중분류 '${r.sub}' 색상 없음`);
       continue;
     }
+
+    const img = imageKey(form, r.sub, name, !isMed);
+    preview.push([r.sub, name, form, img, color].map((v) => `"${v}"`).join(','));
 
     rows.push({
       name,
       price,
-      image_key: imageKey(form, r.sub),
+      image_key: img,
       label_color: color,
       category_id: sub.id,
       medication_id: med?.id ?? null,
@@ -440,6 +509,11 @@ async function main() {
   );
   console.log(`\n표시명이 원본과 다른 품목 ${renamed.length}건 (앞 10건)`);
   renamed.slice(0, 10).forEach((r) => console.log(`   ${r}`));
+
+  const reportDir = join(DATA, 'reports');
+  await mkdir(reportDir, { recursive: true });
+  await writeFile(join(reportDir, 'products-preview.csv'), '\uFEFF' + preview.join('\n'), 'utf-8');
+  console.log(`\n검수용: supabase/data/reports/products-preview.csv`);
 
   if (!COMMIT) {
     console.log('\n(dry-run) 적재하려면 -- --commit');
