@@ -15,7 +15,7 @@
  * price          중분류 기준가 ±20%, 100원 단위. 상품명 해시라 다시 돌려도 같은 값
  * dosage_form    제품명에서 추정. 안 되면 건기식은 성상(appearance)으로 재시도
  * child_allowed  연령금기(소아 기준)에 걸리는 성분이 있으면 false
- * image_key      제형·중분류·상품명 규칙으로 목업 용기 선택. 후보가 여러 개면 상품명 해시로 고정
+ * image_key      상품 이미지 파일명 (= 식별자, public/images/products/{식별자}.png)
  * label_color    중분류별 색상 토큰 (실제 포장 대체용, 같은 대분류 안에서 겹치지 않게)
  * stock / sales  상품명 해시로 고정값
  *
@@ -119,14 +119,14 @@ const LABEL_COLOR: Record<string, string> = {
   어린이감기: 'orange',
   어린이영양제: 'lime',
   // 영양·컨디션
-  비타민: 'orange',
-  종합비타민: 'amber',
+  비타민: 'amber', // orange → amber (버터 옐로)
+  종합비타민: 'orange', // amber → orange (살구)
   마그네슘: 'indigo',
   오메가3: 'sky',
   유산균: 'pink',
   피로회복: 'red',
   루테인: 'lime',
-  간건강: 'green',
+  간건강: 'red', // green → red (로즈)
   '뼈·관절': 'slate',
   수면: 'mint',
   숙취: 'coral',
@@ -137,14 +137,14 @@ const LABEL_COLOR: Record<string, string> = {
 
 /** 영양 계열은 성분별로 포장 색을 다르게. 여기 없으면 대분류 색 */
 const LABEL_COLOR_BY_SUB: Record<string, string> = {
-  비타민: 'orange',
-  종합비타민: 'amber',
+  비타민: 'amber', // orange → amber (버터 옐로)
+  종합비타민: 'orange', // amber → orange (살구)
   마그네슘: 'indigo',
   오메가3: 'sky',
   유산균: 'pink',
   피로회복: 'red',
   루테인: 'lime',
-  간건강: 'green',
+  간건강: 'red', // green → red (로즈)
   '뼈·관절': 'slate',
   수면: 'mint',
   숙취: 'coral',
@@ -177,39 +177,6 @@ const FORM_BY_SUB: Record<string, string> = {
   '파스·진통패치': '외용',
   인공눈물: '시럽·액상',
 };
-
-/** 영양제처럼 통에 담겨 나오는 중분류 */
-const SUPPLEMENT_SUBS = new Set([
-  '종합비타민',
-  '비타민',
-  '오메가3',
-  '마그네슘',
-  '루테인',
-  '유산균',
-  '뼈·관절',
-  '간건강',
-  '어린이영양제',
-  '엽산·임산부',
-  '철분',
-]);
-
-/** 후보 중 하나를 상품명 해시로 고정 선택 */
-const pick = (list: string[], seed: string) =>
-  list[Math.floor(hash01(`img:${seed}`) * list.length)];
-
-/** 제형·중분류·상품명 → 목업 용기. 위에서부터 먼저 맞는 것이 이긴다 */
-function imageKey(form: string, sub: string, name: string, isFood: boolean): string {
-  if (sub === '인공눈물') return /(연고|겔)/.test(name) ? 'tube-02' : 'dropper-bottle';
-  if (sub === '파스·진통패치') return 'pouch-zip';
-  if (/(스프레이|분무)/.test(name)) return 'dropper-bottle';
-  if (sub === '소독약' || /외용액/.test(name)) return 'bottle-02';
-  if (form === '외용') return pick(['tube', 'tube-02'], name);
-  if (/현탁액/.test(name)) return 'tube-03';
-  if (form === '산제·과립') return sub === '유산균' || sub === '숙취' ? 'tube-03' : 'pouch';
-  if (form === '시럽·액상') return 'bottle-02';
-  if (isFood || SUPPLEMENT_SUBS.has(sub)) return pick(['bottle', 'cylinder'], name);
-  return pick(['box-tall', 'box-tall-02', 'box-wide', 'box-wide-02'], name);
-}
 
 // ─── 유틸 ──────────────────────────────────────────────
 
@@ -458,7 +425,7 @@ async function main() {
       continue;
     }
 
-    const img = imageKey(form, r.sub, name, !isMed);
+    const img = r.id;
     preview.push([r.sub, name, form, img, color].map((v) => `"${v}"`).join(','));
 
     rows.push({
