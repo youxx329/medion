@@ -252,7 +252,7 @@ create table products (
   id              uuid primary key default gen_random_uuid(),
   name            text not null,
   price           int not null,
-  image_key       text,                   -- 목업 식별자 ('bottle', 'tube-02')
+  image_key       text not null
   label_color     text,                   -- 색상 토큰 ('red', 'mint')
   category_id     uuid not null references categories(id) on delete restrict,
   medication_id   uuid references medications(id) on delete restrict,

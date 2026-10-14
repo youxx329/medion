@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<'/'>) {
   return (
     <html lang="ko" className={`${pretendard.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col font-sans text-ink bg-product-bg">{children}</body>
+      <body className="min-h-full flex flex-col font-sans text-ink">{children}</body>
     </html>
   );
 }
