@@ -23,15 +23,19 @@ create table ingredients (
   code        text not null unique,   -- DUR 성분코드(D000147). upsert 키
   name_ko     text not null,
   name_en     text,
-  ori_names   text,                   -- ORI 원문. 성분명 텍스트 매칭용
+  ori_names   text,                   
+  -- ORI 원문. 해당 DUR 규칙에 관련된 성분 코드 모음이라
+  -- 복합 행에는 다른 성분의 M코드도 섞여 있음 → 매칭 키로 쓰지 않는다
   created_at  timestamptz not null default now()
 );
 
--- 의약품 (e약은요). 전체 4,765건 (2026.08 확인)
+-- 의약품 (e약은요).
 -- efficacy~storage 는 식약처 문항 1~7 원문을 그대로 노출
 -- etc_otc_code 는 e약은요에 없어 DUR품목정보에서 item_seq 로 찾아 update 함
 --   값은 "전문의약품"/"일반의약품" 한글 문자열 (코드 아님)
---   null = 구분 미확인 = 성분 정보도 없음 = 판매 후보에서 제외할 것
+--   null = DUR품목정보에 없는 품목 (금기 규칙이 등재되지 않았다는 뜻)
+--   성분 정보 유무와는 별개다. 성분은 주성분 상세 API 에서 따로 가져온다
+--   판매 상품은 약학정보원 확인 후 수동 입력해 null 이 없다
 create table medications (
   id              uuid primary key default gen_random_uuid(),
   item_seq        text not null unique,   -- 품목기준코드. upsert 키
@@ -51,14 +55,14 @@ create table medications (
 );
 
 -- 의약품 ↔ 성분 (N:M)
--- 공식 매핑 API 가 없어 수동 구축한다.
---   e약은요        품목코드만 있고 성분 없음
---   DUR품목정보    품목코드 + 성분명(MATERIAL_NAME) ← 유일한 다리
---   DUR성분정보    성분코드(D) + 성분명 변형(ORI)
--- 품목코드는 코드로 붙지만 성분은 이름 텍스트로 대조해야 하므로 전 건 검수 필요
--- amount/unit 은 MATERIAL_NAME 을 쉼표 분리해 확보 ("에페드린염산염,,40,밀리그램,KP,")
--- 함량은 약·성분 어느 쪽만으로도 정해지지 않으므로 연결 테이블에 위치
--- numeric 사용: 소수 함량이 흔하고 float 은 부동소수점 오차 발생
+-- 공식 매핑 API 가 없어 스크립트로 구축한다.
+--   주성분 상세(getDrugPrdtMcpnDtlInq07)  품목코드 + 원료코드(M) + 함량·단위
+--   DUR 원본 ORI (MIX_TYPE='단일' 행만)   원료코드(M) → DUR 성분코드(D)
+--   코드로 안 붙는 건 mcode-overrides.json (사람이 검수, Git 관리)
+-- 계층: 약품 > 원료(M코드) > 성분(D코드)
+-- ingredient_id null = DUR 성분 체계에 없는 원료. raw_name 으로 원문 보존
+-- tamt_seq: 이층정(속방/서방층)·파스 규격처럼 총량 기준이 여러 개인 품목은
+--   같은 성분이 다른 함량으로 여러 행 존재한다
 create table medication_ingredients (
   id uuid primary key default gen_random_uuid(),
   medication_id uuid not null references medications(id) on delete cascade,
@@ -72,7 +76,7 @@ create table medication_ingredients (
     unique nulls not distinct (medication_id, raw_name, tamt_seq, ingredient_id)
 );
 
--- 병용금기 (성분↔성분). 1,836건
+-- 병용금기 (성분↔성분).
 -- API 응답에 A→B, B→A 가 모두 존재하므로 수집 시 작은 id 를 A 로 정규화할 것
 -- level 컬럼 없음: API 에 등급 필드가 없어 데이터 출처로 코드에서 판정
 -- mix_type '복합' 은 저장만 하고 검사에서는 무시 (과잉 경고는 허용, 누락은 없음)
@@ -80,6 +84,8 @@ create table medication_ingredients (
 --   수집 시 거르지 않고 저장한 뒤 쿼리에서 제외한다 (재수집 시 상태 갱신 가능)
 -- remark 는 용량 조건 부연 ("methotrexate 1週에 15mg 이상 투여시").
 --   복용량을 수집하지 않아 판정에는 쓰지 않고 안내 문구로만 노출
+-- ★ 조회 시 (a=X and b=Y) or (a=Y and b=X) 양방향 모두 확인할 것
+--   a/b 배정은 uuid 정렬 기준이지 약리학적 방향이 아니다
 create table dur_interactions (
   id                 uuid primary key default gen_random_uuid(),
   ingredient_a_id    uuid not null references ingredients(id) on delete cascade,
@@ -96,12 +102,12 @@ create table dur_interactions (
   unique (ingredient_a_id, ingredient_b_id)
 );
 
--- 조건 금기. 임부(1,459) / 연령(233) / 노인주의(112) 3개 API 통합
+-- 조건 금기. 임부 / 연령 / 노인주의 3개 API 통합
 -- DUR_SEQ 는 API 별 독립 번호라 condition_type 까지 묶어야 유일해짐
 -- form_name: 제형 조건. 아세트아미노펜은 서방정 계열만 12세 미만 금기이므로
 --            제형을 무시하면 어린이 시럽에도 경고가 뜬다
 -- 용량주의/투여기간주의 API 미사용: 복용량·이력을 수집하지 않아 판정 불가
--- del_yn ★ '삭제' 는 폐지된 고시. 적재 후 확인 결과 35건(임부 27/노인 5/연령 3)
+-- del_yn ★ '삭제' 는 폐지된 고시. 적재 후 확인 결과 35건(임부 27/노인 5/연령 3) 2026.08.적재기준
 --   저장 후 쿼리에서 제외한다. '정상'만 골라 넣으면 이후 폐지되어도
 --   upsert 가 해당 행을 갱신하지 않아 유효한 금기로 남는다
 -- remark 는 API 별 의미가 다르다 (병용금기=용량 조건, 임부금기=투여 경로 "경구")
@@ -130,7 +136,7 @@ create table dur_conditions (
 -- DUR 성분 체계에 건기식 원료가 없어 검사 대상이 아니다.
 -- 검증된 상호작용 데이터가 없는 영역이므로 AI 추론으로 경고를 만들지 않고
 -- "검사 대상 아님"을 명시한다.
--- 전체 45,627건 중 판매 상품만 선별 수집.
+-- 판매 상품 관련 원료만 선별 수집.
 create table health_foods (
   id             uuid primary key default gen_random_uuid(),
   sttemnt_no     text not null unique,  -- 품목제조신고번호. upsert 키
@@ -213,12 +219,14 @@ create table user_medications (
 create table categories (
   id          uuid primary key default gen_random_uuid(),
   name        text not null,
+  slug        text not null unique,   -- URL 용 영문 식별자 (/products?category=iron)
+  -- 대분류·중분류 전체에서 유일 → 파라미터 하나로 둘 다 처리
   parent_id   uuid references categories(id) on delete cascade,
   sort_order  int not null default 0,
   created_at  timestamptz not null default now()
 );
 
--- 증상. 1인칭 문장형("두통이 있어요")
+-- 증상. 1인칭 구어체 ("머리가 아파요")
 -- categories 와 분리: 카테고리는 상품당 1개(1:N), 증상은 상품당 다수(N:M)
 -- icon 은 URL 이 아닌 식별자를 저장해 경로 변경 시 DB 수정이 불필요하게 함
 create table symptoms (
@@ -239,26 +247,33 @@ create table symptoms (
 --   (종속적 데이터인 증상·연결 테이블은 cascade)
 -- medication_id / health_food_id 는 check 로 배타 관계를 DB 가 강제
 --   → 상세 페이지에서 존재 여부만으로 안전하게 분기 가능
--- image_key/label_color 만 DB 에 두는 기준: 상품 추가 시 코드 수정이 필요한 값인가
---   라벨 위치·크기·색상 정의는 Tailwind, 어떤 목업/어떤 색인지는 데이터
--- dosage_form: 정제/서방정/캡슐/시럽/산제/외용
---   서방정을 분리한 이유는 dur_conditions.form_name 매칭에 필요하기 때문
+-- image_key: 상품 이미지 파일명 (= code). 경로는 코드에서 조립
+-- dosage_form: 정제 / 캡슐 / 시럽·액상 / 산제·과립 / 외용 (화면 표시·필터용)
+--   DUR form_name(서방정 등) 판정에는 쓰지 않는다. 표시 분류를 바꿔도 안전 판정이 흔들리지 않게
+--   제형 판정은 의약품 원본 이름으로 한다
 -- child_allowed ★ default 없음. 등록 시 명시 입력을 강제한다
 --   기본값을 두면 미확인 상품이 자동으로 false 가 되어 판단을 건너뛰게 됨
 --   표시·필터 용도이며 안전 판정은 DUR 성분 검사가 담당
 -- sales_count 는 비정규화. 목록 조회마다 order_items 를 집계하면 느림
+--  초기값은 seed 가 sales-tiers.json 등급으로 채움 (top 3 = 랜딩 베스트셀러, 중 = 매대 경험 기준)
+-- 이후 결제 승인 시 서버에서 sales_count = sales_count + 1 로 원자적 증가
 -- is_active 는 소프트 삭제. 하드 삭제 시 order_items 참조가 깨짐
 create table products (
   id              uuid primary key default gen_random_uuid(),
   name            text not null,
   price           int not null,
-  image_key       text not null
-  label_color     text,                   -- 색상 토큰 ('red', 'mint')
+  code            text not null unique,    
+    -- 상세 URL 식별자 (/products/[code])
+    --   의약품 = item_seq, 건기식 = sttemnt_no
+    --   uuid 는 seed 재실행 시 바뀌므로 URL 에 쓰지 않는다
+  image_key       text not null,
+  label_color     text,    -- 현재 미사용. 목업+라벨 방식 폐기 후 컬럼만 유지
   category_id     uuid not null references categories(id) on delete restrict,
   medication_id   uuid references medications(id) on delete restrict,
   health_food_id  uuid references health_foods(id) on delete restrict,
   dosage_form     text not null,
-  child_allowed   boolean not null,       -- default 없음: 명시 입력 강제
+  child_allowed   boolean not null,        -- 소아 연령금기(제형 조건 반영)에 해당하지 않음
+  -- "어린이용"이라는 뜻이 아니다. DUR 은 금지만 등재한다
   stock           int not null default 0,
   sales_count     int not null default 0,
   is_active       boolean not null default true,
