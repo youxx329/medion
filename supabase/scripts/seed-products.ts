@@ -14,7 +14,7 @@
  * ────────────────────────────────────────────────
  * price          중분류 기준가 ±20%, 100원 단위. 상품명 해시라 다시 돌려도 같은 값
  * dosage_form    제품명에서 추정. 안 되면 건기식은 성상(appearance)으로 재시도
- * child_allowed  연령금기(소아 기준)에 걸리는 성분이 있으면 false
+ * child_allowed  연령금기(소아 기준)에 걸리는 성분이 있으면 false, 제형 조건(form_name)이 있으면 의약품 원본 이름이 그 제형일 때만
  * image_key      상품 이미지 파일명 (= 식별자, public/images/products/{식별자}.png)
  * label_color    중분류별 색상 토큰 (실제 포장 대체용, 같은 대분류 안에서 겹치지 않게)
  * sales_count  sales-tiers.json 등급(top/mid), 나머지는 식별자 해시 0~100
@@ -37,12 +37,14 @@ config({ path: '.env.local' });
 import { createClient } from '@supabase/supabase-js';
 import { access, mkdir, readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
+import { CHILD_AGE_LIMIT_MONTHS, formatChildAge } from '../../src/lib/products/child-age';
 
 const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
 const DATA = join(process.cwd(), 'supabase/data');
 const PRODUCTS_CSV = join(DATA, 'products-selected.csv');
 const DISPLAY_NAMES = join(DATA, 'product-display-names.json');
+const CHILD_AGES = join(DATA, 'child-ages.json');
 const SALES_TIERS = join(DATA, 'sales-tiers.json');
 
 /** 판매량 초기값. 이후 결제 승인 시 서버에서 누적된다 */
@@ -333,6 +335,17 @@ function isChildLimit(ageBase: string | null): boolean {
   return /(미만|이하)/.test(ageBase) && !/초과|이상/.test(ageBase);
 }
 
+/** 연령금기 나이 → 복용 가능 시작(개월). "12세 미만"→144, "15세 이하"→192, "4주 미만"→1 */
+function ruleMinMonths(value: string | null): number | null {
+  if (value === null) return null;
+  const m = value.match(/(\d+)\s*(세|개월|주)\s*(미만|이하)/);
+  if (m === null) return null;
+  const n = Number(m[1]) + (m[3] === '이하' ? 1 : 0);
+  if (m[2] === '세') return n * 12;
+  if (m[2] === '개월') return n;
+  return Math.ceil(n / 4); // 주 → 개월, 넉넉하게 올림
+}
+
 // ─── main ──────────────────────────────────────────────
 
 type Category = { id: string; name: string; parent_id: string | null };
@@ -478,6 +491,10 @@ async function main() {
     throw new Error('sales-tiers.json 에 중복 code 가 있음');
   }
 
+  // 4-2. 어린이 복용 가능 나이. 허가 용법을 보고 사람이 확정한 값 (실무의 상품 등록 입력에 해당)
+  type ChildAge = { name: string; months: number | null; source: string };
+  const childAges: Record<string, ChildAge> = JSON.parse(await readFile(CHILD_AGES, 'utf-8'));
+
   // 5. 행 만들기
   const rows: Record<string, unknown>[] = [];
   const problems: string[] = [];
@@ -557,18 +574,41 @@ async function main() {
     const img = r.id;
     preview.push([r.sub, name, form, img, color].map((v) => `"${v}"`).join(','));
 
-    // 어린이: 의약품은 제형까지 따진 연령금기, 건기식은 DUR 대상이 아니라 어린이 카테고리만 true
-    let childAllowed: boolean;
-    if (med !== undefined) {
-      const blocking = childBlockingRules(med);
-      childAllowed = blocking.length === 0;
-      if (!childAllowed) {
-        childBlocked.push(
-          `${name}: ${blocking.map((b) => `${b.condition_value} (${b.form_name ?? '제형무관'})`).join(', ')}`
-        );
+    // ── 어린이 ──────────────────────────────
+    // child_allowed: 소아 연령금기(제형 반영)에 안 걸림. 화면엔 안 쓰고 교차 검사용
+    // child_min_age_months: 허가 용법상 최소 나이. 배지·필터용 (child-ages.json)
+    const blocking = med !== undefined ? childBlockingRules(med) : [];
+    const childAllowed = med !== undefined ? blocking.length === 0 : r.top === '어린이';
+    if (blocking.length > 0) {
+      childBlocked.push(
+        `${name}: ${blocking.map((b) => `${b.condition_value} (${b.form_name ?? '제형무관'})`).join(', ')}`
+      );
+    }
+
+    // 파일에 없음 = 어린이 용량 없음
+    const childMinAge = childAges[r.id]?.months ?? null;
+
+    // 용법은 2세부터인데 DUR 은 12세 미만 금기 → 둘 중 하나가 이상하다
+    if (childMinAge !== null) {
+      for (const rule of blocking) {
+        const ruleMin = ruleMinMonths(rule.condition_value);
+        if (ruleMin === null) {
+          problems.push(`${where}: 연령금기 나이 해석 실패 '${rule.condition_value}'`);
+        } else if (childMinAge < ruleMin) {
+          problems.push(
+            `${where}: 용법 ${formatChildAge(childMinAge)} 인데 DUR '${rule.condition_value}' 금기 → 확인 필요`
+          );
+        }
       }
-    } else {
-      childAllowed = r.top === '어린이';
+    }
+
+    // 어린이 카테고리 의약품인데 어린이 나이가 없으면 뭔가 빠진 것 (건기식은 연령 표기가 없어 제외)
+    if (
+      med !== undefined &&
+      r.top === '어린이' &&
+      (childMinAge === null || childMinAge >= CHILD_AGE_LIMIT_MONTHS)
+    ) {
+      problems.push(`${where}: 어린이 카테고리인데 어린이 나이 없음 → child-ages.json 에 지정`);
     }
 
     rows.push({
@@ -583,6 +623,7 @@ async function main() {
       dosage_form: form,
       // 건기식은 DUR 대상이 아니라 연령금기 판정 근거가 없다. 어린이 카테고리만 true
       child_allowed: childAllowed,
+      child_min_age_months: childMinAge,
       stock: 30 + Math.floor(hash01(`stock:${name}`) * 170),
       // ← 교체
       sales_count:
@@ -596,6 +637,10 @@ async function main() {
   for (const t of [...tiers.top, ...tiers.mid]) {
     if (!rowCodes.has(t.code))
       problems.push(`sales-tiers.json: 상품에 없는 code ${t.code} (${t.name})`);
+  }
+
+  for (const code of Object.keys(childAges)) {
+    if (!rowCodes.has(code)) problems.push(`child-ages.json: 상품에 없는 code ${code}`);
   }
 
   if (unknownForms.size > 0) {
@@ -627,8 +672,12 @@ async function main() {
 
   console.log(`\n적재 대상 ${rows.length}건`);
   console.log(`  제형: ${[...byForm].map(([k, v]) => `${k} ${v}`).join(' / ')}`);
+  const childBadge = rows.filter((r) => {
+    const m = r.child_min_age_months as number | null;
+    return m !== null && m < CHILD_AGE_LIMIT_MONTHS;
+  }).length;
   console.log(
-    `  어린이 복용 가능 ${rows.filter((r) => r.child_allowed).length} / 성인용 ${rows.filter((r) => !r.child_allowed).length}`
+    `  어린이 나이 배지 ${childBadge}개 / 연령금기 없음(child_allowed) ${rows.filter((r) => r.child_allowed).length}개`
   );
 
   console.log(`\n어린이 불가 ${childBlocked.length}건`);
