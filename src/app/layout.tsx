@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
+import Header from '../components/layout/Header';
 import './globals.css';
 
 const pretendard = localFont({
@@ -20,8 +21,11 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<'/'>) {
   return (
-    <html lang="ko" className={`${pretendard.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col font-sans text-ink">{children}</body>
+    <html lang="ko" className={`${pretendard.variable} h-full antialiased scrollbar-gutter-stable`}>
+      <body className="min-h-full flex flex-col font-sans text-ink">
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }

@@ -14,10 +14,10 @@
  * ────────────────────────────────────────────────
  * price          중분류 기준가 ±20%, 100원 단위. 상품명 해시라 다시 돌려도 같은 값
  * dosage_form    제품명에서 추정. 안 되면 건기식은 성상(appearance)으로 재시도
- * child_allowed  연령금기(소아 기준)에 걸리는 성분이 있으면 false
+ * child_allowed  연령금기(소아 기준)에 걸리는 성분이 있으면 false, 제형 조건(form_name)이 있으면 의약품 원본 이름이 그 제형일 때만
  * image_key      상품 이미지 파일명 (= 식별자, public/images/products/{식별자}.png)
  * label_color    중분류별 색상 토큰 (실제 포장 대체용, 같은 대분류 안에서 겹치지 않게)
- * stock / sales  상품명 해시로 고정값
+ * sales_count  sales-tiers.json 등급(top/mid), 나머지는 식별자 해시 0~100
  *
  * 추정이 안 되는 건 채우지 않고 목록으로 뽑아 멈춘다.
  *
@@ -37,12 +37,22 @@ config({ path: '.env.local' });
 import { createClient } from '@supabase/supabase-js';
 import { access, mkdir, readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
+import { CHILD_AGE_LIMIT_MONTHS, formatChildAge } from '../../src/lib/products/child-age';
 
 const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
 const DATA = join(process.cwd(), 'supabase/data');
 const PRODUCTS_CSV = join(DATA, 'products-selected.csv');
 const DISPLAY_NAMES = join(DATA, 'product-display-names.json');
+const CHILD_AGES = join(DATA, 'child-ages.json');
+const SALES_TIERS = join(DATA, 'sales-tiers.json');
+
+/** 판매량 초기값. 이후 결제 승인 시 서버에서 누적된다 */
+const TOP_SALES = [2000, 1800, 1600]; // 랜딩 베스트셀러 1~3등
+const MID_SALES_START = 560; // 중 등급 첫 번째, 이후 20씩 감소
+const MID_SALES_STEP = 20;
+const LOW_SALES_MAX = 100; // 나머지: 0 ~ 100
+
 const BATCH_SIZE = 500;
 const PAGE_SIZE = 1000;
 const COMMIT = process.argv.includes('--commit');
@@ -177,6 +187,63 @@ const FORM_BY_SUB: Record<string, string> = {
   '파스·진통패치': '외용',
   인공눈물: '시럽·액상',
 };
+/**
+ * DUR form_name 토큰을 계열로 분류하고, 계열마다 의약품 원본 이름에서 찾을 패턴을 둔다.
+ * 위에서부터 먼저 맞는 계열이 이긴다 → 좁은 계열을 위에
+ *   예) 서방성경피흡수제: '패치'가 '서방'보다 위라 패치로 분류
+ *       피부액제: '피부'가 '먹는 액상'보다 위라 피부로 분류
+ * 어느 계열에도 안 맞는 토큰은 규칙을 적용(보수적)하고 적재를 멈춘다
+ */
+type FormFamily = { family: string; token: RegExp; name: RegExp };
+
+const DUR_FORM_FAMILIES: FormFamily[] = [
+  // 판매하지 않는 경로. 상품 이름에 안 나오는 말이라 사실상 해당 없음
+  { family: '주사', token: /주사/, name: /주사/ },
+  {
+    family: '체내·특수',
+    token: /질세정|질정|질용|직장|방광|관류|이식|혈액|장기보존|밀폐제|단자시험/,
+    name: /질정|질세정|좌제|좌약|관장/,
+  },
+
+  // 눈·귀·코·입
+  { family: '눈', token: /점안|안연고|안겔/, name: /점안|안연고|안겔/ },
+  { family: '귀', token: /점이/, name: /점이/ },
+  { family: '분무', token: /분무/, name: /분무|스프레이/ },
+  { family: '가글', token: /가글/, name: /가글|양치/ },
+
+  // 붙이는 것
+  {
+    family: '패치',
+    token: /경피|첩부|카타플라스마|플라스타/,
+    name: /패취|패치|플라스타|카타플라스마|파스/,
+  },
+
+  // 바르는 것 (먹는 겔은 위에서 먼저 뺀다)
+  { family: '먹는 겔', token: /경구용겔/, name: /겔/ },
+  {
+    family: '피부',
+    token: /피부|연고|크림|^겔$|겔제|로션|리니멘트|샴푸|틴크|도료/,
+    name: /연고|크림|겔|로션|리니멘트|샴푸|틴크|외용|도포|도료/,
+  },
+
+  // 먹는 것
+  { family: '서방', token: /서방/, name: /서방|이알/ },
+  { family: '캡슐', token: /캡슐/, name: /캡슐/ },
+  {
+    family: '먹는 액상',
+    token: /시럽|현탁|액제|유제|레모네이드|방향수|주정|침제|전제/,
+    name: /시럽|현탁|내복액|드링크|유제|에멀젼|액($|\(|\s)/,
+  },
+  { family: '필름', token: /구강붕해필름/, name: /필름|붕해/ },
+  {
+    family: '가루',
+    token: /산제|과립|세립|분말/,
+    name: /산제|산($|\(|\s)|가루|분말|과립|세립|건조시럽/,
+  },
+  { family: '정제', token: /정$|정제$|츄어블/, name: /정($|\d|\(|\s|제)/ },
+];
+
+const familyOf = (token: string) => DUR_FORM_FAMILIES.find((f) => f.token.test(token));
 
 // ─── 유틸 ──────────────────────────────────────────────
 
@@ -268,6 +335,17 @@ function isChildLimit(ageBase: string | null): boolean {
   return /(미만|이하)/.test(ageBase) && !/초과|이상/.test(ageBase);
 }
 
+/** 연령금기 나이 → 복용 가능 시작(개월). "12세 미만"→144, "15세 이하"→192, "4주 미만"→1 */
+function ruleMinMonths(value: string | null): number | null {
+  if (value === null) return null;
+  const m = value.match(/(\d+)\s*(세|개월|주)\s*(미만|이하)/);
+  if (m === null) return null;
+  const n = Number(m[1]) + (m[3] === '이하' ? 1 : 0);
+  if (m[2] === '세') return n * 12;
+  if (m[2] === '개월') return n;
+  return Math.ceil(n / 4); // 주 → 개월, 넉넉하게 올림
+}
+
 // ─── main ──────────────────────────────────────────────
 
 type Category = { id: string; name: string; parent_id: string | null };
@@ -318,36 +396,104 @@ async function main() {
     `categories ${cats.length} / medications ${meds.length} / health_foods ${foods.length}`
   );
 
-  // 3. 연령금기(소아) 성분
-  const conds = await selectAll<{ ingredient_id: string; condition_value: string | null }>(
-    'dur_conditions',
-    'ingredient_id, condition_value, condition_type, del_yn'
-  ).then((rows) =>
-    rows.filter(
-      (r) =>
-        (r as unknown as { condition_type: string }).condition_type === 'age' &&
-        (r as unknown as { del_yn: string }).del_yn === '정상' &&
-        isChildLimit(r.condition_value)
+  // 3. 연령금기(소아) 규칙. 제형 조건(form_name)까지 함께 가져온다
+  type AgeRule = {
+    ingredient_id: string;
+    condition_value: string | null;
+    form_name: string | null;
+    condition_type: string;
+    del_yn: string;
+  };
+  const ageRules = (
+    await selectAll<AgeRule>(
+      'dur_conditions',
+      'ingredient_id, condition_value, form_name, condition_type, del_yn'
     )
+  ).filter(
+    (r) => r.condition_type === 'age' && r.del_yn === '정상' && isChildLimit(r.condition_value)
   );
-  const childBanned = new Set(conds.map((c) => c.ingredient_id));
+
+  const rulesByIngredient = new Map<string, AgeRule[]>();
+  for (const r of ageRules) {
+    const list = rulesByIngredient.get(r.ingredient_id) ?? [];
+    list.push(r);
+    rulesByIngredient.set(r.ingredient_id, list);
+  }
 
   const links = await selectAll<{ medication_id: string; ingredient_id: string | null }>(
     'medication_ingredients',
     'medication_id, ingredient_id'
   );
-  const medChildBanned = new Set(
-    links
-      .filter((l) => l.ingredient_id !== null && childBanned.has(l.ingredient_id))
-      .map((l) => l.medication_id)
-  );
-  console.log(`소아 연령금기 성분 ${childBanned.size}개 → 해당 품목 ${medChildBanned.size}건`);
+  const ingredientsByMed = new Map<string, string[]>();
+  for (const l of links) {
+    if (l.ingredient_id === null) continue;
+    const list = ingredientsByMed.get(l.medication_id) ?? [];
+    list.push(l.ingredient_id);
+    ingredientsByMed.set(l.medication_id, list);
+  }
+
+  const unknownForms = new Map<string, Set<string>>(); // 토큰 → 걸린 상품
+  const classified = new Map<string, string>(); // 토큰 → 계열 (검수용)
+
+  function ruleApplies(rule: AgeRule, medName: string): boolean {
+    if (rule.form_name === null || rule.form_name.trim() === '') return true;
+    const tokens = rule.form_name
+      .split(/[\/,]/)
+      .map((t) => t.trim())
+      .filter(Boolean);
+
+    // some 은 중간에 멈춰 뒤쪽 토큰을 놓친다 → 전부 검사한 뒤 판단
+    const results = tokens.map((token) => {
+      const family = familyOf(token);
+      if (family === undefined) {
+        const products = unknownForms.get(token) ?? new Set<string>();
+        products.add(medName);
+        unknownForms.set(token, products);
+        return true; // 모르면 적용한다 (누락보다 과잉이 낫다)
+      }
+      classified.set(token, family.family);
+      return family.name.test(medName);
+    });
+    return results.some(Boolean);
+  }
+
+  /** 소아 금기에 걸리는 규칙 목록. 비어 있으면 어린이 복용 가능 */
+  function childBlockingRules(med: Medication): AgeRule[] {
+    const ingredientIds = ingredientsByMed.get(med.id) ?? [];
+    return ingredientIds
+      .flatMap((id) => rulesByIngredient.get(id) ?? [])
+      .filter((rule) => ruleApplies(rule, med.name));
+  }
+
+  const childBlocked: string[] = []; // 검수용 출력
+  console.log(`소아 연령금기 규칙 ${ageRules.length}건`);
 
   // 4. 표시명 파일
   let display: Record<string, string> = {};
   if (await exists(DISPLAY_NAMES)) {
     display = JSON.parse(await readFile(DISPLAY_NAMES, 'utf-8'));
   }
+
+  // 4-1. 판매량 등급 파일
+  type TierItem = { code: string; name: string };
+  const tiers: { top: TierItem[]; mid: TierItem[] } = JSON.parse(
+    await readFile(SALES_TIERS, 'utf-8')
+  );
+  if (tiers.top.length !== TOP_SALES.length) {
+    throw new Error(
+      `sales-tiers.json top 은 ${TOP_SALES.length}개여야 함 (현재 ${tiers.top.length})`
+    );
+  }
+  const fixedSales = new Map<string, number>();
+  tiers.top.forEach((t, i) => fixedSales.set(t.code, TOP_SALES[i]));
+  tiers.mid.forEach((t, i) => fixedSales.set(t.code, MID_SALES_START - i * MID_SALES_STEP));
+  if (fixedSales.size !== tiers.top.length + tiers.mid.length) {
+    throw new Error('sales-tiers.json 에 중복 code 가 있음');
+  }
+
+  // 4-2. 어린이 복용 가능 나이. 허가 용법을 보고 사람이 확정한 값 (실무의 상품 등록 입력에 해당)
+  type ChildAge = { name: string; months: number | null; source: string };
+  const childAges: Record<string, ChildAge> = JSON.parse(await readFile(CHILD_AGES, 'utf-8'));
 
   // 5. 행 만들기
   const rows: Record<string, unknown>[] = [];
@@ -428,7 +574,45 @@ async function main() {
     const img = r.id;
     preview.push([r.sub, name, form, img, color].map((v) => `"${v}"`).join(','));
 
+    // ── 어린이 ──────────────────────────────
+    // child_allowed: 소아 연령금기(제형 반영)에 안 걸림. 화면엔 안 쓰고 교차 검사용
+    // child_min_age_months: 허가 용법상 최소 나이. 배지·필터용 (child-ages.json)
+    const blocking = med !== undefined ? childBlockingRules(med) : [];
+    const childAllowed = med !== undefined ? blocking.length === 0 : r.top === '어린이';
+    if (blocking.length > 0) {
+      childBlocked.push(
+        `${name}: ${blocking.map((b) => `${b.condition_value} (${b.form_name ?? '제형무관'})`).join(', ')}`
+      );
+    }
+
+    // 파일에 없음 = 어린이 용량 없음
+    const childMinAge = childAges[r.id]?.months ?? null;
+
+    // 용법은 2세부터인데 DUR 은 12세 미만 금기 → 둘 중 하나가 이상하다
+    if (childMinAge !== null) {
+      for (const rule of blocking) {
+        const ruleMin = ruleMinMonths(rule.condition_value);
+        if (ruleMin === null) {
+          problems.push(`${where}: 연령금기 나이 해석 실패 '${rule.condition_value}'`);
+        } else if (childMinAge < ruleMin) {
+          problems.push(
+            `${where}: 용법 ${formatChildAge(childMinAge)} 인데 DUR '${rule.condition_value}' 금기 → 확인 필요`
+          );
+        }
+      }
+    }
+
+    // 어린이 카테고리 의약품인데 어린이 나이가 없으면 뭔가 빠진 것 (건기식은 연령 표기가 없어 제외)
+    if (
+      med !== undefined &&
+      r.top === '어린이' &&
+      (childMinAge === null || childMinAge >= CHILD_AGE_LIMIT_MONTHS)
+    ) {
+      problems.push(`${where}: 어린이 카테고리인데 어린이 나이 없음 → child-ages.json 에 지정`);
+    }
+
     rows.push({
+      code: r.id, // ← 추가
       name,
       price,
       image_key: img,
@@ -438,11 +622,31 @@ async function main() {
       health_food_id: food?.id ?? null,
       dosage_form: form,
       // 건기식은 DUR 대상이 아니라 연령금기 판정 근거가 없다. 어린이 카테고리만 true
-      child_allowed: med !== undefined ? !medChildBanned.has(med.id) : r.top === '어린이',
+      child_allowed: childAllowed,
+      child_min_age_months: childMinAge,
       stock: 30 + Math.floor(hash01(`stock:${name}`) * 170),
-      sales_count: Math.floor(hash01(`sales:${name}`) * 500),
+      // ← 교체
+      sales_count:
+        fixedSales.get(r.id) ?? Math.floor(hash01(`sales:${r.id}`) * (LOW_SALES_MAX + 1)),
       is_active: true,
     });
+  }
+
+  // 등급 파일의 code 가 실제 상품에 다 있는지. 오타면 조용히 하 등급으로 떨어지므로 막는다
+  const rowCodes = new Set(rows.map((r) => r.code));
+  for (const t of [...tiers.top, ...tiers.mid]) {
+    if (!rowCodes.has(t.code))
+      problems.push(`sales-tiers.json: 상품에 없는 code ${t.code} (${t.name})`);
+  }
+
+  for (const code of Object.keys(childAges)) {
+    if (!rowCodes.has(code)) problems.push(`child-ages.json: 상품에 없는 code ${code}`);
+  }
+
+  if (unknownForms.size > 0) {
+    for (const [token, products] of unknownForms) {
+      problems.push(`분류 안 되는 제형 조건 '${token}' ← ${[...products].join(', ')}`);
+    }
   }
 
   // 6. 표시명 수동 지정이 필요하면 파일로 뽑고 멈춘다
@@ -468,9 +672,24 @@ async function main() {
 
   console.log(`\n적재 대상 ${rows.length}건`);
   console.log(`  제형: ${[...byForm].map(([k, v]) => `${k} ${v}`).join(' / ')}`);
+  const childBadge = rows.filter((r) => {
+    const m = r.child_min_age_months as number | null;
+    return m !== null && m < CHILD_AGE_LIMIT_MONTHS;
+  }).length;
   console.log(
-    `  어린이 복용 가능 ${rows.filter((r) => r.child_allowed).length} / 성인용 ${rows.filter((r) => !r.child_allowed).length}`
+    `  어린이 나이 배지 ${childBadge}개 / 연령금기 없음(child_allowed) ${rows.filter((r) => r.child_allowed).length}개`
   );
+
+  console.log(`\n어린이 불가 ${childBlocked.length}건`);
+  childBlocked.forEach((c) => console.log(`   ${c}`));
+
+  console.log(`\n제형 토큰 분류 ${classified.size}개`);
+  const byFamily = new Map<string, string[]>();
+  for (const [token, family] of classified) {
+    byFamily.set(family, [...(byFamily.get(family) ?? []), token]);
+  }
+  for (const [family, tokens] of byFamily) console.log(`   ${family}: ${tokens.join(', ')}`);
+
   console.log(
     `  가격 ${Math.min(...rows.map((r) => r.price as number))} ~ ${Math.max(...rows.map((r) => r.price as number))}원`
   );

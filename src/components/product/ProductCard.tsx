@@ -1,5 +1,6 @@
 import DurBadge, { type DurBadgeLevel } from '@/src/components/dur/DurBadge';
 import Badge from '@/src/components/ui/Badge';
+import { formatChildAge, isChildProduct } from '@/src/lib/products/child-age';
 import type { Product } from '@/src/types/product';
 import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
@@ -12,10 +13,11 @@ type ProductCardProps = {
 
 export default function ProductCard({ product, durLevel }: ProductCardProps) {
   const soldOut = product.stock === 0;
+  const childAge = product.child_min_age_months;
 
   return (
-    <article className="flex gap-5 flex-col pb-10">
-      <Link href={`/products/${product.id}`}>
+    <article className="flex h-full gap-5 flex-col pb-10">
+      <Link href={`/products/${product.code}`}>
         <div className="relative">
           <ProductImage
             imageKey={product.image_key}
@@ -28,15 +30,17 @@ export default function ProductCard({ product, durLevel }: ProductCardProps) {
             </div>
           )}
         </div>
-        <h3 className="pt-6 pb-2 line-clamp-2 text-h2 text-ink group-hover:underline leading-tight">
+        <h3 className="mt-6 mb-2 line-clamp-2 text-h2 text-ink group-hover:underline leading-tight break-keep wrap-break-words">
           {product.name}
         </h3>
         <div className="flex gap-1.5">
           <Badge>{product.dosage_form}</Badge>
-          {product.child_allowed && <Badge>어린이</Badge>}
+          {childAge !== null && isChildProduct(childAge) && (
+            <Badge>{formatChildAge(childAge)}</Badge>
+          )}
         </div>
       </Link>
-      <div className="flex justify-between items-center text-body-lg">
+      <div className="mt-auto flex justify-between items-center text-body-lg">
         <button
           type="button"
           disabled={soldOut}
