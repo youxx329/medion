@@ -4,7 +4,7 @@ import Logo from './Logo';
 
 export default function Header() {
   return (
-    <header>
+    <header className="mt-10">
       <div className="mx-auto flex h-20 w-full max-w-content items-center px-6 justify-between">
         <Logo />
 

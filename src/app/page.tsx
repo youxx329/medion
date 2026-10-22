@@ -1,11 +1,13 @@
-import Header from '../components/layout/Header';
+import Container from '../components/layout/Container';
 
 export default function Home() {
   return (
-    <div className="text-display max-w-content mx-auto w-full">
-      <div className="mt-10">
-        <Header />
-      </div>
-    </div>
+    <main>
+      <section className="bg-surface">
+        {' '}
+        {/* 배경은 화면 끝까지 */}
+        <Container>베스트셀러</Container> {/* 내용은 1200 안 */}
+      </section>
+    </main>
   );
 }

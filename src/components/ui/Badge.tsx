@@ -16,7 +16,7 @@ type BadgeProps = {
 export default function Badge({ tone = 'neutral', children }: BadgeProps) {
   return (
     <span
-      className={`inline-flex items-center rounded px-2 py-0.5 text-label font-medium ${toneClass[tone]}`}
+      className={`inline-flex items-center rounded px-2 py-0.5 text-[13px] font-medium ${toneClass[tone]}`}
     >
       {children}
     </span>
