@@ -274,6 +274,7 @@ create table products (
   dosage_form     text not null,
   child_allowed   boolean not null,        -- 소아 연령금기(제형 조건 반영)에 해당하지 않음
   -- "어린이용"이라는 뜻이 아니다. DUR 은 금지만 등재한다
+  is_kids_product boolean not null default false,  -- 어린이 카테고리 상품. 나이 근거 없는 건기식의 "어린이" 배지·필터용 (seed 가 채움)
   stock           int not null default 0,
   sales_count     int not null default 0,
   is_active       boolean not null default true,

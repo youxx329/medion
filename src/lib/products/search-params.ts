@@ -34,6 +34,9 @@ type RawParams = Record<string, string | string[] | undefined>;
 /** ?a=1&a=2 처럼 같은 키가 여러 번 오면 배열이 된다. 첫 번째만 쓴다 */
 const first = (v: string | string[] | undefined) => (Array.isArray(v) ? v[0] : v);
 
+/** 걸려 있는 필터 개수. 카테고리·정렬·페이지는 필터가 아니라 안 셈 */
+export const countActiveFilters = (s: ProductSearch) => s.forms.length + (s.child ? 1 : 0);
+
 /** 잘못된 값은 에러 없이 기본값으로 */
 export function parseProductSearch(sp: RawParams): ProductSearch {
   const category = first(sp.category)?.trim() || null;
@@ -43,7 +46,7 @@ export function parseProductSearch(sp: RawParams): ProductSearch {
     .filter((f): f is FormCode => Object.hasOwn(FORM_CODES, f));
 
   const sortRaw = first(sp.sort);
-  const sort = SORTS.find((s) => s === sortRaw) ?? 'sales';
+  const sort = SORTS.find((s) => s === sortRaw) ?? DEFAULT_SEARCH.sort;
 
   const pageNum = Number(first(sp.page));
   const page = Number.isInteger(pageNum) && pageNum >= 1 ? pageNum : 1;
@@ -58,7 +61,7 @@ export function buildProductsHref(search: ProductSearch, patch: Partial<ProductS
   if (s.category) params.set('category', s.category);
   if (s.forms.length > 0) params.set('form', s.forms.join(','));
   if (s.child) params.set('child', '1');
-  if (s.sort !== 'sales') params.set('sort', s.sort);
+  if (s.sort !== DEFAULT_SEARCH.sort) params.set('sort', s.sort);
   if (s.page > 1) params.set('page', String(s.page));
   const qs = params.toString();
   return qs ? `/products?${qs}` : '/products';

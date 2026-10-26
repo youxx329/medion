@@ -624,6 +624,7 @@ async function main() {
       // 건기식은 DUR 대상이 아니라 연령금기 판정 근거가 없다. 어린이 카테고리만 true
       child_allowed: childAllowed,
       child_min_age_months: childMinAge,
+      is_kids_product: r.top === '어린이', // ← 추가
       stock: 30 + Math.floor(hash01(`stock:${name}`) * 170),
       // ← 교체
       sales_count:

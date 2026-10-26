@@ -15,3 +15,10 @@ export function formatChildAge(months: number): string {
 /** 어린이 배지·필터 대상인지 */
 export const isChildProduct = (months: number | null) =>
   months !== null && months < CHILD_AGE_LIMIT_MONTHS;
+
+/** 카드 배지 글자. 나이 있으면 "6세+", 나이 없는 어린이 상품이면 "어린이", 둘 다 아니면 null */
+export function childBadgeLabel(months: number | null, isKidsProduct: boolean): string | null {
+  if (months !== null && isChildProduct(months)) return formatChildAge(months);
+  if (isKidsProduct) return '어린이';
+  return null;
+}
