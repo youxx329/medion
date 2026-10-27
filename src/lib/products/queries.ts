@@ -2,7 +2,8 @@ import { createClient } from '@/src/lib/supabase/server';
 import { CHILD_AGE_LIMIT_MONTHS } from './child-age';
 import { FORM_CODES, PAGE_SIZE, type ProductSearch, type SortKey } from './search-params';
 
-const LIST_COLUMNS = 'id, code, name, price, image_key, dosage_form, child_min_age_months, stock';
+const LIST_COLUMNS =
+  'id, code, name, price, image_key, dosage_form, child_min_age_months, is_kids_product, stock';
 
 const SORT_ORDER: Record<SortKey, { column: string; ascending: boolean }> = {
   sales: { column: 'sales_count', ascending: false },
@@ -66,7 +67,9 @@ export async function getProducts(search: ProductSearch) {
       'dosage_form',
       search.forms.map((f) => FORM_CODES[f])
     );
-  if (search.child) query = query.lt('child_min_age_months', CHILD_AGE_LIMIT_MONTHS);
+  if (search.child) {
+    query = query.or(`child_min_age_months.lt.${CHILD_AGE_LIMIT_MONTHS},is_kids_product.eq.true`);
+  }
 
   const { column, ascending } = SORT_ORDER[search.sort];
   query = query.order(column, { ascending }).order('id', { ascending: true }); // 동점 처리

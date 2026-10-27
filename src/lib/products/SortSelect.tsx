@@ -1,6 +1,7 @@
 'use client';
 
 import {
+  DEFAULT_SEARCH,
   SORTS,
   buildProductsHref,
   type ProductSearch,
@@ -25,7 +26,7 @@ export default function SortSelect({ search }: SortSelectProps) {
       <select
         value={search.sort}
         onChange={(e) => {
-          const sort = SORTS.find((s) => s === e.target.value) ?? 'sales';
+          const sort = SORTS.find((s) => s === e.target.value) ?? DEFAULT_SEARCH.sort;
           router.push(buildProductsHref(search, { sort, page: 1 }));
         }}
         className="cursor-pointer bg-transparent text-ink"

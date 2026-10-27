@@ -1,6 +1,6 @@
 import DurBadge, { type DurBadgeLevel } from '@/src/components/dur/DurBadge';
 import Badge from '@/src/components/ui/Badge';
-import { formatChildAge, isChildProduct } from '@/src/lib/products/child-age';
+import { childBadgeLabel } from '@/src/lib/products/child-age';
 import type { Product } from '@/src/types/product';
 import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
@@ -14,6 +14,7 @@ type ProductCardProps = {
 export default function ProductCard({ product, durLevel }: ProductCardProps) {
   const soldOut = product.stock === 0;
   const childAge = product.child_min_age_months;
+  const childBadge = childBadgeLabel(product.child_min_age_months, product.is_kids_product);
 
   return (
     <article className="flex h-full gap-5 flex-col pb-10">
@@ -35,9 +36,7 @@ export default function ProductCard({ product, durLevel }: ProductCardProps) {
         </h3>
         <div className="flex gap-1.5">
           <Badge>{product.dosage_form}</Badge>
-          {childAge !== null && isChildProduct(childAge) && (
-            <Badge>{formatChildAge(childAge)}</Badge>
-          )}
+          {childBadge && <Badge>{childBadge}</Badge>}
         </div>
       </Link>
       <div className="mt-auto flex justify-between items-center text-body-lg">

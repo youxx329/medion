@@ -1,4 +1,6 @@
 import Container from '@/src/components/layout/Container';
+import FilterPanel from '@/src/components/product/FilterPanel';
+import MobileFilterSheet from '@/src/components/product/MobileFilterSheet';
 import ProductCard from '@/src/components/product/ProductCard';
 import Breadcrumb, { type Crumb } from '@/src/lib/products/Breadcrumb';
 import Pagination from '@/src/lib/products/Pagination';
@@ -50,12 +52,17 @@ export default async function ProductsPage({ searchParams }: Props) {
               <span className="ml-2 text-body-lg text-disabled">{result.total}개</span>
             </h1>
           </div>
-          <SortSelect search={search} />
+          <div className="flex items-center gap-2 justify-between">
+            <MobileFilterSheet search={search} total={result.total} />
+            <SortSelect search={search} />
+          </div>
         </div>
 
         {/* 아래: 필터 · 그리드 */}
         <div className="flex gap-10">
-          <aside className="hidden w-60 shrink-0 lg:block">{/* 4-6 필터 */}</aside>
+          <aside className="hidden w-60 shrink-0 lg:block">
+            <FilterPanel search={search} />
+          </aside>
 
           <section className="flex-1">
             {result.products.length === 0 ? (
