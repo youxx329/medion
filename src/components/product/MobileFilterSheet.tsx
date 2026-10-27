@@ -26,10 +26,18 @@ export default function MobileFilterSheet({ search, total }: MobileFilterSheetPr
     };
     window.addEventListener('keydown', onKeyDown);
 
+    // 창이 데스크톱 폭(lg)으로 커지면 시트를 닫음. CSS로만 숨겨지면 스크롤 잠금이 안 풀려서
+    const desktop = window.matchMedia('(min-width: 1024px)');
+    const onResize = (e: MediaQueryListEvent) => {
+      if (e.matches) setOpen(false);
+    };
+    desktop.addEventListener('change', onResize);
+
     // 닫힐 때(또는 컴포넌트가 사라질 때) 원래대로
     return () => {
       document.body.style.overflow = prevOverflow;
       window.removeEventListener('keydown', onKeyDown);
+      desktop.removeEventListener('change', onResize);
     };
   }, [open]);
 
