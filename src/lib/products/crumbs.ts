@@ -10,6 +10,14 @@ export function buildCrumbs(
   const crumbs: Crumb[] = [{ label: '홈', href: '/' }];
   if (category === null) return [...crumbs, { label: '전체 상품' }];
 
+  crumbs.push({ label: '전체 상품', href: '/products' });
+  if (category.parent) {
+    crumbs.push({
+      label: category.parent.name,
+      href: buildProductsHref(DEFAULT_SEARCH, { category: category.parent.slug }),
+    });
+  }
+
   crumbs.push(
     linkCurrent
       ? {
@@ -18,6 +26,5 @@ export function buildCrumbs(
         }
       : { label: category.name }
   );
-
   return crumbs;
 }
