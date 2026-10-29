@@ -1,5 +1,7 @@
 import Container from '@/src/components/layout/Container';
+import DrugInfo from '@/src/components/product/detail/DrugInfo';
 import DurNotice from '@/src/components/product/detail/DurNotice';
+import HealthFoodInfo from '@/src/components/product/detail/HealthFoodInfo';
 import PurchaseBar from '@/src/components/product/detail/PurchaseBar';
 import ProductImage from '@/src/components/product/ProductImage';
 import Badge from '@/src/components/ui/Badge';
@@ -7,10 +9,20 @@ import Breadcrumb from '@/src/lib/products/Breadcrumb';
 import { childBadgeLabel } from '@/src/lib/products/child-age';
 import { buildCrumbs } from '@/src/lib/products/crumbs';
 import { getProductByCode, resolveCategory } from '@/src/lib/products/queries';
-import Image from 'next/image';
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 
-export default async function ProductDetailPage({ params }: { params: Promise<{ code: string }> }) {
+type ProductDetailPageProps = {
+  params: Promise<{ code: string }>;
+};
+
+export async function generateMetadata({ params }: ProductDetailPageProps): Promise<Metadata> {
+  const { code } = await params;
+  const product = await getProductByCode(code);
+  return { title: product ? product.name : '상품을 찾을 수 없어요' };
+}
+
+export default async function ProductDetailPage({ params }: ProductDetailPageProps) {
   const { code } = await params;
   const product = await getProductByCode(code);
   if (!product) notFound();
@@ -52,21 +64,27 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
               {childBadge && <Badge>{childBadge}</Badge>}
             </div>
             <p className="text-xl font-bold">{product.price.toLocaleString()}원</p>
-            {drug && <DurNotice />}
+            {drug ? (
+              <DurNotice />
+            ) : (
+              <p className="text-[13px] text-muted">
+                건강기능식품은 복용 중인 약과 함께 먹을 때 주의할 점을 확인해 드리지 않아요. <br />
+                드시는 약이 있다면 약사와 먼저 상담해 주세요.
+              </p>
+            )}
             <PurchaseBar stock={product.stock} price={product.price} />
           </div>
         </section>
-        {product.medications?.pill_image_url && (
-          <div className="relative aspect-2/1 w-full max-w-xs">
-            <Image
-              src={product.medications.pill_image_url}
-              alt="알약 모양"
-              fill
-              sizes="320px"
-              className="object-contain"
-            />
+        <section className="mt-5 mb-10">
+          <div
+            aria-hidden
+            className="relative mt-4 mb-12 h-px bg-linear-to-r from-transparent via-sub/60 to-transparent"
+          >
+            <span className="absolute top-0 left-1/2 size-5 -translate-x-1/2 -translate-y-1/2 rotate-45 border-r-[1.9px] border-b-[1.9px] border-primary/60 bg-white" />
           </div>
-        )}
+          {drug && <DrugInfo drug={drug} code={product.code} />}
+          {food && <HealthFoodInfo food={food} code={product.code} />}
+        </section>
       </Container>
     </>
   );

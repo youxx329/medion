@@ -119,3 +119,5 @@ export async function getProductByCode(code: string) {
   if (error) throw new Error(`상품 상세 조회 실패 : ${error.message}`);
   return data;
 }
+
+export type ProductDetail = NonNullable<Awaited<ReturnType<typeof getProductByCode>>>;

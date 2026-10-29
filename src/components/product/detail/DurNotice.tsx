@@ -8,7 +8,7 @@ export default function DurNotice() {
       className="flex items-center gap-3 rounded-xl border border-line px-4 py-3"
     >
       <Image
-        src="/images/icons/034-vitamins.svg"
+        src="/images/icons/medicines.svg"
         alt=""
         width={20}
         height={20}
