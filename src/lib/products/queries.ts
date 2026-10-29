@@ -20,7 +20,7 @@ export type CategoryInfo = {
 };
 
 /** slug → 카테고리. 대분류면 자식 중분류 id 까지 */
-async function resolveCategory(slug: string) {
+export async function resolveCategory(slug: string) {
   const supabase = await createClient();
   const { data: category, error } = await supabase
     .from('categories')
@@ -90,3 +90,34 @@ export async function getProducts(search: ProductSearch) {
     category: resolved?.category ?? null,
   };
 }
+
+export async function getProductByCode(code: string) {
+  const supabase = await createClient();
+
+  const { data, error } = await supabase
+    .from('products') // products 테이블에서
+    .select(
+      `
+  id, code, name, price, image_key, dosage_form, stock,
+  child_min_age_months, is_kids_product,
+  medication_id, health_food_id,
+  categories ( slug ),
+  medications (
+    company, efficacy, usage_info, warning, precaution,
+    interaction, side_effect, storage, pill_image_url,
+    medication_ingredients ( raw_name, amount, unit, tamt_seq, amount_basis )
+  ),
+  health_foods (
+    company, functionality, intake_method, intake_caution, storage, shelf_life
+  )
+`
+    )
+    .eq('code', code) // 조건 1
+    .eq('is_active', true) // 조건 2
+    .maybeSingle(); // 하나만. 없으면 null
+
+  if (error) throw new Error(`상품 상세 조회 실패 : ${error.message}`);
+  return data;
+}
+
+export type ProductDetail = NonNullable<Awaited<ReturnType<typeof getProductByCode>>>;

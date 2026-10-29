@@ -5,6 +5,7 @@ type ProductImageProps = {
   name: string;
   sizes?: string;
   className?: string;
+  aspect?: string; // 추가
 };
 
 export default function ProductImage({
@@ -12,9 +13,12 @@ export default function ProductImage({
   name,
   sizes = '(min-width: 768px) 33vw, 50vw',
   className,
+  aspect = 'aspect-[3/4]',
 }: ProductImageProps) {
   return (
-    <div className={`relative aspect-[3/4] overflow-hidden rounded-xl bg-product-bg ${className}`}>
+    <div
+      className={`relative ${aspect} overflow-hidden rounded-lg bg-product-bg ${className ?? ''}`}
+    >
       <Image
         src={`/images/products/${imageKey}.webp`}
         alt={name}

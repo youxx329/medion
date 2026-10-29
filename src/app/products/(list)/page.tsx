@@ -2,35 +2,16 @@ import Container from '@/src/components/layout/Container';
 import FilterPanel from '@/src/components/product/FilterPanel';
 import MobileFilterSheet from '@/src/components/product/MobileFilterSheet';
 import ProductCard from '@/src/components/product/ProductCard';
-import Breadcrumb, { type Crumb } from '@/src/lib/products/Breadcrumb';
+import Breadcrumb from '@/src/lib/products/Breadcrumb';
+import { buildCrumbs } from '@/src/lib/products/crumbs';
 import Pagination from '@/src/lib/products/Pagination';
-import { getProducts, type CategoryInfo } from '@/src/lib/products/queries';
-import {
-  buildProductsHref,
-  DEFAULT_SEARCH,
-  parseProductSearch,
-} from '@/src/lib/products/search-params';
+import { getProducts } from '@/src/lib/products/queries';
+import { buildProductsHref, parseProductSearch } from '@/src/lib/products/search-params';
 import SortSelect from '@/src/lib/products/SortSelect';
 import Link from 'next/link';
 import { redirect } from 'next/navigation';
 
 type Props = { searchParams: Promise<Record<string, string | string[] | undefined>> };
-
-/** 홈 > 전체 상품 > 대분류 > 중분류. 마지막은 현재 위치라 링크 없음 */
-function buildCrumbs(category: CategoryInfo | null): Crumb[] {
-  const crumbs: Crumb[] = [{ label: '홈', href: '/' }];
-  if (category === null) return [...crumbs, { label: '전체 상품' }];
-
-  crumbs.push({ label: '전체 상품', href: '/products' });
-  if (category.parent) {
-    crumbs.push({
-      label: category.parent.name,
-      href: buildProductsHref(DEFAULT_SEARCH, { category: category.parent.slug }),
-    });
-  }
-  crumbs.push({ label: category.name });
-  return crumbs;
-}
 
 export default async function ProductsPage({ searchParams }: Props) {
   const search = parseProductSearch(await searchParams);
